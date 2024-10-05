@@ -1,0 +1,199 @@
+LOCUS       NZ_AKHF01000078         3347 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00081, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000078 NZ_AKHF00000000
+VERSION     NZ_AKHF01000078.1  GI:420220149
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 3347)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 3347)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000078.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3347
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            160..1179
+                     /locus_tag="HMPREF9972_07763"
+     CDS             160..1179
+                     /locus_tag="HMPREF9972_07763"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14725135.1"
+                     /db_xref="GI:420220150"
+                     /translation="MKLKTLCCISLSSIFLFSACGQNSNETSHNNNNQKTEKKSDTNE
+                     TSNNQNSNKNKSDNSNETQSSNEQVEHSDKTITVAEAKSIVYNSANSQSFKAFVQNKG
+                     ELIFNKDKSNNNEIFIETPFGGINESVKLYAIVNRHTGEIITTGNAGTHADGLLKTDD
+                     GKIDKKAYNITLEFYNTYVYKKGMPKFEEATSDMPTEEYKKLSQLVGDYTKKQKQNEN
+                     KEPQTNNNTQNEANSIQSNDRDKTQSTTNERTNQQHNTNEKQKNDQASKQEQQSEEQQ
+                     ENRNEEASQNEERKDPNQQIEQPSSKDKQNPDAAQENNNQNNDENIDGNNYENKQSQD
+                     VESIE"
+     gene            1283..1537
+                     /locus_tag="HMPREF9972_07768"
+     CDS             1283..1537
+                     /locus_tag="HMPREF9972_07768"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14725136.1"
+                     /db_xref="GI:420220151"
+                     /translation="MKVNRENVFDYVIAAVNQTDGGDAFLIKFRQPEFSAQDDGLWRI
+                     AANNKSGHGSYTFIVDQNGTVQIWDGLMNEKIEEQKVTLN"
+     gene            1832..2701
+                     /gene="galU"
+                     /locus_tag="HMPREF9972_07773"
+     CDS             1832..2701
+                     /gene="galU"
+                     /locus_tag="HMPREF9972_07773"
+                     /EC_number="2.7.7.9"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="UTP--glucose-1-phosphate uridylyltransferase"
+                     /protein_id="ZP_14725137.1"
+                     /db_xref="GI:420220152"
+                     /translation="MKIKKAIIPAGLGIRFLPATKAMPKEMLPILDKPTIQYIVEEAV
+                     EAGIEDIIIVTGKHKRAIENHFDNQKELEMTLEEKGKSDLLQSVKYSNNLANMFYVRQ
+                     KEQKGLGHAIWTARQFIGNEPFAVLLGDDIVQADTPAIKQLMNQYETTGKSIIGVQQV
+                     NENETHKYGIVDPLNSSERLFSVNSFVEKPQPGTAPSNLAIMGRYVLTPQIFDYLNRQ
+                     EIGTGGEIQLTDAIEHLNSNDSVYAYDFEGERYDVGEKIGFVKTTIKFALNDKEMSED
+                     IKAFLESITKLNN"
+     misc_feature    1841..2638
+                     /gene="galU"
+                     /locus_tag="HMPREF9972_07773"
+                     /note="Prokaryotic UGPase catalyses the synthesis of
+                     UDP-glucose; Region: UGPase_prokaryotic; cd02541"
+                     /db_xref="CDD:133021"
+     misc_feature    1844..>2593
+                     /gene="galU"
+                     /locus_tag="HMPREF9972_07773"
+                     /note="dTDP-glucose pyrophosphorylase [Cell envelope
+                     biogenesis, outer membrane]; Region: RfbA; COG1209"
+                     /db_xref="CDD:31402"
+     misc_feature    order(1856..1858,1859..1864,1904..1909,2135..2137,
+                     2144..2155,2213..2215,2219..2224,2333..2338,2393..2398,
+                     2432..2434,2516..2518)
+                     /gene="galU"
+                     /locus_tag="HMPREF9972_07773"
+                     /note="active site"
+                     /db_xref="CDD:133021"
+     misc_feature    order(1865..1867,1874..1888,1892..1900,1910..1918,
+                     1922..1930,1940..1942,2012..2014,2018..2026,2030..2032,
+                     2042..2047,2129..2134,2138..2140,2144..2146,2330..2332,
+                     2504..2506,2576..2578,2594..2602,2606..2614,2618..2626,
+                     2633..2638)
+                     /gene="galU"
+                     /locus_tag="HMPREF9972_07773"
+                     /note="tetramer interface; other site"
+                     /db_xref="CDD:133021"
+     gene            2798..>3347
+                     /locus_tag="HMPREF9972_07778"
+     CDS             2798..>3347
+                     /locus_tag="HMPREF9972_07778"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14725138.1"
+                     /db_xref="GI:420220153"
+                     /translation="MIKIGIIGSCITRDVFNSRHVKNWKDYFEVAAYQSQVTFPSLVS
+                     EPINYEKNEATYNNMNDFEIEQINNELNKSFIYKMKNSNIDYLIIDFYGDLFFGIVKD
+                     VFGGYLTNKKWLFTRNNIFNQVTEEGQTLSFEKNFKKYFELWTKSVDKFFDNYLINID
+                     ATVIIHQSEFKPSYFENNKKRFV"
+ORIGIN      
+        1 aattaattat ttcattaaat gtttacgaca tataaaaaat agagatccta tcattattac
+       61 atttcaaatg tataaatatc attttattta taatatttta taaaacctta ttatctgata
+      121 gaattagttg tggatgaaat atagggagaa gtgttaataa tgaagttaaa aacattatgt
+      181 tgtattagtt tatcatctat tttcctattc agtgcttgtg gtcaaaactc aaacgaaact
+      241 agtcataata ataataatca aaaaacagaa aaaaagtctg atactaatga aaccagcaac
+      301 aaccaaaatt caaataagaa taagtcagac aattctaatg aaactcaaag ttcaaatgaa
+      361 caagttgagc attcagacaa aactataaca gtagctgaag ctaagtctat tgtatacaat
+      421 tctgcaaatt cacaaagttt taaagcattt gtccaaaata aaggtgaact tatttttaac
+      481 aaagacaaaa gtaataataa tgaaatattt atcgaaacac cctttggagg cataaatgag
+      541 tcagttaagc tttatgcaat tgttaataga catactggtg aaattattac tactggaaat
+      601 gcaggtacac atgcagatgg acttttaaaa acagatgatg gaaagataga caaaaaagca
+      661 tataatataa ctttagaatt ttataacaca tacgtatata aaaaaggtat gcctaaattt
+      721 gaagaagcca cttctgatat gcctacagaa gaatataaga aactttcaca attagtaggt
+      781 gactatacaa aaaaacaaaa gcaaaatgaa aataaagagc ctcaaacaaa taacaataca
+      841 caaaatgaag caaacagtat ccaatccaat gatagagata aaacacaaag tacaactaat
+      901 gaaagaacaa atcaacaaca caatacaaac gaaaaacaga aaaatgatca agcatcaaaa
+      961 caagaacaac aatctgaaga acagcaagaa aatcgtaacg aggaagcttc gcaaaatgag
+     1021 gaacgtaagg atccaaacca acaaatagaa caaccatcta gcaaagataa gcaaaatcca
+     1081 gatgcagcac aagaaaataa taaccaaaac aatgatgaaa atattgatgg taacaactat
+     1141 gaaaataaac aatctcaaga tgtagaatca atcgaatgaa agtcaaaata atagtcaaga
+     1201 gcaagagaat gatgttagtc aaacagtaaa agttcacgaa ggaagtagtg aaagaactgc
+     1261 ggataaagat gaattttctg atttgaaagt gaatagagag aatgtgtttg attacgtcat
+     1321 agcagctgtt aatcaaactg atggtggaga cgcttttctt ataaaatttc gacaaccaga
+     1381 attttcagca caagatgatg gcttatggag aatagcagca aataataaga gtggccacgg
+     1441 ttcatacacc tttattgtag atcaaaatgg aactgttcaa atttgggatg gcttgatgaa
+     1501 tgaaaaaatt gaagaacaaa aagttacatt aaactaaaga taatgcaaaa atataaagaa
+     1561 atgcattcta actaaaaatg aaaattattg gctaatataa aggattaatg catatagcat
+     1621 actcctttat attattttgc tattaaaaag tatttaaaat atattaaatg tctctatatt
+     1681 tttactatta aattttgtta tactaaaaca agtgtgattt tatactagta cattttaaag
+     1741 tgtgctttat ttagtactag tataaaaatc tattgataaa agtatgggag ctttatcaat
+     1801 gatttgaaat attagaggga gggggtaact tatgaaaatt aagaaagcta taataccagc
+     1861 aggtttaggg atcagatttt taccagcaac taaagcgatg cctaaagaaa tgttacctat
+     1921 tttagataag cctactatcc aatatatagt agaagaagca gtagaagcag gaattgaaga
+     1981 tattattata gttacaggta aacataaaag agcaatcgaa aatcattttg acaatcaaaa
+     2041 agaattggaa atgactctgg aagaaaaagg taagtctgat ttacttcaat cagtaaaata
+     2101 ctcaaacaac ctagcaaata tgttttatgt aagacaaaaa gaacaaaaag gtttaggtca
+     2161 tgctatatgg accgctagac aatttatagg gaatgaacca tttgctgttt tattaggaga
+     2221 tgacattgta caagcagata ctccagcgat aaaacaattg atgaatcagt atgaaacgac
+     2281 aggtaaatca attataggag tccaacaagt aaatgaaaat gaaacacata aatacggtat
+     2341 tgttgatcca ctaaattcta gtgaaagatt gtttagtgtc aatagctttg ttgagaaacc
+     2401 acaacctgga acagcacctt caaatttagc aataatgggg cgatatgttt taacaccaca
+     2461 gatttttgat tatttaaatc gacaagaaat tggtacaggt ggagaaatac aattaacaga
+     2521 tgcaattgaa catttaaatt ctaatgattc tgtctatgca tatgattttg agggtgaacg
+     2581 ttatgatgtt ggcgaaaaaa ttggttttgt aaaaactaca ataaaatttg ctttaaatga
+     2641 taaagaaatg tctgaagata ttaaagcttt tcttgagtct attacaaagt tgaacaattg
+     2701 ataaaaaaag atttttgata tttttattgc ctttttagta agttaattag gttattaaaa
+     2761 aataaaatat tattttaaaa tggtgaagag gtttgaaatg ataaaaattg gaattattgg
+     2821 aagttgtata accagagatg tttttaacag taggcatgta aaaaattgga aggattactt
+     2881 tgaagttgct gcgtatcaat ctcaagtcac ttttccgtca ttagttagtg aaccaattaa
+     2941 ttatgaaaaa aatgaagcca catacaataa catgaatgat tttgaaattg agcaaattaa
+     3001 taatgagtta aataaaagtt tcatctataa aatgaaaaat agcaatatag attatttaat
+     3061 aatagatttc tatggggatt tattttttgg aatagtcaaa gatgtatttg gaggttattt
+     3121 aactaataaa aagtggctgt ttactagaaa taatattttc aatcaggtta ctgaagaagg
+     3181 acagacatta tcttttgaaa aaaattttaa gaaatacttt gaattatgga caaaatcagt
+     3241 ggataaattt tttgataatt atttaattaa tatagatgca acagtaatta tacatcagtc
+     3301 tgaatttaaa ccatcctatt ttgaaaataa taaaaaaagg tttgtaa
+//

@@ -1,0 +1,185 @@
+LOCUS       NZ_AKHF01000066         2850 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00067, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000066 NZ_AKHF00000000
+VERSION     NZ_AKHF01000066.1  GI:420219777
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 2850)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2850)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000066.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2850
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            681..1415
+                     /gene="ermC'"
+                     /locus_tag="HMPREF9972_05893"
+     CDS             681..1415
+                     /gene="ermC'"
+                     /locus_tag="HMPREF9972_05893"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="rRNA adenine N-6-methyltransferase"
+                     /protein_id="ZP_14724775.1"
+                     /db_xref="GI:420219778"
+                     /translation="MNEKNIKHSQNFITSKHNIDKIMTNIRLNEHDNIFEIGSGKGHF
+                     TLELVQRCNFVTAIEIDHKLCKTTENKLVDHDNFQVLNKDILQFKFPKNQSYKIFGNI
+                     PYNISTDIIRKIVFDSIADEIYLIVEYGFAKRLLNTKRSLALFLMAEVDISILSMVPR
+                     EYFHPKPKVNSSLIRLNRKKSRISHKDKQKYNYFVMKWVNKEYKKIFTKNQFNNSLKH
+                     AGIDDLNNISFEQFLSLFNSYKLFNK"
+     misc_feature    708..1400
+                     /gene="ermC'"
+                     /locus_tag="HMPREF9972_05893"
+                     /note="16S ribosomal RNA methyltransferase KsgA/Dim1
+                     family protein; Reviewed; Region: ksgA; PRK00274"
+                     /db_xref="CDD:178953"
+     misc_feature    777..1025
+                     /gene="ermC'"
+                     /locus_tag="HMPREF9972_05893"
+                     /note="S-adenosylmethionine-dependent methyltransferases
+                     (SAM or AdoMet-MTase), class I;  AdoMet-MTases are enzymes
+                     that use S-adenosyl-L-methionine (SAM or AdoMet) as a
+                     substrate for methyltransfer, creating the product
+                     S-adenosyl-L-homocysteine (AdoHcy); Region: AdoMet_MTases;
+                     cd02440"
+                     /db_xref="CDD:100107"
+     misc_feature    order(789..809,855..860,927..935,981..983)
+                     /gene="ermC'"
+                     /locus_tag="HMPREF9972_05893"
+                     /note="S-adenosylmethionine binding site [chemical
+                     binding]; other site"
+                     /db_xref="CDD:100107"
+     gene            1862..2338
+                     /locus_tag="HMPREF9972_05898"
+     CDS             1862..2338
+                     /locus_tag="HMPREF9972_05898"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative replication and maintenance protein"
+                     /protein_id="ZP_14724776.1"
+                     /db_xref="GI:420219779"
+                     /translation="MKERYGTVYKGSQRLIDEESGEVIEVDKLYRKQTSGNFVKAYIV
+                     QLISMLDMIGGKKLKIVNYILDNVHLSNNTMIATTREIAKATGTSLQTVITTLKILEE
+                     GNIIKRKTGVLMLNPELLMRGDDQKQKYLLLEFGNFEQEANEKQENALSDYYSFKD"
+     misc_feature    2027..2212
+                     /locus_tag="HMPREF9972_05898"
+                     /note="helix_turn_helix, cAMP Regulatory protein
+                     C-terminus; DNA binding domain of prokaryotic regulatory
+                     proteins belonging to the catabolite activator protein
+                     family; Region: HTH_CRP; cd00092"
+                     /db_xref="CDD:238044"
+     misc_feature    2036..2041
+                     /locus_tag="HMPREF9972_05898"
+                     /note="putative switch regulator; other site"
+                     /db_xref="CDD:238044"
+     misc_feature    order(2087..2089,2093..2101,2126..2128)
+                     /locus_tag="HMPREF9972_05898"
+                     /note="non-specific DNA interactions [nucleotide binding];
+                     other site"
+                     /db_xref="CDD:238044"
+     misc_feature    2126..2146
+                     /locus_tag="HMPREF9972_05898"
+                     /note="DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:238044"
+     misc_feature    order(2129..2134,2144..2146)
+                     /locus_tag="HMPREF9972_05898"
+                     /note="sequence specific DNA binding site [nucleotide
+                     binding]; other site"
+                     /db_xref="CDD:238044"
+     misc_feature    2129..2134
+                     /locus_tag="HMPREF9972_05898"
+                     /note="putative cAMP binding site [chemical binding];
+                     other site"
+                     /db_xref="CDD:238044"
+ORIGIN      
+        1 aaaaaaccta gcacgcttaa tgtagatcaa aagcttaacg caaatgaaat agattgacct
+       61 cccaataaca ccacgtagtt attgggaggt caatctatga aatgcgatta agctttttct
+      121 aattcacata agcgtgcagg tttaaagtac ataaaaaata taatgaaaaa aagcatcatt
+      181 atactaacgt tataccaaca ttatactctc attatactaa ttgcttattc caatttccta
+      241 ttggttggaa ccaacaggcg ttagtgtgtt gttgagttgg tactttcatg ggattaatcc
+      301 catgaaaccc ccaaccaact cgccaaagct ttggctaaca cacacgccat tccaaccaat
+      361 agttttctcg gcataaagcc atgctctgac gcttaaatgc actaatgcct taaaaaaaca
+      421 ttaaagtcta acacactaga cttatttact tcgtaattaa gtcgttaaac cgtgtgctct
+      481 acgaccaaaa gtataaaacc tttaagaact ttcttttttc ttgtaaaaaa agaaactaga
+      541 taaatctctc atatctttta ttcaataatc gcatcagatt gcagtataaa tttaacgatc
+      601 actcatcatg ttcatattta tcagagctcg tgctataatt atactaattt tataaggagg
+      661 aaaaaataaa gagggttata atgaacgaga aaaatataaa acacagtcaa aactttatta
+      721 cttcaaaaca taatatagat aaaataatga caaatataag attaaatgaa catgataata
+      781 tctttgaaat cggctcagga aaagggcatt ttacccttga attagtacag aggtgtaatt
+      841 tcgtaactgc cattgaaata gaccataaat tatgcaaaac tacagaaaat aaacttgttg
+      901 atcacgataa tttccaagtt ttaaacaagg atatattgca gtttaaattt cctaaaaacc
+      961 aatcctataa aatatttggt aatatacctt ataacataag tacggatata atacgcaaaa
+     1021 ttgtttttga tagtatagct gatgagattt atttaatcgt ggaatacggg tttgctaaaa
+     1081 gattattaaa tacaaaacgc tcattggcat tatttttaat ggcagaagtt gatatttcta
+     1141 tattaagtat ggttccaaga gaatattttc atcctaaacc taaagtgaat agctcactta
+     1201 tcagattaaa tagaaaaaaa tcaagaatat cacacaaaga taaacagaag tataattatt
+     1261 tcgttatgaa atgggttaac aaagaataca agaaaatatt tacaaaaaat caatttaaca
+     1321 attccttaaa acatgcagga attgacgatt taaacaatat tagctttgaa caattcttat
+     1381 ctcttttcaa tagctataaa ttatttaata agtaagttaa gggatgcata aactgcatcc
+     1441 cttaacttgt ttttcgtgta cctatttttt gtgaatcgat tatgtctttt gcgcattcac
+     1501 ttcttttcta tataaatatg agcgaagcga ataagcgtcg gaaaagcagc aaaaagtttc
+     1561 ctttttgctg ttggagcatg ggggttcagg gggtgcagta tctgacgtca atgccgagcg
+     1621 aaagcgagcc gaagggtagc atttacgtta gataaccccc tgatatgctc cgacgcttta
+     1681 tatagaaaag aagattcaac taggtaaaat cttaatatag gttgagatga taaggtttat
+     1741 aaggaatttg tttgttctaa tttttcactc attttgttct aatttctttt aacaaatgtt
+     1801 cttttttttt agaacagtta tgatatagtt agaatagttt aaaataagga gtgagaaaaa
+     1861 gatgaaagaa agatatggaa cagtctataa aggctctcag aggctcatag acgaagaaag
+     1921 tggagaagtc atagaggtag acaagttata ccgtaaacaa acgtctggta acttcgtaaa
+     1981 ggcatatata gtgcaattaa taagtatgtt agatatgatt ggcggaaaaa aacttaaaat
+     2041 cgttaactat atcctagata atgtccactt aagtaacaat acaatgatag ctacaacaag
+     2101 agaaatagca aaagctacag gaacaagtct acaaacagta ataacaacac ttaaaatctt
+     2161 agaagaagga aatattataa aaagaaaaac tggagtatta atgttaaacc ctgaactact
+     2221 aatgagaggc gacgaccaaa aacaaaaata cctcttactc gaatttggga actttgagca
+     2281 agaggcaaat gaaaaacaag aaaatgcatt atctgattat tattctttca aggactagta
+     2341 taacataaaa tcgtctacaa atagacaaaa aacctgcacg cttaatgtag atcaaaagct
+     2401 taacgcaaat gaaatagatt gacctcccaa taacaccacg tagttattgg gaggtcaatc
+     2461 tatgaaatgc gattaagctt tttctaattc acataagcgt gcaggtttaa agtacataaa
+     2521 aaatataatg aaaaaaagca tcattatact aacgttatac caacattata ctctcattat
+     2581 actaattgct tattccaatt tcctattggt tggaaccaac aggcgttagt gtgttgttga
+     2641 gttggtactt tcatgggatt aatcccacga aacccccaac caactcgcca aagctttggc
+     2701 tagcacacac gccattccaa ccaatagttt tctcggcata aagccatgct ctgacgctta
+     2761 aatgcactaa tgccttaaaa aacattaaag tctaacacac tagacttatt tacttcgtaa
+     2821 ttaagtcgtt aaaccgtgtg ctctacgacc
+//

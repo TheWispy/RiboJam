@@ -1,0 +1,270 @@
+LOCUS       NZ_AKHF01000062         2999 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00063, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000062 NZ_AKHF00000000
+VERSION     NZ_AKHF01000062.1  GI:420219699
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 2999)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2999)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000062.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2999
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            <1..421
+                     /locus_tag="HMPREF9972_05466"
+     CDS             <1..421
+                     /locus_tag="HMPREF9972_05466"
+                     /codon_start=2
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724701.1"
+                     /db_xref="GI:420219700"
+                     /translation="DINEFKLEIFLNGTKNKSAPRYVSVSKTLIQILLKYIENHTSSI
+                     EGYVFINNGKQITNSSVNKSIRESCSKLNIHRNLTSHAFRHTHASMLIHEGLNIYYIS
+                     KRLGHSSIDVTLKDYGHLLKETYEQDNKKALKLIENL"
+     misc_feature    <5..373
+                     /locus_tag="HMPREF9972_05466"
+                     /note="DNA breaking-rejoining enzymes, C-terminal
+                     catalytic domain. The DNA breaking-rejoining enzyme
+                     superfamily includes type IB topoisomerases and tyrosine
+                     recombinases that share the same fold in their catalytic
+                     domain containing six conserved active site...; Region:
+                     DNA_BRE_C; cl00213"
+                     /db_xref="CDD:211431"
+     misc_feature    order(44..46,236..244,350..352)
+                     /locus_tag="HMPREF9972_05466"
+                     /note="DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:29495"
+     misc_feature    order(44..46,242..244,251..253,320..322,350..352)
+                     /locus_tag="HMPREF9972_05466"
+                     /note="Int/Topo IB signature motif; other site"
+                     /db_xref="CDD:29495"
+     misc_feature    order(242..244,251..253,320..322,350..352)
+                     /locus_tag="HMPREF9972_05466"
+                     /note="active site"
+                     /db_xref="CDD:29495"
+     gene            complement(580..663)
+                     /locus_tag="HMPREF9972_t05478"
+     tRNA            complement(580..663)
+                     /locus_tag="HMPREF9972_t05478"
+                     /product="tRNA-Leu"
+     gene            complement(704..778)
+                     /locus_tag="HMPREF9972_t05480"
+     tRNA            complement(704..778)
+                     /locus_tag="HMPREF9972_t05480"
+                     /product="tRNA-OTHER"
+     gene            complement(790..864)
+                     /locus_tag="HMPREF9972_t05482"
+     tRNA            complement(790..864)
+                     /locus_tag="HMPREF9972_t05482"
+                     /product="tRNA-Gly"
+     gene            complement(879..953)
+                     /locus_tag="HMPREF9972_t05484"
+     tRNA            complement(879..953)
+                     /locus_tag="HMPREF9972_t05484"
+                     /product="tRNA-OTHER"
+     gene            complement(963..1036)
+                     /locus_tag="HMPREF9972_t05486"
+     tRNA            complement(963..1036)
+                     /locus_tag="HMPREF9972_t05486"
+                     /product="tRNA-Cys"
+     gene            complement(1042..1113)
+                     /locus_tag="HMPREF9972_t05488"
+     tRNA            complement(1042..1113)
+                     /locus_tag="HMPREF9972_t05488"
+                     /product="tRNA-Gln"
+     gene            complement(1125..1197)
+                     /locus_tag="HMPREF9972_t05490"
+     tRNA            complement(1125..1197)
+                     /locus_tag="HMPREF9972_t05490"
+                     /product="tRNA-His"
+     gene            complement(1200..1273)
+                     /locus_tag="HMPREF9972_t05492"
+     tRNA            complement(1200..1273)
+                     /locus_tag="HMPREF9972_t05492"
+                     /product="tRNA-Trp"
+     gene            complement(1282..1365)
+                     /locus_tag="HMPREF9972_t05494"
+     tRNA            complement(1282..1365)
+                     /locus_tag="HMPREF9972_t05494"
+                     /product="tRNA-Tyr"
+     gene            complement(1370..1445)
+                     /locus_tag="HMPREF9972_t05496"
+     tRNA            complement(1370..1445)
+                     /locus_tag="HMPREF9972_t05496"
+                     /product="tRNA-Thr"
+     gene            complement(1454..1526)
+                     /locus_tag="HMPREF9972_t05498"
+     tRNA            complement(1454..1526)
+                     /locus_tag="HMPREF9972_t05498"
+                     /product="tRNA-Phe"
+     gene            complement(1631..1704)
+                     /locus_tag="HMPREF9972_t05500"
+     tRNA            complement(1631..1704)
+                     /locus_tag="HMPREF9972_t05500"
+                     /product="tRNA-Met"
+     gene            complement(1716..1808)
+                     /locus_tag="HMPREF9972_t05502"
+     tRNA            complement(1716..1808)
+                     /locus_tag="HMPREF9972_t05502"
+                     /product="tRNA-Ser"
+     gene            complement(1846..1921)
+                     /locus_tag="HMPREF9972_t05504"
+     tRNA            complement(1846..1921)
+                     /locus_tag="HMPREF9972_t05504"
+                     /product="tRNA-Asp"
+     gene            complement(1929..2018)
+                     /locus_tag="HMPREF9972_t05506"
+     tRNA            complement(1929..2018)
+                     /locus_tag="HMPREF9972_t05506"
+                     /product="tRNA-Ser"
+     gene            complement(2028..2101)
+                     /locus_tag="HMPREF9972_t05508"
+     tRNA            complement(2028..2101)
+                     /locus_tag="HMPREF9972_t05508"
+                     /product="tRNA-Met"
+     gene            complement(2126..2202)
+                     /locus_tag="HMPREF9972_t05510"
+     tRNA            complement(2126..2202)
+                     /locus_tag="HMPREF9972_t05510"
+                     /product="tRNA-Met"
+     gene            complement(2227..2302)
+                     /locus_tag="HMPREF9972_t05512"
+     tRNA            complement(2227..2302)
+                     /locus_tag="HMPREF9972_t05512"
+                     /product="tRNA-Ala"
+     gene            complement(2319..2392)
+                     /locus_tag="HMPREF9972_t05514"
+     tRNA            complement(2319..2392)
+                     /locus_tag="HMPREF9972_t05514"
+                     /product="tRNA-Pro"
+     gene            complement(2402..2475)
+                     /locus_tag="HMPREF9972_t05516"
+     tRNA            complement(2402..2475)
+                     /locus_tag="HMPREF9972_t05516"
+                     /product="tRNA-Arg"
+     gene            complement(2488..2576)
+                     /locus_tag="HMPREF9972_t05518"
+     tRNA            complement(2488..2576)
+                     /locus_tag="HMPREF9972_t05518"
+                     /product="tRNA-Leu"
+     gene            complement(2588..2662)
+                     /locus_tag="HMPREF9972_t05520"
+     tRNA            complement(2588..2662)
+                     /locus_tag="HMPREF9972_t05520"
+                     /product="tRNA-Gly"
+     gene            complement(2666..2748)
+                     /locus_tag="HMPREF9972_t05522"
+     tRNA            complement(2666..2748)
+                     /locus_tag="HMPREF9972_t05522"
+                     /product="tRNA-Leu"
+     gene            complement(2757..2832)
+                     /locus_tag="HMPREF9972_t05524"
+     tRNA            complement(2757..2832)
+                     /locus_tag="HMPREF9972_t05524"
+                     /product="tRNA-Lys"
+     gene            complement(2839..2914)
+                     /locus_tag="HMPREF9972_t05526"
+     tRNA            complement(2839..2914)
+                     /locus_tag="HMPREF9972_t05526"
+                     /product="tRNA-Thr"
+     gene            complement(2921..2996)
+                     /locus_tag="HMPREF9972_t05528"
+     tRNA            complement(2921..2996)
+                     /locus_tag="HMPREF9972_t05528"
+                     /product="tRNA-Val"
+ORIGIN      
+        1 agatattaat gaatttaagt tagaaatatt tttaaacggt accaaaaata aatcggcacc
+       61 tagatatgta tcagtatcta aaacgttaat acaaatatta cttaaatata tagaaaatca
+      121 tacttcttca attgaaggat atgtatttat aaataatggt aaacaaatta ctaattcatc
+      181 agttaataaa tcgattagag aatcatgttc caaactaaat atacatagaa atctaactag
+      241 tcatgcattt agacatacac acgcttctat gctaatacat gagggattaa atatatatta
+      301 tatatctaaa agattaggcc actcatctat agatgtaaca ttaaaagatt acggacattt
+      361 attaaaagaa acatacgaac aagacaataa aaaagcacta aaattgattg aaaatttgtg
+      421 actaaatatg tgaccaaaat taagcttaaa ttaatagttt tgtgaccaca atgtgaccaa
+      481 aaaataatgt ctatatgtgt ctaaataaat aaaaaaagag tgaaaacgct gatttaacaa
+      541 cattctcact ctaaaagttc ctaaaattat ataaaataat accggtggtc gggatcgaac
+      601 cgacactcca ataaaggaac gggattttga gtcccgcgcg tctgccaatt ccgccacacc
+      661 ggctcaatat ataaacaaaa aacttcccaa tggaagtgaa taatggagcg gaagatagga
+      721 tttacaccta tatctcattc cgggaaggaa tgtgttctga gagttgaact actcccgcat
+      781 atttaaaatt ggagcggaag ataggatttg cacctatatc tcattccggg aaggaatgtg
+      841 ttctgagagt tgaactactc ccgcataata ttaaaatttg gagcggaaga taggatttac
+      901 acctatatct cattccggga aggaatgtgt tctaagagtt gaactactcc cgcataataa
+      961 cctggaggcg gcaaccggat ttgaaccggt gataaaggtt ttgcagacct ctgccttacc
+     1021 acttggctat gccgccaata actgggctag ctggattcga accagcgcat gacggagtca
+     1081 aagtccgttg ccttaccgct tggctatagc ccattaatat aaagggcggt tgaagggaat
+     1141 cgaaccctcg agtgtcggaa ccacaatccg atgcgttaac cacttcgcca caaccgccat
+     1201 ggcaggggca gtaggaatcg aacccacatc aaaggttttg gagacctcta ttctaccgtt
+     1261 gaactatgcc cctatataag atggtggagg ggggcagatt cgaactgccg aacccgaagg
+     1321 agcggattta cagtccgccg cgtttagcca cttcgctacc cctccaaaat ggtgccggcc
+     1381 agaggacttg aacccccaac ctactgatta caagtcagtt gctctaccaa ttgagctagg
+     1441 ccggctatag gtatggttca ggacagaatc gaactgccga cacatggagc ttcaatccat
+     1501 tgctctacca actgagctac tgaaccaaaa taagaaatcg taatgacacc tctttgaaaa
+     1561 ctgagtcatg tatgttctaa aaaacaatat gcatatcaac tgtttcatca cgaaacccat
+     1621 atcaataata ttgcgggagg cggatttgaa ccaccgacct tcgggttatg agcccgacga
+     1681 gctaccgaac tgctccatcc cgcgctaata attaatggcg gaggaagagg gattcgaacc
+     1741 cccgcggccc gttaaggccc tgtcggtttt caagaccgat cccttcagcc ggacttgggt
+     1801 attcctccac aaattataga taaataacta ttaaaattta ataaatggcg gtcccgacgg
+     1861 gaatcgaacc cgcgatctcc tgcgtgacag gcaggcgtgt taaccgctac actacgggac
+     1921 cattaaaacg gaggaagagg gattcgaacc cccgcgagcc gttaagctcc tgtcggtttt
+     1981 caagaccgat cccttcagcc ggacttgggt attcctccaa aattatatgg accttgcagg
+     2041 actcgaacct gcgaccgaac ggttatgagc cgttagctct aaccaactga gctaaaggtc
+     2101 ctgaatataa ttatacaact aatagtagtg gcggtggagg ggatcgaacc cccgacctca
+     2161 cgggtatgaa ccgtacgctc tagccagctg agctacaccg ccgttatgta gtttgtaaat
+     2221 taatattggt ggagactagc gggatcgaac cgctgacctc ctgcgtgcaa agcaggcgct
+     2281 ctcccagctg agctaagccc ccaaaattta ttttactatc gggaagacag gattcgaacc
+     2341 tacgacccct tggtcccaaa ccaagtgctc taccaagctg agctacttcc cgtaaaataa
+     2401 gcgcgcccga taggagtcga acccataacc tcttgatccg tagtcaaacg ctctatccag
+     2461 ttgagctacg ggcgcaaata ttaaagatgg tgccgaggac cggaatcgaa ccggtacggt
+     2521 gatctctcac cgcaggattt taagtcctgt gcgtctgcca gttccgccac cccggcaata
+     2581 tcattaatgg agcggaagac gggattcgaa cccgcgaccc ccaccttggc aaggtggtgt
+     2641 tctaccactg aactacttcc gcgaatgcgg gtgaagggag tcgaaccccc acgccgtaaa
+     2701 ggcgctagat cctaagtcta gtgcgtctgc caattccgcc acacccgcta tttaaatggt
+     2761 gagccataga ggattcgaac ctctgaccct ctgattaaaa gtcagatgct ctaccaactg
+     2821 agctaatggc tcaaaagatg gtgccggcca gaggacttga acccccaacc tactgattac
+     2881 aagtcagttg ctctaccagt tgagctaggc cggctataaa tggtggagaa tgacgggttc
+     2941 gaaccgccga ccctctgctt gtaaggcaga tgctctccca actgagctaa ttctccaag
+//

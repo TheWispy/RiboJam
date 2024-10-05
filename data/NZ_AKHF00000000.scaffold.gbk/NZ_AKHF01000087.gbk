@@ -1,0 +1,164 @@
+LOCUS       NZ_AKHF01000087         2372 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00092, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000087 NZ_AKHF00000000
+VERSION     NZ_AKHF01000087.1  GI:420220434
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 2372)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2372)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000087.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2372
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            complement(<1..441)
+                     /locus_tag="HMPREF9972_09163"
+     CDS             complement(<1..441)
+                     /locus_tag="HMPREF9972_09163"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Gram-positive signal peptide protein, YSIRK
+                     family"
+                     /protein_id="ZP_14725411.1"
+                     /db_xref="GI:420220435"
+                     /translation="MGKRRQGPINKKVDFLPNKLNKYSIRKFTVGTASILLGSTLIFG
+                     SSSHEAKAAEEKQVDPITQANQNDSSERSLENTNQPTVNNEAPQMSSTLQAEEGGNAE
+                     APQSEPTKAEEGGNAEAAQSEPTKAEEGGNAEAPQSEPTKAEEGG"
+     misc_feature    complement(313..393)
+                     /locus_tag="HMPREF9972_09163"
+                     /note="YSIRK type signal peptide; Region: YSIRK_signal;
+                     pfam04650"
+                     /db_xref="CDD:147013"
+     gene            complement(860..1012)
+                     /locus_tag="HMPREF9972_09168"
+     CDS             complement(860..1012)
+                     /locus_tag="HMPREF9972_09168"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phenol soluble modulin beta 1"
+                     /protein_id="ZP_14725412.1"
+                     /db_xref="GI:420220436"
+                     /translation="MEHVSKLAEAIANTVSAAQAEDGAELAKSIVNIVANAGGIIQDI
+                     AHAFGY"
+     misc_feature    complement(881..1003)
+                     /locus_tag="HMPREF9972_09168"
+                     /note="Staphylococcus haemolytic protein; Region:
+                     Staph_haemo; pfam05480"
+                     /db_xref="CDD:147585"
+     gene            complement(1218..2069)
+                     /locus_tag="HMPREF9972_09173"
+     CDS             complement(1218..2069)
+                     /locus_tag="HMPREF9972_09173"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="serine protease"
+                     /protein_id="ZP_14725413.1"
+                     /db_xref="GI:420220437"
+                     /translation="MKCKKSLITALATITLIPSLMILDTQHEAKAVGNYYYNGMEDHN
+                     ASAAYHKAKKVDNSQIVIKRYNYAHKNKYKAVGRVSNMDGWKGPGKDSMGTGFMVGNH
+                     TFVTNAHVVDKKNGQRTSPSKIKFQLNRDGKKIPYQFHAKKIYKIPSYDMVVVETKEN
+                     MAQKANVQPLKLATNQKIKSLKFNKKLYSLGYPVMNGNNTYAYWNKLRFLQEASNKSE
+                     LMTKDKFRAGDSGSPMVDSQYVVYGVRTYGYNLRGSSNHPYAQQEVAGAESLYGNPRD
+                     FILKHNK"
+     misc_feature    complement(1320..1787)
+                     /locus_tag="HMPREF9972_09173"
+                     /note="Trypsin-like serine protease; Many of these are
+                     synthesized as inactive precursor zymogens that are
+                     cleaved during limited proteolysis to generate their
+                     active forms. Alignment contains also inactive enzymes
+                     that have substitutions of the catalytic triad...; Region:
+                     Tryp_SPc; cl00149"
+                     /db_xref="CDD:206862"
+     misc_feature    complement(order(1380..1382,1617..1619,1743..1745))
+                     /locus_tag="HMPREF9972_09173"
+                     /note="active site"
+                     /db_xref="CDD:29152"
+     misc_feature    complement(order(1326..1328,1332..1334))
+                     /locus_tag="HMPREF9972_09173"
+                     /note="substrate binding sites [chemical binding]; other
+                     site"
+                     /db_xref="CDD:29152"
+ORIGIN      
+        1 gcctccttct tctgccttcg ttggctcaga ttgaggtgct tctgcattgc ctccttcttc
+       61 tgccttcgtt ggctcagatt gagctgcttc tgcattgcct ccttcttctg ccttcgttgg
+      121 ctcagattga ggtgcttctg cattgcctcc ttcttctgct tgcaatgtag aagacatctg
+      181 tggtgcttca ttgtttacag taggttgatt tgtgttttca agtgatcttt cactactatc
+      241 attttgatta gcttgtgtaa ttggatcaac ttgtttttct tctgcagctt tcgcttcatg
+      301 gctactactt ccaaaaataa gtgtcgaacc aagtaatatt gaggccgtac caacagtgaa
+      361 ttttcttata gaatacttgt ttaatttgtt aggtaaaaaa tccacttttt tattaatagg
+      421 accttgtcta cgtttgccca tattatacct cccatgtatt taattttaaa tgtaagatac
+      481 atatatttta tgtatctagt atgtaatgtt accttctttt acattttaac gcaatacttt
+      541 acatattatt tatgattaaa aaaatatcat tttgtataaa ttattatttt ttaaatttta
+      601 tttaacttta aaccttttat ttatttttta taaagaagat caaaatccat tcaatagtga
+      661 aaatatttaa aaataataat gcgacttata aaactacaag catttgaata atcaataata
+      721 atgttaaaaa gagacagctt tatgatggta ttgtaattac aagtaaatga atattaaata
+      781 caaaaaagct agatacctat aggcatctag ctctatttat aaaacgtagt tagtatgaat
+      841 agattatgta agtgataact tagtaaccga atgcatgtgc aatgtcttga ataataccgc
+      901 cagcattcgc tacgatatta acgatacttt ttgctaactc agcaccatct tctgcttgtg
+      961 ctgctgatac agtattagct atagcttcag ctaatttaga aacatgttcc acgttgtatt
+     1021 ccctcctcct aattaagtta tctatagaat agcattgctt ttttaataca aattaaactc
+     1081 aattttaaaa ttttgtaaat aactcaatcg ttcattatac gtaattttga tttatacttt
+     1141 aattttatat attagcacac aattaataag ggatttcaac aattctgcaa tgcattgtag
+     1201 aattatcttg agtggtatta cttattatgc ttaagaataa aatctcttgg attaccatat
+     1261 aatgattctg cacctgccac ttcttgttgg gcataaggat gattagaact acctcttaaa
+     1321 ttatatccat acgtacgaac cccataaaca acgtactggc tatctaccat aggagatcct
+     1381 gaatcaccag ctctaaattt atcttttgtc atgagttctg atttattcga tgcttcttgt
+     1441 aaaaaacgta acttattcca gtatgcatat gtattgtttc cgttcatcac tggatatcct
+     1501 aaagaatata atttcttgtt aaattttaaa ctcttaattt tttgattggt tgcaagttta
+     1561 agtggttgca cgttagcttt ttgagccata ttttctttag tttcaacgac aaccatatcg
+     1621 tatgaaggga ttttatatat ctttttagca tgaaattgat agggtatctt tttaccgtct
+     1681 ctgtttaatt gaaattttat tttactcgga ctcgttcttt gaccattttt cttatctaca
+     1741 acatgtgcat tggttacaaa cgtatgattg cctaccataa atcctgttcc catactatct
+     1801 ttgcctggac ctttccagcc atccatgttc gatactcttc ctactgcttt atatttattt
+     1861 ttatgcgcat agttataacg ttttatgact atttgactat tatcaacttt cttcgcttta
+     1921 tgatatgcag cactcgcatt atgatcttcc atgccattgt aataataatt tcctactgct
+     1981 tttgcctcat gctgtgtatc taaaatcatc aatgatggta tcaaagttat ggttgctaaa
+     2041 gctgttatga gtgatttttt acatttcatt ttattcatcc tttttatttt taaattaaag
+     2101 tacatactaa ttattaaaaa tttattttct gtatcagttc aaaaagatag taaccttaat
+     2161 atattatatt ttccacaaca tttattataa tgatatattt gaatttttga ctagtgtgcc
+     2221 ttttttcaaa aaaactgtgt cgtaaaattc ttgtatataa gcatactatc acagtaatta
+     2281 agggtttctt tctccacact tcacacaatt tttttaatac ccctttacta tcaatagtta
+     2341 tcgagtttaa ctacatacct tttgatattg gt
+//

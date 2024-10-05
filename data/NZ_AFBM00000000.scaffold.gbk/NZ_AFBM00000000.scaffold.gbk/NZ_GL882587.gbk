@@ -1,0 +1,219 @@
+LOCUS       NZ_GL882587             4099 bp    DNA     linear   CON 27-NOV-2012
+DEFINITION  Bacteroides clarus YIT 12056 genomic scaffold Scfld7, whole genome
+            shotgun sequence.
+ACCESSION   NZ_GL882587 NZ_AFBM01000000
+VERSION     NZ_GL882587.1  GI:329958942
+DBLINK      Project: 66155
+            BioProject: PRJNA66155
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Bacteroides clarus YIT 12056
+  ORGANISM  Bacteroides clarus YIT 12056
+            Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;
+            Bacteroidaceae; Bacteroides.
+REFERENCE   1  (bases 1 to 4099)
+  AUTHORS   Weinstock,G., Sodergren,E., Clifton,S., Fulton,L., Fulton,B.,
+            Courtney,L., Fronick,C., Harrison,M., Strong,C., Farmer,C.,
+            Delahaunty,K., Markovic,C., Hall,O., Minx,P., Tomlinson,C.,
+            Mitreva,M., Hou,S., Chen,J., Wollam,A., Pepin,K.H., Johnson,M.,
+            Bhonagiri,V., Zhang,X., Suruliraj,S., Warren,W., Chinwalla,A.,
+            Mardis,E.R. and Wilson,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2011) Genome Sequencing Center, Washington
+            University School of Medicine, 4444 Forest Park, St. Louis, MO
+            63108, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GL882587.
+            Bacteroides clarus YIT12056 (No 16S rRNA gene available) is a
+            member of the Bacteroidetes division of the domain bacteria and has
+            been isolated from the gut.
+            
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC.
+            
+            Bacteria and source DNA were provided by Masami Morotomi, PhD
+            (Yakult Central Institute for Microbiological Research, 1796 Yaho,
+            Kunitachi, 186-8650 Tokyo, Japan). Isolation of bacteria and DNA
+            preparation were funded by the Yakult Central Institute for
+            Microbiological Research.
+            
+            Coding sequences were predicted using GeneMark v3.3 and Glimmer2
+            v2.13. Intergenic regions not spanned by GeneMark and Glimmer2 were
+            blasted against NCBI's non-redundant (NR) database and predictions
+            generated based on protein alignments. tRNA genes were determined
+            using tRNAscan-SE 1.23 and non-coding RNA genes by RNAmmer-1.2 and
+            Rfam v8.0. Gene names are generated at the contig level and may not
+            necessarily reflect any known order or orientation between contigs.
+            
+            The National Human Genome Research Institute (NHGRI), National
+            Institutes of Health (NIH) is funding the sequence characterization
+            of the Bacteroides clarus YIT 12056 genome.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Velvet v. 0.7.57
+            Genome Coverage          :: 204.4x
+            Sequencing Technology    :: Illumina
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4099
+                     /organism="Bacteroides clarus YIT 12056"
+                     /mol_type="genomic DNA"
+                     /strain="YIT 12056"
+                     /isolation_source="gut"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9445"
+                     /db_xref="taxon:762984"
+     gene            complement(38..454)
+                     /locus_tag="HMPREF9445_01477"
+     CDS             complement(38..454)
+                     /locus_tag="HMPREF9445_01477"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved domain protein"
+                     /protein_id="ZP_08296620.1"
+                     /db_xref="GI:329955756"
+                     /translation="MKRIIHTFVIAFQFIILSAVLTACKEDDGNISSPQEVTPSFFWE
+                     GSSFQLEADNGWGITRFANRVALSNFHQKCQYHLSWDGGSGAGEKTNGILKIAEAGKK
+                     LQTIRLDALLIEDINGMYYNIHFQKGEATGILLFSK"
+     gene            complement(475..2046)
+                     /locus_tag="HMPREF9445_01478"
+     CDS             complement(475..2046)
+                     /locus_tag="HMPREF9445_01478"
+                     /note="KEGG: ote:Oter_1931 1.5e-102 pectate lyase;
+                     Psort location: Extracellular, score: 9.45"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_08296621.1"
+                     /db_xref="GI:329955757"
+                     /translation="MKRLKTIFLLLCLPIMLTAKEYYVATNGDDANTGSIDSPFATLA
+                     RAQAEVKAGDIVYIRGGRYIMEESQIMGEREKIYACVFLMDKSGTDNEHRIRYFGYPG
+                     ERPIFDLSQVKPFEKRVSVFYVSGSYLHFKNIEVVGTQVTLVGHTQSECFSNRGGNNN
+                     IYENLSMHDGMGIGFYLVKGADNLILNCDAYNNYDTVSDGGRGGNVDGFGGHPDNNGS
+                     GNVFRGCRAWWNSDDGFDLINSGQAVVIDHCWSFYNGYRPGSTSAKAGDGTGFKAGGY
+                     GMSDSPKAPEIIPMHEVKNCIAYYNSNKGFYANHHPGGILWSNNSGYKNPSNYCMLNR
+                     KSIEEAVDVAGYGHILKNNLSYSPRSAEKHIIDINESLCQTANNSFLPTVMMLTETDF
+                     LSLDAGQLTAERKADGSLPDITFLQPSESSRLYATRIGYSFEAPVTDEDNDGVDDNTI
+                     IGEKDWLMEAAIHVNNSIASIEGPGAEEFTAFYINGQKVKMSNGTVDLSAYNGKLNLK
+                     ATSTQGGIVKLTLHK"
+     misc_feature    complement(1084..1584)
+                     /locus_tag="HMPREF9445_01478"
+                     /note="Right handed beta helix region; Region: Beta_helix;
+                     pfam13229"
+                     /db_xref="CDD:221993"
+     gene            complement(2135..>4099)
+                     /locus_tag="HMPREF9445_01479"
+     CDS             complement(2135..>4099)
+                     /locus_tag="HMPREF9445_01479"
+                     /note="KEGG: bsu:BSU07050 1.4e-168 yesW; polysaccharide
+                     lyase; lipoprotein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="FG-GAP repeat protein"
+                     /protein_id="ZP_08296622.1"
+                     /db_xref="GI:329955758"
+                     /translation="EKQYSRNPRTEKDMRKHLYYLIASMLIITISLNARTNYNYKKLQ
+                     RENLGRGVVAIRKDASTVTISWRYLSSDPMDTEFNVYRNGEKITSQPVSTGTLYNDAY
+                     TSRNAATYEVRPVVKGKETNHKNGRYTLPANAPTGYIRIPMNKPANGVTPAGETYTYS
+                     PNDASIGDIDGDGEYEIILKWDPSNSHDNAHDGYTGEVLIDCYRLNGEQLWRINLGKN
+                     IRAGAHYTQFMVYDLDNDGKAEVVMRTADGSIDGKGNIIGDATADYREPGEMYTPRKK
+                     KGDTRTPEPRLRNQGRIFKGKEYLTVFSGMTGEALQSIDYIPQRNELRGWGDNRANRS
+                     DRFLACIAYLDGIHPSVVMCRGYYTRTVLAAFNWDGKNLTNSWTFDTNEPGNENFAGQ
+                     GNHNLRVADIDGDGCDEIVYGSMTVDHNGKGLYSTGMGHGDALHLTQFDPSNPRLQIW
+                     ACHENKKDGSTFRDAATGKVIFQLPHHTDVGRCMAADIDPTHPGVEMWSARSEGIRNI
+                     KGEIVASKVKKLPMNMAVWWDGDLLREMLDKNIISKYNWRVETCTPLVTFEGTAGNNG
+                     TKSNPCLQGDIIGDWREEVLLRTTDNTALRLYVSTVPTEYRFHTFLEDPVYRISIATQ
+                     NVGYNQPTQPGFYFGPDLKGVFRGCRLKQK"
+     misc_feature    complement(2192..3964)
+                     /locus_tag="HMPREF9445_01479"
+                     /note="Rhamnogalacturonan lyase of the polysaccharide
+                     lyase family 11; Region: RGL11; cd10318"
+                     /db_xref="CDD:199906"
+     misc_feature    complement(order(2213..2215,2348..2350,2372..2374,
+                     2384..2386,2495..2497,2507..2509,2513..2515,2612..2614,
+                     2639..2641,2738..2740,2756..2758,2783..2785,2801..2803,
+                     2807..2809,2843..2848,2873..2875,2885..2887,2891..2893,
+                     2897..2899,2915..2917,3380..3382,3392..3394,3398..3400,
+                     3404..3406,3572..3574,3584..3586,3590..3592,3596..3598,
+                     3611..3613))
+                     /locus_tag="HMPREF9445_01479"
+                     /note="metal binding site [ion binding]; metal-binding
+                     site"
+                     /db_xref="CDD:199906"
+     misc_feature    complement(order(2216..2218,2396..2401,2654..2656,
+                     2801..2803,2915..2917))
+                     /locus_tag="HMPREF9445_01479"
+                     /note="active site"
+                     /db_xref="CDD:199906"
+ORIGIN      
+        1 atggttgttt tgtgacattc cgtctgctct tgcatggtta tttggagaat agcaatatac
+       61 ccgttgcttc gcctttttgg aaatggatgt tgtaatacat tccattgatg tcttctatga
+      121 gcaatgcgtc gagacggatg gtttgcagtt tctttcctgc ttcggctatc tttaaaatac
+      181 cgtttgtctt ttctcctgct cccgaaccgc cgtcccatga gagatggtat tggcattttt
+      241 gatggaaatt gctaagggcg acgcggttgg caaagcgggt aataccccaa ccgttgtccg
+      301 cttccagctg aaatgaactc ccttcccaga agaatgaggg agtgacttcc tgaggtgagg
+      361 agatgttacc gtcgtcctct ttgcaggcgg tgagaactgc tgataagatg ataaactgaa
+      421 aggcgataac gaatgtatgg atgattcttt tcatgattat gctgtttata aactttattt
+      481 gtgtagggta agtttcacga tgccgccttg agtagaggtc gctttcagat tcagtttgcc
+      541 gttatatgcg gataggtcga cagttccgtt actcattttc actttttgtc cgttgatgta
+      601 gaaagcggta aattcctccg ctcccggtcc ttctatgctg gcaatgctgt tatttacatg
+      661 aatggcggct tccatgagcc agtctttctc accaattatt gtattgtcat cgactccgtc
+      721 attgtcttca tcggtaacag gggcttcgaa cgaataccct atccgggtgg cgtaaagccg
+      781 gctgctttcc gagggttgca ggaatgtaat gtccggcagg ctgccgtctg ctttgcgctc
+      841 tgctgttagc tggccggcat ccagactaag gaaatctgtt tctgtaagca tcataaccgt
+      901 aggcagaaaa ctgttattgg ctgtttgaca cagactttca ttaatgtcga tgatatgttt
+      961 ctccgcactt cgcggactgt acgagagatt gttttttagg atatgtccgt atccggctac
+     1021 atcaacagct tcttctatcg atttacggtt gagcatacaa tagttggacg ggttcttata
+     1081 tccgctgttg ttggaccaaa ggatgccgcc cgggtgatga ttggcataaa aacctttatt
+     1141 gctgttgtaa taagctatac agttttttac ttcgtgcatc ggtatgattt caggggcttt
+     1201 gggactgtca ctcatgccgt agccacccgc cttgaaaccg gtaccgtctc ccgctttggc
+     1261 ggaggtactg cccggccggt aaccgttgta aaaagaccag cagtggtcta tcacaacggc
+     1321 ttggccggag ttgatgaggt cgaagccgtc gtcactgttc caccacgcac ggcaacctct
+     1381 gaatacatta ccgcttccat tgttgtcggg gtgtccgccg aagccgtcca cattaccgcc
+     1441 cctgccaccg tccgaaacgg tatcgtagtt attgtaagcg tcgcagttca atatcaggtt
+     1501 gtcagctcct ttcaccagat aaaaaccgat tcccatgcca tcgtgcatgg acaggttctc
+     1561 atagatattg ttattgccgc cccggttgct gaaacattca gattgggtat gcccgacaag
+     1621 ggtgacttgt gtacctacta cttcgatatt cttgaaatgc aggtaggagc cgctgacata
+     1681 gaacacgctg acacgcttct cgaagggctt tacttgagag aggtcgaata tcggacgttc
+     1741 acccggataa ccgaagtaac ggatacggtg ttcgttgtcc gttccgcttt tgtccatcag
+     1801 gaatacgcag gcgtagattt tttctctttc tcccataatt tgcgactctt ccatgatata
+     1861 tctcccgccg cggatatata ctatatcgcc ggcttttact tccgcctgcg cacgcgccag
+     1921 cgtagcgaaa ggagaatcga tgctgcccgt attggcatcg tcgccgttgg ttgccacata
+     1981 gtattctttg gctgtcagca ttatcggcag gcaaagtaaa aggaatattg tttttaatct
+     2041 tttcatgatg acagatgtta ttgttatggt atatggcggt atattttgaa acgttcgttt
+     2101 gccggtagga aatttcaata acctattacc tgatttattt ttgttttaac cggcatcctc
+     2161 tgaatacgcc ttttaagtcc ggtccgaagt agaatccggg ctgggtaggc tggttatatc
+     2221 ctacgttttg agtggctatg ctgatacggt atacagggtc ttcaaggaat gtgtgaaaac
+     2281 gatactctgt gggaacggta cttacgtata ggcgtaatgc cgtgttgtcg gtggtgcgta
+     2341 acaatacttc ttcacgccag tcacctatga tgtcaccttg caggcatgga ttggattttg
+     2401 taccgttatt gccggctgta ccttcgaaag tgacaagcgg tgtgcatgtt tccactctcc
+     2461 agttatattt gctgatgata ttcttgtcga gcatctcccg tagtaaatct ccgtcccacc
+     2521 atacggccat gttcatcggg agcttcttta ctttggaagc cacgatttct cctttgatat
+     2581 tgcgtatgcc ttcggaacgt gccgaccaca tctctacgcc ggggtgggtt gggtcgatat
+     2641 cggctgccat gcaacgccct acgtccgtat gatgcggtag ctggaaaatg actttccctg
+     2701 tggctgcatc tctgaaggta gagccgtctt tcttattttc atggcacgcc catatctgca
+     2761 gccgcggatt ggacgggtcg aattgtgtga ggtgcagtgc gtcaccgtgt cccataccgg
+     2821 tggagtacag tcctttcccg ttgtggtcta cggtcatgga accgtagact atctcatcac
+     2881 agccgtcgcc gtctatgtcc gctacacgca ggttgtgatt accttgaccg gcaaaattct
+     2941 cattgcccgg ttcattcgta tcaaaggtcc aggagttcgt cagattcttt ccgtcccagt
+     3001 tgaaagcggc aaggacggta cgggtataat aaccgcggca catgactaca ctgggatgga
+     3061 taccgtccag ataggcgata catgcaagga aacgatcgct acggttggca cgattatcgc
+     3121 cccagcctct caactcattt cgttggggaa tgtagtcgat ggactgcaag gcttctcccg
+     3181 tcatgccgga gaatacggtg aggtattctt ttcctttaaa gatacgtcct tgattacgga
+     3241 gtctcggttc gggtgttcgg gtatctcctt tcttctttcg gggagtatac atctctcccg
+     3301 gttcacgata gtcggcggtg gcatcaccta tgatattgcc tttaccgtct atgctcccgt
+     3361 cggctgtacg cattactacc tcggccttgc cgtcattgtc caaatcatag accataaact
+     3421 gtgtgtaatg ggcaccggca cggatgttct ttccgaggtt gatacgccat agttgttcgc
+     3481 cattcaggcg gtaacagtct atcagcacct caccggtata gccgtcgtga gcattatcgt
+     3541 gggaattgct cggatcccat ttcaagatga tttcatattc cccgtctcca tctatatcgc
+     3601 ctattgaggc gtcgttgggc gaataggtat aagtctctcc cgcaggagtg acgccgtttg
+     3661 caggtttgtt catcggtatc cggatataac ctgtcggggc attggcgggc agggtataac
+     3721 ggccgttctt atgattggtc tcttttcctt ttacaacagg gcgtacttca taagttgcag
+     3781 cattccggct tgtgtacgcg tcattatata aggtgccggt actgaccggt tgcgaggtga
+     3841 ttttttcccc gttacgatat acgttgaatt cggtatccat agggtcggat gagaggtatc
+     3901 tccatgaaat ggtgacggta gaagcgtctt tgcggatagc gaccacacca cgtccgagat
+     3961 tttcacgttg caatttcttg tagttgtagt tagtccgggc gtttaagctt atagtaataa
+     4021 tcagcatgga tgcgattaga taatacaggt gctttctcat atctttttca gttcttgggt
+     4081 tacgggaata ttgtttttc
+//

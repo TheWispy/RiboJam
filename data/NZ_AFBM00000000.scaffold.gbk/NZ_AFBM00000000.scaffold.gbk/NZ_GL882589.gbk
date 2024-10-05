@@ -1,0 +1,283 @@
+LOCUS       NZ_GL882589             4340 bp    DNA     linear   CON 27-NOV-2012
+DEFINITION  Bacteroides clarus YIT 12056 genomic scaffold Scfld9, whole genome
+            shotgun sequence.
+ACCESSION   NZ_GL882589 NZ_AFBM01000000
+VERSION     NZ_GL882589.1  GI:329959038
+DBLINK      Project: 66155
+            BioProject: PRJNA66155
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Bacteroides clarus YIT 12056
+  ORGANISM  Bacteroides clarus YIT 12056
+            Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;
+            Bacteroidaceae; Bacteroides.
+REFERENCE   1  (bases 1 to 4340)
+  AUTHORS   Weinstock,G., Sodergren,E., Clifton,S., Fulton,L., Fulton,B.,
+            Courtney,L., Fronick,C., Harrison,M., Strong,C., Farmer,C.,
+            Delahaunty,K., Markovic,C., Hall,O., Minx,P., Tomlinson,C.,
+            Mitreva,M., Hou,S., Chen,J., Wollam,A., Pepin,K.H., Johnson,M.,
+            Bhonagiri,V., Zhang,X., Suruliraj,S., Warren,W., Chinwalla,A.,
+            Mardis,E.R. and Wilson,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2011) Genome Sequencing Center, Washington
+            University School of Medicine, 4444 Forest Park, St. Louis, MO
+            63108, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GL882589.
+            Bacteroides clarus YIT12056 (No 16S rRNA gene available) is a
+            member of the Bacteroidetes division of the domain bacteria and has
+            been isolated from the gut.
+            
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC.
+            
+            Bacteria and source DNA were provided by Masami Morotomi, PhD
+            (Yakult Central Institute for Microbiological Research, 1796 Yaho,
+            Kunitachi, 186-8650 Tokyo, Japan). Isolation of bacteria and DNA
+            preparation were funded by the Yakult Central Institute for
+            Microbiological Research.
+            
+            Coding sequences were predicted using GeneMark v3.3 and Glimmer2
+            v2.13. Intergenic regions not spanned by GeneMark and Glimmer2 were
+            blasted against NCBI's non-redundant (NR) database and predictions
+            generated based on protein alignments. tRNA genes were determined
+            using tRNAscan-SE 1.23 and non-coding RNA genes by RNAmmer-1.2 and
+            Rfam v8.0. Gene names are generated at the contig level and may not
+            necessarily reflect any known order or orientation between contigs.
+            
+            The National Human Genome Research Institute (NHGRI), National
+            Institutes of Health (NIH) is funding the sequence characterization
+            of the Bacteroides clarus YIT 12056 genome.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Velvet v. 0.7.57
+            Genome Coverage          :: 204.4x
+            Sequencing Technology    :: Illumina
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4340
+                     /organism="Bacteroides clarus YIT 12056"
+                     /mol_type="genomic DNA"
+                     /strain="YIT 12056"
+                     /isolation_source="gut"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9445"
+                     /db_xref="taxon:762984"
+     gene            complement(<1..414)
+                     /locus_tag="HMPREF9445_01482"
+     CDS             complement(<1..414)
+                     /locus_tag="HMPREF9445_01482"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_08296625.1"
+                     /db_xref="GI:329955793"
+                     /translation="METNSHPEAAASNVKQGQYSPRKRKDTTPRVNPQLAVELVYQEL
+                     KRVEVYTKRIEDATARKVQIDGKSLESAENRLKNVLADFERQGYRMKNGGYVDKRISF
+                     YSILCAVISLLFACFMCYLWTDAAKDRDNYKQYYEY"
+     gene            complement(371..1165)
+                     /locus_tag="HMPREF9445_01483"
+     CDS             complement(371..1165)
+                     /locus_tag="HMPREF9445_01483"
+                     /inference="protein motif:HMMPfam:IPR005094"
+                     /note="KEGG: tin:Tint_2201 3.1e-11 DNA topoisomerase;
+                     Psort location: Cytoplasmic, score: 8.96"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="relaxase/mobilization nuclease domain protein"
+                     /protein_id="ZP_08296626.1"
+                     /db_xref="GI:329955794"
+                     /db_xref="InterPro:IPR005094"
+                     /translation="MIGKGKSISHGVAALEYDLAKEINGQAVATEIARHELYGCTGAE
+                     MVQEMKPYHIDFPNVKNNCLRFEVSPSIEESATFTDADWAELGNDFMQRMGLANHQYI
+                     IIRHSGTESKKEQAHLHILANRVSLSGELYRDNWIGKKATEAANAIAKERNFVQSQDI
+                     GKVNKAEIKEAMDGVLKKMQGFDFTKFKEELGKRGFKVREARASTGKLNGYYVTARSG
+                     TEYKASEIGKGYTLAHIERTQSKLKCNSMNISHGNKLTPGSGSFQR"
+     misc_feature    complement(443..1147)
+                     /locus_tag="HMPREF9445_01483"
+                     /note="Relaxase/Mobilisation nuclease domain; Region:
+                     Relaxase; pfam03432"
+                     /db_xref="CDD:112257"
+     gene            complement(1162..1461)
+                     /locus_tag="HMPREF9445_01484"
+     CDS             complement(1162..1461)
+                     /locus_tag="HMPREF9445_01484"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_08296627.1"
+                     /db_xref="GI:329955795"
+                     /translation="MELRRNEKITFRCTELEKDALAEQAARCSLSVSEYCRSLSLGGR
+                     PRERYTEEERQLLRDIAQLKGTLQRLNNYFGGRQYREVFEENRALITELKKILSR"
+     gene            complement(1643..1840)
+                     /locus_tag="HMPREF9445_01485"
+     CDS             complement(1643..1840)
+                     /locus_tag="HMPREF9445_01485"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_08296628.1"
+                     /db_xref="GI:329955796"
+                     /translation="MVEYCVYWLENGEPMHEVFSNLAAAEMYSCAIRGKENVEWVEVS
+                     EEEAIDLDELKDMFPDDFCGV"
+     gene            complement(1851..2126)
+                     /locus_tag="HMPREF9445_01486"
+     CDS             complement(1851..2126)
+                     /locus_tag="HMPREF9445_01486"
+                     /inference="protein motif:HMMPfam:IPR009614"
+                     /note="KEGG: nde:NIDE2382 0.00012 yoeB; addiction module
+                     toxin YoeB;
+                     Psort location: Cytoplasmic, score: 8.96"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="addiction module toxin, Txe/YoeB family"
+                     /protein_id="ZP_08296629.1"
+                     /db_xref="GI:329955797"
+                     /db_xref="InterPro:IPR009614"
+                     /translation="MMYTIRVSDGVDKVIAKWKKSNPNLFKKYKKIYKELLEHPKTGL
+                     GHPEALRGGGDITWSRHITAHDRIIYDIYEEVVEVYILEVEGHYNDK"
+     gene            complement(2123..2374)
+                     /locus_tag="HMPREF9445_01487"
+     CDS             complement(2123..2374)
+                     /locus_tag="HMPREF9445_01487"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_08296630.1"
+                     /db_xref="GI:329955798"
+                     /translation="MEALSVREYRNNLAASFTKADNGEQVLIRRKNEIYALVKVGRED
+                     LMITPELQARIDKAREEIKSGKCVTLKSSEDIDAYFDSL"
+     gene            2631..2825
+                     /locus_tag="HMPREF9445_01488"
+     CDS             2631..2825
+                     /locus_tag="HMPREF9445_01488"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved domain protein"
+                     /protein_id="ZP_08296631.1"
+                     /db_xref="GI:329955799"
+                     /translation="MLKSNNLHNLFNTLLRLFECYLTHYYDFLNVIFPSKYDFLNVIL
+                     HHLRFSFAQVVITYYICATY"
+     gene            2839..3024
+                     /locus_tag="HMPREF9445_01489"
+     CDS             2839..3024
+                     /locus_tag="HMPREF9445_01489"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved domain protein"
+                     /protein_id="ZP_08296632.1"
+                     /db_xref="GI:329955800"
+                     /translation="MKKIIVHFKKEEFERVKNAISILAKFSEIYAPHIDKANSILSFR
+                     VDDENETTEEQQCNSRQ"
+     gene            2975..3979
+                     /locus_tag="HMPREF9445_01490"
+     CDS             2975..3979
+                     /locus_tag="HMPREF9445_01490"
+                     /inference="protein motif:HMMPfam:IPR000525"
+                     /note="Psort location: Cytoplasmic, score: 8.96"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="initiator RepB protein"
+                     /protein_id="ZP_08296633.1"
+                     /db_xref="GI:329955801"
+                     /db_xref="InterPro:IPR000525"
+                     /translation="MMKTKQQKNNSVTVVNKDQIQSYIMTTAKYDFSVYEKRILYRIV
+                     EMAQGELQGVRFATDCKKIEHTLFDTVHITMPIASLLNGESDENYTRVKQALLSLQKK
+                     IFTYEDEKEWISISIIALPKIKKRSSVVSFQIDSHIWDCCLDFSKGFRKYELATAMKF
+                     KSVYSMRFYELLSGQKTKLIYPLEQLKEMFKVQDKYAKTNDFVRKVIEPAKNELDELS
+                     PYTFEWSANKEGKKIVSFNFYPIFKPEHRDAELYKKELQKQTGLSWDLGRQVISYLKT
+                     SLEFSDKEIKNNRDLFVTAQMELPDIMTELAILRGKSRTKTNPKGWIINALKGKIKDK
+                     "
+     misc_feature    3032..3691
+                     /locus_tag="HMPREF9445_01490"
+                     /note="Initiator Replication protein; Region: Rep_3;
+                     pfam01051"
+                     /db_xref="CDD:144588"
+     gene            complement(4018..>4340)
+                     /locus_tag="HMPREF9445_01491"
+     CDS             complement(4018..>4340)
+                     /locus_tag="HMPREF9445_01491"
+                     /codon_start=3
+                     /transl_table=11
+                     /product="conserved domain protein"
+                     /protein_id="ZP_08296634.1"
+                     /db_xref="GI:329955802"
+                     /translation="TGTTTSSIMNTTKSRQGNKRGINKHLTLRIMGTAEHEEPRFFFI
+                     LNKGAKSGGEITHAVLNGSIVSKPAGWDAFHGLVLAKEKLSSEEIQRQMKELGVEMEI
+                     VPLI"
+ORIGIN      
+        1 gtattcataa tactgcttgt agttgtcccg gtctttggct gcatccgtcc aaagatagca
+       61 catgaaacaa gcgaacaata gggagataac agcacaaagg attgagtaga acgaaattcg
+      121 tttgtccaca taaccgccgt ttttcattct atacccctgc cgttcaaagt ccgccaatac
+      181 gttttttagg cgattttcgg cactttcaag gcttttcccg tctatttgta cctttcgggc
+      241 tgttgcgtcc tctatgcgct tcgtatagac ttcaacacgc tttagttctt gatacaccag
+      301 ttctaccgca agctgcgggt ttacccttgg cgttgtgtct tttcttttcc gggggctgta
+      361 ctgtccctgc ttaacgttgg aagctgccgc ttccgggtgt gagtttgttt ccatgagata
+      421 tgttcattga gttgcacttc agtttgcttt gtgtccgctc gatatgggcg agagtgtagc
+      481 ctttccctat ctcgcttgcc ttatactccg taccgcttcg ggctgtgaca tagtagccgt
+      541 taagtttccc ggtgcttgcc ctggcttccc ggactttaaa acctctctta ccaagttctt
+      601 ccttgaattt ggtaaagtca aagccctgca tcttcttcaa tacgccgtcc atggcttcct
+      661 tgatttccgc tttgttgact ttgccaatgt cctgcgactg tacaaagttc cgttccttgg
+      721 ctatggcatt ggcggcttcc gttgcctttt tccctatcca gttgtcccgg tacagttccc
+      781 cggaaaggga aacccggttt gccagtatgt gcaggtgggc ttgctctttc ttgctctccg
+      841 taccgctgtg ccggatgatg atgtactggt ggttcgccaa ccccatgcgc tgcatgaagt
+      901 cgttaccaag ttccgcccag tccgcatccg taaaggtggc gctttcctct atcgaggggc
+      961 tgacctcgaa acgtaggcag ttgtttttta cgttcggaaa atcaatgtga tacggtttca
+     1021 tttcctgcac catttccgca ccagtacacc cataaagttc atgccgggct atctcggtgg
+     1081 ctactgcctg cccgtttatc tctttggcga ggtcgtactc caatgccgcc acaccatgtg
+     1141 atatgctttt ccctttccct atcatcgtga gagtattttt ttgagctctg taattagtgc
+     1201 ccggttctcc tcgaacactt cccggtactg gcgaccaccg aagtagttgt tcagccgttg
+     1261 gagcgttcct ttcaactggg ctatgtcccg gagaagctgc cgttcctcct cggtgtacct
+     1321 ctcccttggg cgccccccaa gggacaaact ccggcagtat tccgatacgc ttagactgca
+     1381 ccgggctgcc tgctccgcaa gtgcgtcctt ttcaagttcg gtacatcgga atgtaatctt
+     1441 ttcgttccgt cttagttcca tgccacaaag gtaatcttaa aatctttttg agcaaagcga
+     1501 gaaaagcaag aattgtccga caaggacact tcttgctata tatacacatg ccgcatggga
+     1561 atacatccac gccaaccgcc cggcaaaaag cccaggcatg ttagaaaatc ccccacagcc
+     1621 taacaatttc tacccaaggg gattacacgc cgcagaagtc atccgggaac atgtctttca
+     1681 gttcgtccaa atcaatggct tcttcttcgg acacctccac ccattcaacg ttttctttcc
+     1741 ctcttatcgc acatgagtac atctcggcgg cggcaaggtt agagaacacc tcgtgcatag
+     1801 gctcgccgtt ctctaaccag taaacacaat attcgaccat aacagtttta tcatttatcg
+     1861 ttgtaatgcc cctctacctc caaaatgtag acctctacca cttcctcgta aatgtcatag
+     1921 attatccggt catgggcggt aatgtgtcga gaccatgtaa tatccccacc gccccttaac
+     1981 gcttcgggat gcccaagccc agtcttaggg tgctctaaca attctttgta gattttctta
+     2041 tacttcttga acaaattggg gtttgatttc ttccatttgg caatcacctt atccaccccg
+     2101 tcggaaaccc taattgtgta catcatagac tgtcgaaata agcatcaata tcctcactgc
+     2161 ttttgagggt aacacacttt ccggatttga tttcttccct tgccttgtca atccttgctt
+     2221 gcagttccgg ggttatcatc aaatcttcac gaccaacttt taccaaagcg taaatctcgt
+     2281 ttttcctgcg aattagtacc tgctcgccat tgtcagcttt ggtgaaagac gctgcgaggt
+     2341 tgttacggta ttctcttact gataatgctt ccatatctgt ttgcttttaa attcagtaca
+     2401 aagatagcta tatttcaata aaatacaaac tttttgcaca caaatgtgta cacgccataa
+     2461 aaagccgttc acagtcctac cgcccgttgg ttggttttgc tttgcttttt tcccctattg
+     2521 tttttctttt tccgacagta aatcaaccac ttatccgtaa aaaatcaatg acttgttata
+     2581 aagcataact tgtttatatg cttatcagct ttttttttta actaaaaatt atgctgaaat
+     2641 ccaataactt acacaatcta tttaacacat tactacgact ttttgaatgc tatttaacac
+     2701 attactacga ctttttgaat gttattttcc cttccaaata cgactttttg aatgttattt
+     2761 tgcatcatct acgattttca tttgcacaag tcgtaattac ttattatatt tgcgcaacat
+     2821 actaataatc aataaaggat gaagaaaatc atagttcatt ttaagaaaga agaatttgaa
+     2881 agggttaaaa acgcaatttc tatcctcgca aaattttctg aaatatacgc tcctcacata
+     2941 gataaagcca acagtatttt atcctttcgt gtagatgatg aaaacgaaac aacagaagaa
+     3001 caacagtgta acagtcgtca ataaagacca aatacaaagc tatattatga cgacagccaa
+     3061 gtatgacttt tccgtttatg agaagcgcat actttataga attgtagaaa tggctcaagg
+     3121 tgaactccaa ggagttagat ttgcaactga ttgtaaaaaa atagaacaca cactttttga
+     3181 taccgttcac atcacaatgc ctattgcttc attgctaaat ggagaaagtg atgaaaacta
+     3241 cacacgtgta aaacaagcac tgttatctct acaaaagaaa atctttacct atgaggatga
+     3301 aaaagaatgg ataagcattt ctattattgc attgccaaag ataaagaagc gttcatctgt
+     3361 tgtatcattc caaatagact cacacatatg ggactgctgc ttagattttt caaaagggtt
+     3421 tcgcaaatac gaattagcca ctgcgatgaa gtttaagagt gtatattcta tgcggttcta
+     3481 cgaactttta agcggtcaga aaacaaaact aatctatcca cttgaacagc tcaaagaaat
+     3541 gtttaaagta caagataaat acgcaaagac aaacgatttt gtccggaaag taattgaacc
+     3601 tgcaaaaaat gagctggacg aactaagtcc ttatacattc gaatggtccg caaacaagga
+     3661 agggaaaaaa attgtaagtt tcaacttcta tccaatattc aagccagagc atcgtgatgc
+     3721 agagctatac aaaaaagagc tacaaaagca aaccgggctt tcatgggatt taggtaggca
+     3781 agtgataagt tacttaaaaa catctttgga gttctccgat aaagaaatca aaaacaaccg
+     3841 ggatttattt gtaacagcac aaatggaact tccagacatc atgacagaac tcgccatact
+     3901 tagaggaaaa tcaaggacaa aaacaaatcc aaaagggtgg attataaatg cccttaaagg
+     3961 gaaaatcaag gataagtgac aagattaccc cggctgaaat ataccggggt aatcttgtca
+     4021 aatcagagga acgatttcca tttctacacc aagctctttc atctgccgct gtatttcctc
+     4081 gctgcttagt ttctctttcg ccagtacaag cccatgaaag gcgtcccagc ctgccggctt
+     4141 cgaaacgata ctaccgttta ggacggcatg ggtgatttcg ccgccggact tcgcaccctt
+     4201 gttcagtatg aagaagaacc ggggttcttc gtgttccgct gttcccataa ttcgtaaagt
+     4261 tagatgttta tttattcccc ttttgttccc ttgcctgctc ttggtagtat tcataatact
+     4321 gcttgtagtt gtcccggtct
+//

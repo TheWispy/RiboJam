@@ -1,0 +1,145 @@
+LOCUS       NZ_AKHF01000051         2412 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00051, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000051 NZ_AKHF00000000
+VERSION     NZ_AKHF01000051.1  GI:420219631
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 2412)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2412)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000051.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2412
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            complement(100..444)
+                     /locus_tag="HMPREF9972_05149"
+     CDS             complement(100..444)
+                     /locus_tag="HMPREF9972_05149"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724644.1"
+                     /db_xref="GI:420219632"
+                     /translation="MRSVIKLENTFIFIITIAVYVKLEFSIWLFLLLLLVPDIFMLGY
+                     VINRKTGSYVYNIGHTYITPIIIALLYLYIDERLLLQISLIWLAHISIDRTLGFGLKY
+                     SSDTDKTIIQKM"
+     misc_feature    complement(106..444)
+                     /locus_tag="HMPREF9972_05149"
+                     /note="Domain of unknown function (DUF4260); Region:
+                     DUF4260; pfam14079"
+                     /db_xref="CDD:206249"
+     gene            671..1978
+                     /gene="ktrB"
+                     /locus_tag="HMPREF9972_05154"
+     CDS             671..1978
+                     /gene="ktrB"
+                     /locus_tag="HMPREF9972_05154"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Ktr system potassium uptake protein B"
+                     /protein_id="ZP_14724645.1"
+                     /db_xref="GI:420219633"
+                     /translation="MSKVNKPLYFYLMLFLLTTLIGAFLLYLPYTGKKPINFIDALFV
+                     ASSAFTVTGLSPVDVGTQFNIFGEIIILLLIQIGGLGIVTVAMLTLIFLNKKISINNR
+                     ILFMITWNIDEPGGVIKLIKHLAIYSIATELFGTLCLCLSFIPKFGIGKGLFLSLFTS
+                     VSAFNNAGFALFKNNLIDFSNDPVIIITIPILIILGGLGHLVVVDLWNAKSFRKLSLH
+                     SKLVLTTTGLLILIGTVFFFLLENQNSMLHMGLIEKIGNAFFQSVTTRTAGFNTIDVG
+                     NIKTPTALLLMALMFIGGAPLSAAGGIKVTTFVIATIAIFNTIRKEKNNSIFNREISE
+                     RYIQLSFVTILISIAFIGMVTFILTIINSNIPLIKILFEVVSAFGTVGLTMDLTSEYY
+                     NWTEFIIIIVMLCGKIGLLNISRALVPPKDPKNYRYTKGHIHL"
+     misc_feature    743..1891
+                     /gene="ktrB"
+                     /locus_tag="HMPREF9972_05154"
+                     /note="potassium uptake protein, TrkH family; Region:
+                     2a38; TIGR00933"
+                     /db_xref="CDD:162118"
+     misc_feature    1013..1903
+                     /gene="ktrB"
+                     /locus_tag="HMPREF9972_05154"
+                     /note="Cation transport protein; Region: TrkH; pfam02386"
+                     /db_xref="CDD:111294"
+ORIGIN      
+        1 attcaacaaa tttaatgatc actatccatt actggattat attagatttg ttaataccat
+       61 tgatttgtat aacttgaaat atctattcag aaactacgat tacatctttt gtattatcgt
+      121 tttatcagta tctgatgaat atttgagtcc gaaacctaaa gttctatcta tactaatatg
+      181 agctaaccat attaaagaaa tctgtaatag taacctttca tcaatgtata aatataatag
+      241 cgcgataatt ataggtgtga tatacgtgtg tccaatattg tagacataac tccctgtttt
+      301 tctattaatc acatatccta acataaatat atctggaact aatagtaaaa gtaaaaacag
+      361 ccatatagaa aattctaatt taacataaac ggcgattgtg attatgaata taaatgtatt
+      421 ttccaactta attacactac gcatattaac ccccctactt tactttgaag tattttaatt
+      481 taatagttac tactacaatt ttaataatta tctcttatta aggctaagca tctttttaaa
+      541 gctgatatag tggttatact cattgtgaat agtaaatatt taaaaagttt aacaagttat
+      601 tacactttaa aattcactta tgatattatc atctttgtta tataactcat ataaagaatg
+      661 gtggaaattt atgagcaaag taaataaacc tttatatttc tatcttatgt tatttctgtt
+      721 gacaacttta attggtgctt ttctactcta tttgccctat acagggaaga aacccattaa
+      781 ctttattgac gcattgtttg tagcttctag cgcattcaca gtaacaggtc tatcaccagt
+      841 tgatgttgga acacaattta atatttttgg agaaatcatt atcttattac ttatacaaat
+      901 tggtggatta ggtattgtca ctgtagcaat gctaactctc atctttttaa ataagaaaat
+      961 atcaattaac aatagaattt tatttatgat tacttggaat attgacgaac ccggtggtgt
+     1021 aattaaactt attaaacatc tagccatata cagcatcgcc actgaattat ttggtacact
+     1081 ttgtctatgt ttatcgttta ttccaaaatt tggcataggt aaaggtctat ttttaagttt
+     1141 attcacttca gtttccgcat ttaacaacgc aggattcgcc ctttttaaaa acaacttaat
+     1201 cgatttttca aatgatccgg taatcattat cactattcca atacttatca ttttgggagg
+     1261 tttgggacat ttagtcgtgg ttgatttgtg gaacgccaaa agttttagaa aattatcctt
+     1321 acactctaaa ctcgtgttaa ctaccactgg attattaatt ttgataggca cggttttctt
+     1381 ctttttacta gaaaatcaaa actctatgtt acacatggga ttaattgaaa aaataggaaa
+     1441 tgcatttttc caatcagtga caacaaggac tgcaggattt aacacaattg acgttggaaa
+     1501 cattaaaaca ccgacagctt tattacttat ggctctcatg tttattggag gtgcaccatt
+     1561 gagtgctgca ggtggtataa aggttacaac ttttgttatt gcaacaatcg ctatttttaa
+     1621 tacgatacgc aaagaaaaaa acaactctat atttaataga gaaatatcag aaagatacat
+     1681 acagttgtct ttcgtaacta ttctcatttc tattgcattt atcggtatgg ttacgtttat
+     1741 acttaccata atcaattcca atataccttt aatcaaaata ctcttcgaag tcgtatcagc
+     1801 attcggtaca gtcggtctca ctatggattt aacttccgaa tactataatt ggactgagtt
+     1861 tattattatc atcgtaatgt tatgtggtaa aattggatta ctgaatatta gtagagcgct
+     1921 tgttccacct aaagacccta aaaattatag atataccaaa ggacacattc acttataatg
+     1981 agttccaatt attgtagagt taatattcaa gggttaaaaa atatgaggat aatttctaag
+     2041 ttatttaaag cgtaattgaa atgattttaa gttctaaaat tttaactata aaaggatata
+     2101 gaagcgcatt tgttaagtat aaacctacaa atgcgcttct tttttattgt atttagattg
+     2161 ttcattactg tttcaaaata tctttcttta aatcatttgt taaatgtcag tattttaatt
+     2221 ttatactata acacctatga attgaaatga gtcacttaag atatatagac aaattatcat
+     2281 atatgaatga taagataaca agtacaaagg taatgttaaa gtaattatat aaaataacta
+     2341 aataatcaaa agtttccaat catattttat aatgataaat attaaaaagt agttgatata
+     2401 tatttttcaa at
+//

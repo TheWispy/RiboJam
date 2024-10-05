@@ -1,0 +1,205 @@
+LOCUS       NZ_AKHF01000031         4402 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00031, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000031 NZ_AKHF00000000
+VERSION     NZ_AKHF01000031.1  GI:420219196
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 4402)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4402)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000031.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4402
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            complement(131..514)
+                     /locus_tag="HMPREF9972_02984"
+     CDS             complement(131..514)
+                     /locus_tag="HMPREF9972_02984"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="glyoxalase family protein"
+                     /protein_id="ZP_14724229.1"
+                     /db_xref="GI:420219197"
+                     /translation="MELYSMPMFNKFLVNDIDKSSEWYQENLGFKSIFKFKNEQNQIL
+                     MEHLRLAKYQDLMLISGKQFEVGNAVYTNILVPNIRILKQRISSQYIVEDLEEKPWNS
+                     IEMTIKDLDNHLITLTQSNIKNRRI"
+     misc_feature    complement(158..481)
+                     /locus_tag="HMPREF9972_02984"
+                     /note="This domain superfamily is found in a variety of
+                     structurally related metalloproteins, including the type I
+                     extradiol dioxygenases, glyoxalase I and a group of
+                     antibiotic resistance proteins; Region: Glo_EDI_BRP_like;
+                     cl14632"
+                     /db_xref="CDD:214225"
+     misc_feature    complement(order(167..169,173..175,197..199,308..310,
+                     344..346,476..478))
+                     /locus_tag="HMPREF9972_02984"
+                     /note="active site"
+                     /db_xref="CDD:211348"
+     misc_feature    complement(170..475)
+                     /locus_tag="HMPREF9972_02984"
+                     /note="Glyoxalase/Bleomycin resistance protein/Dioxygenase
+                     superfamily; Region: Glyoxalase; pfam00903"
+                     /db_xref="CDD:201499"
+     gene            complement(2012..2515)
+                     /locus_tag="HMPREF9972_02989"
+     CDS             complement(2012..2515)
+                     /locus_tag="HMPREF9972_02989"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724230.1"
+                     /db_xref="GI:420219198"
+                     /translation="MKHQKNQSRFKLLIAGIIAGLLSGVVKLGWEVMFPPRTPSRDAT
+                     NPPQQLLQLLGIPSDITHLTYNFSEHALPWISFIVHYSFSIAIAIIYIYIAKKYTKIT
+                     LGYGALFGIVIWIVFHLILMPIMHVVPNAFDQPFSEHLSEFFGHIVWMMVIEMVRRYF
+                     YNIQLNK"
+     misc_feature    complement(2048..2449)
+                     /locus_tag="HMPREF9972_02989"
+                     /note="Protein of unknown function (DUF1440); Region:
+                     DUF1440; pfam07274"
+                     /db_xref="CDD:148718"
+     gene            2802..3743
+                     /locus_tag="HMPREF9972_02994"
+     CDS             2802..3743
+                     /locus_tag="HMPREF9972_02994"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative cadmium, cobalt and zinc/H(+)-K(+)
+                     antiporter"
+                     /protein_id="ZP_14724231.1"
+                     /db_xref="GI:420219199"
+                     /translation="MENKPDYFHHIEHRKFQSSSKITLWLSLVITMIFTVVEFVGGIV
+                     SNSLALLSDSFHMLSDVLALGLSMVAIYFSSKPPTKNYTYGFLRLEIIVAFLNGLALI
+                     VISLGIMYEGIMRIIHPRPVESGIMILIAFIGLIANIVLTIILMISLKKENNINIQSA
+                     LWHFIGDLLNSLGIIVAFVLIHFTGWNIVDPIISILISLIILRGGYKIIKNASKVLME
+                     RVPDRYDTDEIMGAMKDVEGVIDIHEFHLWSVTTNQSSLSAHVVLSDDYIKSPYATIN
+                     KVSDLLKTQYGLEHVTLQIENINLNHLDEEYFKQLQE"
+     misc_feature    2820..3698
+                     /locus_tag="HMPREF9972_02994"
+                     /note="Co/Zn/Cd efflux system component [Inorganic ion
+                     transport and metabolism]; Region: CzcD; COG1230"
+                     /db_xref="CDD:31423"
+     misc_feature    2898..3689
+                     /locus_tag="HMPREF9972_02994"
+                     /note="Cation efflux family; Region: Cation_efflux;
+                     cl00316"
+                     /db_xref="CDD:214045"
+ORIGIN      
+        1 agtgtgatat tattatactt ttaatttaat taaggactgt taataaataa aatcccctaa
+       61 ataataatta ttgtctaggg gatttatctt aatagtttaa aaagtttttg aagtatgttg
+      121 catcaaagca ttaaattctt ctatttttta tgttactttg tgtaagcgta attaaatgat
+      181 tatctaaatc tttaattgtc atttcaatag aattccatgg tttttcttca agatcttcca
+      241 cgatatattg agaagatatt cgttgtttta aaattcgaat atttggtaca agtatatttg
+      301 tataaactgc attaccgact tcaaactgtt tgccagaaat taacatcaaa tcttgatatt
+      361 ttgctaatcg taaatgctcc attaaaattt gattttgttc atttttaaat ttaaaaatac
+      421 ttttaaaacc taaattctct tgataccatt ccgatgattt atctatgtcg ttaactaaaa
+      481 atttattaaa cataggcata ctatataatt ccatagttaa tcctccttta ttggattggt
+      541 aagattaact ttaatctatt acgtaacgtt aatgtcaagg acgataaaac aaatgaagtc
+      601 ggatagtatt aacggctaat tttagtctat ttctaggagg tactgttgaa gtatctttag
+      661 tgatattttc aatacgatta ttctaataaa tgtagttatg agtgattcat gatggttata
+      721 tctttaatcc ttaaagttgg tattaaaggt aaggcatata tagtgacgtg actacattag
+      781 taataaataa taacgtgtat gttaagatga ctaaatgaaa aagagctata aattaaatga
+      841 tgtattttat ccgtctatac ataaaacgtt agcccttatt ttttcgctca attaaaaaat
+      901 ttacgattgt tgataagtgt aattgctaga gataactata tgcctaaata gtgtttagat
+      961 acataatgaa cgagatatcc cattaagcat aatacaccga gtgatataaa aactgcagaa
+     1021 aaatttctgc aatgactttt ataagataat ccttgatttt gtgctaaaaa gaaactaaaa
+     1081 atatatagtc cgattcctat tataaaaaag cctataatta cgtataacat ataaacctct
+     1141 ttctatttag ttgaactaaa ttgtaaattt tcaattttta tactgatttt tagaataatt
+     1201 atttgcatct agaactttct gtgcgttatc tcttcataat tatcattgag aatttcgtca
+     1261 cgaatttgca tctcactaga tgatagtcta ttccttgttt tatttctcca ttcttgattt
+     1321 gacatgttca aatatttgtt atttggattg tagttaggtt gttattgcga attgttgaag
+     1381 ttgtatttga attttgatta tattgagtat ctttagaatt attactttca tcaatagctt
+     1441 attcttgagt ttgaattgta ttttgagagt tttcagaatc ataagtcact atattaatgt
+     1501 tcaatgaact tattcattgc aattcttcta gttgagatgc cttgttttta atttgactcc
+     1561 tcttttcaat attttttgtg ttttatttag agtttagacc acatgccgtt aagaatagtg
+     1621 atattgataa gaaaaacaac taatgcttta actttcatta gtaatttttc ccaatattaa
+     1681 atttatataa ctattaattt gaacatcgaa ccgacaatag caaacgtatt ccatttatta
+     1741 attcttatat aaatacagta tacaatttaa atttataacc gacaatatta gtactaattg
+     1801 ctactatatt atagagaata taaaatgttg tcattaacat atgatttatc aaagtaattt
+     1861 aaaaaatagt ttgattgttt attggtgtat gtaataaggg aaatttaaaa tcataaaagt
+     1921 atctatacta tattgtttat aacgttagga aataaaatag ttccaaatga atgcaaaaat
+     1981 gcaattcttt tggaactttg tttctcattg attatttatt taattgaata ttatagaaat
+     2041 accttctgac catttctata accatcatcc aaacaatgtg tccaaaaaat tctgataggt
+     2101 gttctgaaaa tggttgatca aaagcattcg gtacgacatg cataattggc attaagatta
+     2161 aatgaaaaac aatccaaata actataccaa ataaagcacc ataacctagt gtgatttttg
+     2221 tatatttctt tgcgatataa atatagatta ttgcaatagc gatagaaaaa ctatagtgta
+     2281 cgataaaact tatccaaggt aatgcatgct cagaaaaatt gtatgtgaga tgggtaatat
+     2341 ctgacggtat tcctagtaat tgtaagagtt gttgaggtgg gttagtggca tctctactag
+     2401 gtgttcgggg tgggaacatt acctcccaac ctagtttgac tacaccagat aaaagtcctg
+     2461 ctattatgcc agctattagt agtttaaacc tgctctgatt tttttgatgc ttcattctgc
+     2521 atgtctcctt atgttcctcc tatatattta aacaccatta gcgttgttaa aaagagaaac
+     2581 tttaatataa ttcaacctaa ttatattact tttatgttct ttaaatgttt aaataatatg
+     2641 agctttaatt tacaggatat gttagtttta tgacatatta aaaaaattga gttataaaaa
+     2701 gttagagaag ttacaaacga atactcattt aagttattta aatgggatta agggtataat
+     2761 aactttaaaa ttaaacagac gtaaaaagat ggaggaaaga catggaaaat aaacctgatt
+     2821 attttcacca cattgaacat agaaagtttc aaagtagctc aaaaattaca ttatggttat
+     2881 ctttagttat tactatgata ttcactgtag ttgagttcgt aggaggtatt gtgtcgaatt
+     2941 cactcgcgtt actctctgac tcatttcaca tgctaagtga tgttctagca ttaggtttat
+     3001 caatggtagc gatttatttc tcgagcaagc cacctacaaa gaactataca tatggttttt
+     3061 tacgcttgga aattatcgta gcttttctca atggcttagc acttattgtt atttcactag
+     3121 gaattatgta tgagggtatc atgagaatta tacaccctag acctgttgaa agtggcatta
+     3181 tgattctaat tgcgtttatt ggtttaattg ccaatatcgt attgaccatc attttaatga
+     3241 tttctctaaa aaaagagaat aatattaata ttcaaagtgc attatggcat tttattggtg
+     3301 atttattaaa ttctttaggt attattgtgg cgtttgtgtt gattcatttt actggatgga
+     3361 acattgttga cccaattatt agtattctca tttcattgat tattttaaga ggaggataca
+     3421 aaattattaa aaatgcttca aaagttctga tggagcgtgt gccggatcga tatgatacag
+     3481 atgaaattat gggagcaatg aaagatgttg aaggcgtgat agatattcat gaattccatt
+     3541 tatggagtgt tacaactaat caaagttctt taagtgcaca tgttgtacta agtgatgact
+     3601 acattaaatc gccttatgct acaataaata aagtttcgga tttgttaaaa acacaatacg
+     3661 gtttagaaca tgtaacactt caaattgaaa atataaacct caatcattta gatgaggagt
+     3721 atttcaaaca acttcaagaa taggggaata gtatttaact tattatgagt tgttttgcat
+     3781 aaataatgta tatgaaaaag ttacttacac tctaattata taactttatc ttaatgaatt
+     3841 aaaaggactc ccaaataaag tttgatgagg tttatgttat agctaatgga tactaaattt
+     3901 tattatccca gttttatctt tatgtctttt tgtgatgaaa gttgataacg ttgtagaaat
+     3961 actttcacta atactattta taattctgcc gttatgacta tagttctact tcatttttaa
+     4021 gagtgcattt tacacagttg aattttgaat agtattgatt gagctatgtt caacgtcgta
+     4081 caatcaatga cgtaaaaaac ccctctaaca ggaggggcgg agtagagaat agtttaatta
+     4141 ttattcgttt tcgttattac cgaataaacc tttgataaaa gagataactt ttttaactaa
+     4201 gttaatgatg aacatgtgac tcacctccta tgtatttgtt aactaaatta tagtattgaa
+     4261 ctaaagtaat tgggtttcta gttctaaagt aatcaaaaaa tattcttaag tgtaaaatga
+     4321 tttcgaaaac aaaataactt tgaattcatt tctgttgcag aaaatatgat ataatttatg
+     4381 tattttataa ttattatatg tt
+//

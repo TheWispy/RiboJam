@@ -1,0 +1,96 @@
+LOCUS       NZ_AKHF01000057          625 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00057, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000057 NZ_AKHF00000000
+VERSION     NZ_AKHF01000057.1  GI:420219658
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 625)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 625)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000057.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..625
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            <1..379
+                     /locus_tag="HMPREF9972_05284"
+     CDS             <1..379
+                     /locus_tag="HMPREF9972_05284"
+                     /codon_start=2
+                     /transl_table=11
+                     /product="IS431mec, transposase"
+                     /protein_id="ZP_14724665.1"
+                     /db_xref="GI:420219659"
+                     /translation="LDIWLRKQQDNHSAYVFIKRLIKQFGKPQKVITDQAPSTKVAMA
+                     KVIKAFKLKSDCHCTLKYLNNLIEQDHCHIKVRKIRYQSINTAKNTLKGIECIYALYK
+                     KNRRSLQIYGFSPYHEIRHILAS"
+     misc_feature    <1..355
+                     /locus_tag="HMPREF9972_05284"
+                     /note="Transposase and inactivated derivatives [DNA
+                     replication, recombination, and repair]; Region: COG3316"
+                     /db_xref="CDD:33125"
+     gene            complement(480..>625)
+                     /locus_tag="HMPREF9972_05289"
+     CDS             complement(480..>625)
+                     /locus_tag="HMPREF9972_05289"
+                     /codon_start=3
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724666.1"
+                     /db_xref="GI:420219660"
+                     /translation="HWGIYQYILDTKNVLITGGNYGMDTSLLSICSYIAVIIVIISAK
+                     KTF"
+ORIGIN      
+        1 attagatatt tggttgcgta agcaacaaga taatcattca gcatatgtat ttatcaaacg
+       61 tctcattaaa caatttggta aacctcaaaa ggtaattaca gatcaggcac cttcaacgaa
+      121 ggtcgcaatg gctaaagtca ttaaagcttt taaacttaaa tctgactgtc attgtacatt
+      181 gaaatatctg aataatctca ttgagcaaga tcactgtcat attaaagtaa gaaagataag
+      241 atatcaaagt atcaatacgg caaagaatac tttaaaaggt attgaatgta tttacgctct
+      301 atataaaaag aaccgcaggt ctcttcagat ctacggattt tcgccatacc acgaaattag
+      361 gcatatatta gccagttaag ggaacaacga catgataaaa aggtaattag ctatattttt
+      421 ctaactttgc aacagaacca acattactat cctataattt acgaccattt agtaaagaat
+      481 taaaatgtct ttttagcact aataataact ataataactg caatataact acatattgaa
+      541 agtaatgatg tatccatacc atagtttcca cctgtaatta gtacattttt tgtatctaat
+      601 atatactgat atattcccca atgat
+//

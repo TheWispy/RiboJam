@@ -1,0 +1,171 @@
+LOCUS       NZ_AKHF01000037         2753 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00037, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000037 NZ_AKHF00000000
+VERSION     NZ_AKHF01000037.1  GI:420219282
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 2753)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2753)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000037.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2753
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            complement(124..813)
+                     /locus_tag="HMPREF9972_03405"
+     CDS             complement(124..813)
+                     /locus_tag="HMPREF9972_03405"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724309.1"
+                     /db_xref="GI:420219283"
+                     /translation="MNNEIKNFSNMEDKKIVKNMKKITGKVSDARPILQHIYYNDNTI
+                     VATDSHRLLQINKKHNKTNVLYNAKTGENAESFQQYPETSRIIPESENANNKIIINHD
+                     EIDLLIAILKGYKGIKLDRLTLIIDKDQEYYLMNYSDYNFNNNELLEHLNLNYKLKNV
+                     NLSDKPVHKITFNISYLLNVFEYLKDDVKTQDLTNNYYIYLTKSNFPINITDQANSLI
+                     MLFVRLDHNKK"
+     gene            complement(842..1105)
+                     /locus_tag="HMPREF9972_03410"
+     CDS             complement(842..1105)
+                     /locus_tag="HMPREF9972_03410"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724310.1"
+                     /db_xref="GI:420219284"
+                     /translation="MANLKDFNNKYYIIESIEVVQEFKGNYNGVINDNLTLNEYISGC
+                     NYDFINSYGLDAKPLYSVKRLTDNKEIATNLSIDELNEFIENL"
+     gene            complement(1198..1521)
+                     /locus_tag="HMPREF9972_03415"
+     CDS             complement(1198..1521)
+                     /locus_tag="HMPREF9972_03415"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724311.1"
+                     /db_xref="GI:420219285"
+                     /translation="MKIFKNFEELKKYNSDLASELLKEKEAGEWLENEIYYHKDKEDF
+                     ARYEVTEGWYSSIIDTNANFNGAPDLFDYIDYEGLAEDLTANWDISSNYLSSNDEVLT
+                     TSYGW"
+     gene            complement(1565..2224)
+                     /locus_tag="HMPREF9972_03420"
+     CDS             complement(1565..2224)
+                     /locus_tag="HMPREF9972_03420"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724312.1"
+                     /db_xref="GI:420219286"
+                     /translation="MKNLTIKENQPAIYITNLGKYTEGEHMGQWLNVPATKEQFNVVL
+                     KNIGVDGVQYEEYFLTDWENIGGISQFSNIERVNNMAKIQIAINEKLYNFFGADQEIT
+                     YFNDDKYKVMEILNDYAKEQADELTTDEIIENIESMRIFAQDQYNSCIVNFANYLIDE
+                     LEFINFKAIEKIDQKVVNYFDFEKFGHDKLIELNANSDVIIGTYEVGKLNDTIIIVTL
+                     F"
+     misc_feature    complement(1622..2191)
+                     /locus_tag="HMPREF9972_03420"
+                     /note="Antirestriction protein (ArdA); Region: ArdA;
+                     pfam07275"
+                     /db_xref="CDD:148719"
+     gene            complement(2377..>2753)
+                     /locus_tag="HMPREF9972_03425"
+     CDS             complement(2377..>2753)
+                     /locus_tag="HMPREF9972_03425"
+                     /codon_start=3
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724313.1"
+                     /db_xref="GI:420219287"
+                     /translation="NLTNRNIVKINEKVRNEVLEYFKGFEEITEIEDQQFYNRILEDL
+                     TIFLSVNNLSFSDVEQYFNNNDICDDYDIYRLLKYLYYFDNVKDYQEFINEYVTNFEN
+                     EINIINKNDNYILIAYVPNEEW"
+ORIGIN      
+        1 aatttcattt aatctcattg tgtccactcc taaaattgat atatgtattt ttaataactc
+       61 aattgataac accatttaaa aaaatgatgt tatctatcaa ttattaaaat atagttttat
+      121 atgttatttt ttgttatggt ctaatcggac aaataacata attaaagaat ttgcttgatc
+      181 tgtgatatta atcggaaaat tgcttttagt taaatatata taataattat ttgttaaatc
+      241 ttgcgttttt acatcgtctt ttaaatattc aaatacattt aaaagataag aaatattaaa
+      301 cgttatttta tgcactggtt tatcgcttaa atttacattt tttaatttat aatttaaatt
+      361 gagatgttca agaagttcat tattattaaa attataatcg ctataattca ttaaataata
+      421 ttcttgatct ttatcaatta ttaatgttaa gcgatctaat ttaatacctt tatagccttt
+      481 taaaattgcg attaatagat caatttcatc atggttaata ataattttat tgtttgcgtt
+      541 ctcactttct ggaattattc ggcttgtttc tgggtattgt tgaaagcttt ccgcattctc
+      601 tccagttttt gcattatata aaacattagt tttattatgc tttttgttga tctgcaacaa
+      661 tcgatggcta tcagttgcca cgatagtatt atcattataa taaatatgtt gtaaaattgg
+      721 tctagcgtct gagactttgc ccgtgatctt cttcatgttt ttaacgattt ttttatcttc
+      781 catatttgaa aagtttttaa tttcattatt cataattttt atacctcttt tatattttat
+      841 tttatagatt ttcaataaat tcatttaatt catcaattga taaatttgtc gctatttctt
+      901 tattatctgt taacctttta acactatata gcggctttgc gtctagtccg taactattta
+      961 taaaatcata attacaaccg cttatatatt cattaagcgt taaattgtca tttataacac
+     1021 cgttataatt tcccttgaat tcttgcacta cttcaatact ttcaataata taatatttat
+     1081 tattgaaatc ttttaagttt gccataattt ttatacctca catttttatt taatatttca
+     1141 attgttagca cttaaaaatt aattattctt aaatgctaac tatcaaatat taaacattta
+     1201 ccaaccataa gaagtcgtta aaacttcatc attacttgat aagtaattgc tagaaatatc
+     1261 ccaattagct gttaaatctt ccgctagtcc ctcatagtcg atataatcaa ataaatcagg
+     1321 tgcaccgtta aaatttgcgt ttgtgtcaat tattgacgaa taccaacctt cagttacttc
+     1381 atatcgtgcg aagtcctctt tgtctttgtg gtaatatatt tcattttcta gccattcccc
+     1441 cgcctctttt tctttcaata attcactagc aagatcacta ttatattttt ttaattcctc
+     1501 gaagttttta aagattttca tttttttacc tctctttgtt atattttatt tctttaatag
+     1561 ttaattaaaa taatgttaca attataattg tgtcgtttaa ttttcccact tcataagtac
+     1621 caataattac atcgctattt gcgtttaatt cgattagttt atcatgtccg aatttttcaa
+     1681 agtcaaaata attgacaact ttttgatcta ttttttcaat tgctttaaag ttgataaact
+     1741 ctaattcatc aattaaataa ttcgcaaagt taacaataca tgaattatat tgatcttgtg
+     1801 caaaaattcg catactttct atattttcaa taatttcatc ggttgttaat tcgtccgctt
+     1861 gctcttttgc gtagtcgttt aaaatttcca taactttata tttatcatca ttaaaataag
+     1921 ttatttcttg atctgcacca aagaaattat ataatttttc attaatagca atttgaattt
+     1981 ttgccatatt gttcacacgt tcaatatttg aaaattgact aatgccgccg atattttccc
+     2041 aatcagttag aaagtattct tcatattgta caccatcaac accgatattt tttaatacta
+     2101 cattaaattg ttcttttgta gctggtacat ttaaccattg ccccatgtgt tcgccctccg
+     2161 tgtattttcc taaattagtg atatagatcg ctggttgatt ttctttaatt gttaagtttt
+     2221 tcattttatt tacctagcct ttttatattt tatttctaaa atctcaattt ataattaaaa
+     2281 ttttagtttt gtgtgcttac taaccttaac acatttataa ttataatact ttatcattat
+     2341 aaaatcaata gttttttata atttatttct taattcttac cattcctcat taggaacata
+     2401 agcgattaaa atataattat cgtttttgtt aattatattt atttcatttt caaagttagt
+     2461 tacatattca ttaataaatt cttgataatc ttttacatta tcaaagtaat acaaatattt
+     2521 taataatctg taaatatcat aatcatcaca tatatcatta ttgttaaaat attgctctac
+     2581 atctgaaaat gataaattat ttacagataa gaaaattgtt aaatcttcaa gaattctatt
+     2641 gtaaaattgt tgatcttcaa tttctgttat ttcctcaaaa cccttgaagt attctaatac
+     2701 ttcatttcta actttttcat taatttttac tatgtttcta tttgttaaat ttt
+//

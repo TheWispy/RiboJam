@@ -1,0 +1,79 @@
+LOCUS       NZ_AKHF01000090          303 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00096, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000090 NZ_AKHF00000000
+VERSION     NZ_AKHF01000090.1  GI:420220451
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 303)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 303)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000090.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..303
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            <1..244
+                     /locus_tag="HMPREF9972_09233"
+     CDS             <1..244
+                     /locus_tag="HMPREF9972_09233"
+                     /codon_start=2
+                     /transl_table=11
+                     /product="IS431mec, transposase family protein"
+                     /protein_id="ZP_14725425.1"
+                     /db_xref="GI:420220452"
+                     /translation="VIKAFKLKPDCHCTSKYLNNLIEQDHRHIKVRKTRYQSINTAKN
+                     TLKGIECIYALYKKNRRSLQIYGFSPCHEISIMLAS"
+     misc_feature    <26..220
+                     /locus_tag="HMPREF9972_09233"
+                     /note="Transposase and inactivated derivatives [DNA
+                     replication, recombination, and repair]; Region: COG3316"
+                     /db_xref="CDD:33125"
+ORIGIN      
+        1 agtaattaaa gcttttaaac ttaaacctga ctgtcattgt acatcgaaat atctgaataa
+       61 cctcattgag caagatcacc gtcatattaa agtaagaaag acaaggtatc aaagtatcaa
+      121 tacagcaaag aatactttaa aaggtattga atgtatttac gctctatata aaaagaaccg
+      181 caggtctctt cagatctacg gattttcgcc atgccacgaa attagcatca tgctagcaag
+      241 ttaagcgaac actgacatga taaattagtg gttagctata ttttttttac tttgcaacag
+      301 aac
+//

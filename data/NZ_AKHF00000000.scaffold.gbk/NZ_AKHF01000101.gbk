@@ -1,0 +1,190 @@
+LOCUS       NZ_AKHF01000101         3667 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00112, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000101 NZ_AKHF00000000
+VERSION     NZ_AKHF01000101.1  GI:420220474
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 3667)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 3667)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000101.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3667
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            1636..2523
+                     /locus_tag="HMPREF9972_09333"
+     CDS             1636..2523
+                     /locus_tag="HMPREF9972_09333"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="pyridoxal 5'-phosphate synthase, synthase
+                     subunit Pdx1"
+                     /protein_id="ZP_14725437.1"
+                     /db_xref="GI:420220475"
+                     /translation="MSKIVGSDRVKRGMAEMQKGGVIMDVVNAEQAKIAEEAGAVAVM
+                     ALERVPSDIRAAGGVARMANPKIVEEVMNAVSIPVMAKARIGHITEARVLESMGVDYI
+                     DESEVLTPADEEYHLRKDQFTVPFVCGCRNLGEAARRIGEGAAMLRTKGEPGTGNIVE
+                     AVRHMRRVNSEVSRLTVMNDDEIMTFAKDLGAPYEVLKQIKDNGRLPVVNFAAGGVAT
+                     PQDAALMMELGADGVFVGSGIFKSEDPEKFAKAIVQATTHYQDYELIGKLASELGTAM
+                     KGLDINQISLEERMQERGW"
+     misc_feature    1669..2517
+                     /locus_tag="HMPREF9972_09333"
+                     /note="PdxS is a subunit of the pyridoxal 5'-phosphate
+                     (PLP) synthase, an important enzyme in deoxyxylulose
+                     5-phosphate (DXP)-independent pathway for de novo
+                     biosynthesis of PLP,  present in some eubacteria, in
+                     archaea, fungi, plants, plasmodia, and some...; Region:
+                     pdxS; cd04727"
+                     /db_xref="CDD:73389"
+     misc_feature    order(1708..1710,1765..1767,1879..1881,2095..2103,
+                     2278..2280,2335..2337)
+                     /locus_tag="HMPREF9972_09333"
+                     /note="active site"
+                     /db_xref="CDD:73389"
+     misc_feature    order(1810..1812,1816..1818,1840..1842,1885..1887,
+                     1894..1902,1909..1911,1960..1974,2098..2106,2110..2112,
+                     2119..2124,2131..2133,2284..2286,2293..2298,2419..2421)
+                     /locus_tag="HMPREF9972_09333"
+                     /note="multimer interface [polypeptide binding]; other
+                     site"
+                     /db_xref="CDD:73389"
+     gene            2523..3083
+                     /gene="pdxT"
+                     /locus_tag="HMPREF9972_09338"
+     CDS             2523..3083
+                     /gene="pdxT"
+                     /locus_tag="HMPREF9972_09338"
+                     /EC_number="2.6.-.-"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="pyridoxal 5'-phosphate synthase, glutaminase
+                     subunit Pdx2"
+                     /protein_id="ZP_14725438.1"
+                     /db_xref="GI:420220476"
+                     /translation="MIKIGVLALQGAVREHIRHIELSGYEGIAIKRVEQLDEIDGLIL
+                     PGGESTTLRRLMDLYGFKEKLQQLDLPMFGTCAGLIVLAKNVENESGYLNKLDITVER
+                     NSFGRQVDSFESELDIKGIANDIEGVFIRAPHIAKVDNGVEILSKVGGKIVAVKQGQY
+                     LGVSFHPELTDDYRITKYFIEHMIKH"
+     misc_feature    2532..3062
+                     /gene="pdxT"
+                     /locus_tag="HMPREF9972_09338"
+                     /note="Glutamine Amidotransferase (GATase_I) involved in
+                     pyridoxine biosynthesis; Region: GATase1_PB; cd01749"
+                     /db_xref="CDD:153220"
+     misc_feature    order(2658..2666,2748..2750,2826..2828,2910..2915,
+                     3018..3020,3024..3026)
+                     /gene="pdxT"
+                     /locus_tag="HMPREF9972_09338"
+                     /note="predicted active site [active]"
+                     /db_xref="CDD:153220"
+     misc_feature    order(2748..2750,3018..3020,3024..3026)
+                     /gene="pdxT"
+                     /locus_tag="HMPREF9972_09338"
+                     /note="catalytic triad [active]"
+                     /db_xref="CDD:153220"
+ORIGIN      
+        1 agttactaaa aagaaagtat taataaataa attcgctact aactaacttt tataagaggt
+       61 aatttcatat gtggcttata aaggttaagt aacatatcca accttaaatg ctttaattac
+      121 tgttgtgtat cgtaacaata attaaaacat tttaaagttt cttaaaatct agtatttata
+      181 taacgagtga atgaattaat gcattaacat gatcttctaa ttcttctttt tttatccccc
+      241 caaatcctaa aataaatttt ggataaactt tagaataatt ttcgtaatga taaggtttta
+      301 attttaaatt attttttttc gcatttttta aacattgttt cattgacaat ccattattaa
+      361 cagttattgt aaaatgcatt ccagttagtg cgccttcaat ctttatttga gtattgtagg
+      421 gctttaatcg ttttaaaata taatcaagtt tatctctata tatctttcgc attttattca
+      481 aatgtctttc aaatttccca cttatcatga attgagcaat catgtgttga acatgcacag
+      541 gcactgtatt tccctcttta tatttttgat tattatattt gtgcattaaa ttttgtggca
+      601 aaacaatata tgcaatccta cagcttggat ataaagattt tgagaaagta ctaatataaa
+      661 tgacttttcc ttttgtgtct aaactttgta atgcaggtat gggtttgcca aaatatctaa
+      721 attctgaatc ataatcatct tcgataatat atctttgctt agcttgatgg gaccaattga
+      781 ttaattgtgt tcttttttta aattggtgac ataaccagtt ggaaattgat gagatggtgt
+      841 tatatacaaa atattgttat ttgtatttaa aatagggtcg atttgtattc cattttgttc
+      901 aactgggact tgaatataac ttataccttt tttatcaagc gtatgtttaa taggtggata
+      961 acttggctgt tcaataataa attcttcttt ttttagtaaa ttggttatca tatcgagtaa
+     1021 ctggcttgtt gatgatccaa caataatttg atttgggtga caagtgacgc cacgactatt
+     1081 aaataagtaa tgtgaaattt gttgccttaa aatatattcc ccttgacgct cgcctcgttg
+     1141 taatagtgat agctgatggt cttcaaaaac gtctttcgca tattttctaa aaatgtgcat
+     1201 aggaaaactt tcagaatcaa tttcagctaa attaaaagca tatttatatt gtcgttgctt
+     1261 cttttctaag ttatcagtgt ttaattgatt tgtttgtcga tgtatcactg gcaacgattc
+     1321 tatatcggaa acgaagtagc cagatctagg tttcgaataa atgaaaccct catctacaag
+     1381 taattgatat gcatgttcta ttgtagtgtg gctaacagat aaatagttac ttaactgtcg
+     1441 tttagatgga aatctatcat ttgattgata ttgaccttcg ataatttgat tttttaactt
+     1501 ttcatataac gataaataaa gtggttgatt tactttcaat taactgaccc ctatctttat
+     1561 gtacaaattg aaccttttta aatatcagtt tatctcgtaa aatatattta atcaataaga
+     1621 aaaggggtaa gtagtatgtc taaaatagta ggatcagatc gagttaaaag aggaatggct
+     1681 gaaatgcaaa aaggcggtgt cattatggac gtcgttaatg cagaacaagc taaaattgct
+     1741 gaagaagccg gagctgttgc cgtaatggca ttagagcgtg taccatcaga tattcgtgct
+     1801 gctggcggtg ttgcacgtat ggcgaatcct aaaatagttg aagaagttat gaatgccgta
+     1861 tcaattccgg ttatggctaa agccagaatt ggtcatatta cagaagctag agttttagaa
+     1921 tcgatgggtg ttgactatat agatgagtct gaagtattaa cgcctgcaga cgaagaatat
+     1981 catttaagaa aagatcaatt tacagttcct tttgtgtgtg gctgtcgtaa cttaggtgaa
+     2041 gcagcacgac gcattggtga aggtgcggcg atgttgcgta cgaaaggtga acctggtact
+     2101 ggtaatattg ttgaagctgt ccgtcatatg agacgtgtta attctgaagt tagccgctta
+     2161 acagttatga atgatgatga aattatgaca tttgcaaaag atttgggtgc accttatgaa
+     2221 gtattaaaac aaattaaaga taatggacgt cttcctgtag ttaattttgc agctggtggt
+     2281 gttgctacgc ctcaggatgc agcactaatg atggaattag gtgcagatgg tgtatttgtt
+     2341 ggttcaggta tatttaaatc tgaagatcct gaaaaatttg ctaaagctat cgttcaagct
+     2401 acaacacatt atcaagatta tgagttaatc ggaaaattgg ctagtgagct aggtacggct
+     2461 atgaaaggtc tagatattaa tcaaatttca ctagaagaaa gaatgcaaga gcgtggttgg
+     2521 taatgattaa aattggtgtt ttagccttac aaggtgctgt acgtgaacat atacgtcata
+     2581 ttgaattaag tggttatgaa ggcattgcta taaaaagagt agagcaacta gatgaaattg
+     2641 atggtctaat attacctggt ggagagtcta caacattacg tcgtttaatg gatttatatg
+     2701 gatttaaaga aaagttacaa caattagatt tgccaatgtt tggaacatgt gctggattaa
+     2761 ttgttcttgc aaaaaatgtt gaaaatgagt ctggttattt aaataaatta gatataactg
+     2821 ttgagcgtaa ttcattcggt agacaagtcg atagctttga atctgaactt gatattaaag
+     2881 ggatagcaaa tgatattgag ggagtattta ttagagcacc tcatattgct aaagtggata
+     2941 acggagtgga aatacttagt aaagttggag gtaaaatagt agccgtcaaa caaggacaat
+     3001 acctcggtgt ttctttccat ccagaactaa ctgatgatta tcgtatcact aagtatttta
+     3061 ttgaacacat gattaaacat taatcatttt gtaatatttg atttacaaat tagtttctat
+     3121 taattttaac aatttatttt gaaggaagtt taataaattg tagtttattt tactctatgt
+     3181 gtgagataac gattgattgt tctaattatt tgtcaaaatt ctaatattta aatcatttaa
+     3241 aacatactaa gattagctat gaagaaatct atgacgatag attttttcat agctattttt
+     3301 tatagttata gagagaagta gactgtccag actcttggat tttaaatccg tataaaaaac
+     3361 aagtcagctt tactctcgcc ttttgaaatt cgtttgtagt atgttgggtt cttgaaaccg
+     3421 tgtataggaa aatgaaatga gaaaggttaa gtaaagtttt tagcttctca attattcaaa
+     3481 ggaggttttt ttatcgatta cttaggtgtt gatattagta aaagaagtag tgtagttgca
+     3541 cattataaaa atggaaaatt ccaaaaagag tttttcatcc agaataataa aaatggttac
+     3601 aattatttac tcaagtattt gtaatagact tagaccaccc acaactcatt tttgaatcta
+     3661 caggtat
+//

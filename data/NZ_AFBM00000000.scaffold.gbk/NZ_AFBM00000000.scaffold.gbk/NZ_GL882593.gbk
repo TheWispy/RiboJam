@@ -1,0 +1,153 @@
+LOCUS       NZ_GL882593             1489 bp    DNA     linear   CON 27-NOV-2012
+DEFINITION  Bacteroides clarus YIT 12056 genomic scaffold Scfld16, whole genome
+            shotgun sequence.
+ACCESSION   NZ_GL882593 NZ_AFBM01000000
+VERSION     NZ_GL882593.1  GI:329959304
+DBLINK      Project: 66155
+            BioProject: PRJNA66155
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Bacteroides clarus YIT 12056
+  ORGANISM  Bacteroides clarus YIT 12056
+            Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;
+            Bacteroidaceae; Bacteroides.
+REFERENCE   1  (bases 1 to 1489)
+  AUTHORS   Weinstock,G., Sodergren,E., Clifton,S., Fulton,L., Fulton,B.,
+            Courtney,L., Fronick,C., Harrison,M., Strong,C., Farmer,C.,
+            Delahaunty,K., Markovic,C., Hall,O., Minx,P., Tomlinson,C.,
+            Mitreva,M., Hou,S., Chen,J., Wollam,A., Pepin,K.H., Johnson,M.,
+            Bhonagiri,V., Zhang,X., Suruliraj,S., Warren,W., Chinwalla,A.,
+            Mardis,E.R. and Wilson,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2011) Genome Sequencing Center, Washington
+            University School of Medicine, 4444 Forest Park, St. Louis, MO
+            63108, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GL882593.
+            Bacteroides clarus YIT12056 (No 16S rRNA gene available) is a
+            member of the Bacteroidetes division of the domain bacteria and has
+            been isolated from the gut.
+            
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC.
+            
+            Bacteria and source DNA were provided by Masami Morotomi, PhD
+            (Yakult Central Institute for Microbiological Research, 1796 Yaho,
+            Kunitachi, 186-8650 Tokyo, Japan). Isolation of bacteria and DNA
+            preparation were funded by the Yakult Central Institute for
+            Microbiological Research.
+            
+            Coding sequences were predicted using GeneMark v3.3 and Glimmer2
+            v2.13. Intergenic regions not spanned by GeneMark and Glimmer2 were
+            blasted against NCBI's non-redundant (NR) database and predictions
+            generated based on protein alignments. tRNA genes were determined
+            using tRNAscan-SE 1.23 and non-coding RNA genes by RNAmmer-1.2 and
+            Rfam v8.0. Gene names are generated at the contig level and may not
+            necessarily reflect any known order or orientation between contigs.
+            
+            The National Human Genome Research Institute (NHGRI), National
+            Institutes of Health (NIH) is funding the sequence characterization
+            of the Bacteroides clarus YIT 12056 genome.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Velvet v. 0.7.57
+            Genome Coverage          :: 204.4x
+            Sequencing Technology    :: Illumina
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1489
+                     /organism="Bacteroides clarus YIT 12056"
+                     /mol_type="genomic DNA"
+                     /strain="YIT 12056"
+                     /isolation_source="gut"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9445"
+                     /db_xref="taxon:762984"
+     gene            <1..138
+                     /locus_tag="HMPREF9445_01779"
+     CDS             <1..138
+                     /locus_tag="HMPREF9445_01779"
+                     /note="KEGG: bth:BT_1433 6.5e-15 D-mannonate
+                     oxidoreductase"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved domain protein"
+                     /protein_id="ZP_08296918.1"
+                     /db_xref="GI:329956258"
+                     /translation="AHTPCGRFAEPEELFGTIHYLISDASSFVTGALSVVDGGFDAFS
+                     I"
+     misc_feature    <1..135
+                     /locus_tag="HMPREF9445_01779"
+                     /note="Rossmann-fold NAD(P)(+)-binding proteins; Region:
+                     NADB_Rossmann; cl09931"
+                     /db_xref="CDD:213117"
+     gene            160..297
+                     /locus_tag="HMPREF9445_01780"
+     CDS             160..297
+                     /locus_tag="HMPREF9445_01780"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_08296919.1"
+                     /db_xref="GI:329956259"
+                     /translation="MPFVLRDEIFHPVRRNYSSHKTDISVPQDKSSPPRKGNGEQTYN
+                     P"
+     gene            318..>1489
+                     /locus_tag="HMPREF9445_01781"
+     CDS             318..>1489
+                     /locus_tag="HMPREF9445_01781"
+                     /inference="protein motif:HMMPfam:IPR004628"
+                     /inference="protein motif:HMMTigr:IPR004628"
+                     /note="KEGG: bfs:BF0142 5.2e-187 uxuA; mannonate
+                     dehydratase   K01686;
+                     Psort location: Cytoplasmic, score: 8.96"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mannonate dehydratase"
+                     /protein_id="ZP_08296920.1"
+                     /db_xref="GI:329956260"
+                     /db_xref="InterPro:IPR004628"
+                     /translation="MTLCEQTWRWYGPNDPVSLWDIKQAGATGIVNALHHIPNGEVWT
+                     VEEINKRKEMIEAVGLRWSVVESVPVHEHIKTQTGDFQRYIDNYKESLRNLGKCGVNI
+                     VTYNFMPVLDWTRTDLAYELPDGSRALRFERAAFIAFDLFLLKRPGAEADYTDEEKAK
+                     AKARFERMTEDDKQLLVRNMIAGLPGSEESFTLEQFQKELDRYKDITPEKLRANLIYF
+                     LSEICPVADEAGVELVIHPDDPPCSILGLPRIMSCGADFQALIDAVPNKSNGLCLCTG
+                     SLGVSSANDCAALMERFGDRINFVHLRSTQRDAEGNFYEANHLEGNVDMYHVMKAFLE
+                     LQQRRKVSIPMRPDHGHQMVDDLKKKTNPGYSCIGRLRGLAELRGLEMGIAKSLFE"
+     misc_feature    327..1487
+                     /locus_tag="HMPREF9445_01781"
+                     /note="mannonate dehydratase; Provisional; Region:
+                     PRK03906"
+                     /db_xref="CDD:179671"
+     misc_feature    330..1421
+                     /locus_tag="HMPREF9445_01781"
+                     /note="mannonate dehydratase; Region: uxuA; TIGR00695"
+                     /db_xref="CDD:129778"
+ORIGIN      
+        1 gcgcacacac cgtgcggacg cttcgcggaa ccggaagaac tcttcggaac cattcactac
+       61 ctcatcagtg acgcttccag cttcgtgacc ggagcgctct cggtagtgga cggaggtttc
+      121 gacgccttct caatctgata aaatccgtcc cgcaagacga tgccttttgt cttgcgggat
+      181 gagatatttc atcccgtgag gcggaattat tcatcccaca agacggatat ttccgtcccg
+      241 caggataaat cctctccccc tcggaaagga aacggagaac aaacatacaa tccataaact
+      301 tataccatta ttgcaatatg acactttgtg aacaaacctg gcgctggtac ggtcctaacg
+      361 acccggtcag cctttgggac atcaaacagg ccggagccac cggaatcgtg aacgccctgc
+      421 accacatccc caacggtgag gtgtggacag tggaagaaat caacaaacgc aaggagatga
+      481 tagaagccgt agggcttcgc tggtcggttg tcgaaagcgt acccgtacac gagcatatca
+      541 agacacagac aggagacttc caacgatata tagacaacta caaggaaagc ctgcgcaacc
+      601 tcggcaaatg cggtgtgaac atcgttactt acaacttcat gcccgtgctg gactggacac
+      661 gtaccgacct tgcctacgag ctgcccgacg gaagccgcgc cctgcgcttc gagcgtgcgg
+      721 ccttcatcgc cttcgacctc tttctgctga aacgtcccgg cgcggaagcc gattatacgg
+      781 acgaggaaaa ggccaaggcc aaagcccgct tcgagcggat gacggaagat gacaagcagc
+      841 tgcttgtacg caacatgatt gccggcctgc ccggttcgga agagagcttc accctggagc
+      901 agttccagaa agagcttgac cgctacaagg acatcacacc cgaaaagctg cgcgccaacc
+      961 tgatttactt cctcagtgaa atctgccccg tcgccgacga ggccggtgtc gagctggtta
+     1021 tccatccgga cgacccgccc tgctcaattc tggggctacc acgtatcatg agctgcggag
+     1081 ccgacttcca ggctctgatc gacgccgttc ccaacaagag caacggcctg tgcctgtgca
+     1141 cgggttcttt gggcgtaagc agcgccaatg actgcgccgc cctgatggag cggttcggcg
+     1201 accgtatcaa ctttgtgcac ctgcgcagca cgcaacgcga tgcggaaggc aacttctacg
+     1261 aagccaacca cctggaaggc aacgtcgaca tgtaccacgt gatgaaggct ttcctcgaac
+     1321 tgcagcaacg ccgtaaagtc tccatcccga tgcgtcccga ccacgggcat cagatggtgg
+     1381 acgatttgaa gaagaaaacc aatccgggct actcctgcat cggtcgtctg agaggactgg
+     1441 cggaactgag aggactggaa atgggaattg ccaaatcatt gtttgaata
+//

@@ -1,0 +1,177 @@
+LOCUS       NZ_AKHF01000059         2179 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00059, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000059 NZ_AKHF00000000
+VERSION     NZ_AKHF01000059.1  GI:420219662
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 2179)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2179)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000059.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2179
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            complement(<1..353)
+                     /locus_tag="HMPREF9972_r05306"
+     rRNA            complement(<1..353)
+                     /locus_tag="HMPREF9972_r05306"
+                     /product="16S ribosomal RNA"
+     gene            complement(1004..1456)
+                     /gene="perR"
+                     /locus_tag="HMPREF9972_05294"
+     CDS             complement(1004..1456)
+                     /gene="perR"
+                     /locus_tag="HMPREF9972_05294"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="peroxide-responsive repressor PerR"
+                     /protein_id="ZP_14724667.1"
+                     /db_xref="GI:420219663"
+                     /translation="MSAELESIDHELEESIASLRKAGVRITPQRQAIMRYLISSHSHP
+                     TADEIYQALSPKFPNISVATIYNNLRVFKDIGIVKELTYGDSSSRFDFNTHNHYHIIC
+                     EKCGKIVDFHYPQLDEVEQLAQHVTDFDVTHHRMEIYGVCKECKEEGN"
+     misc_feature    complement(1031..1375)
+                     /gene="perR"
+                     /locus_tag="HMPREF9972_05294"
+                     /note="Ferric uptake regulator(Fur) and related
+                     metalloregulatory proteins; typically iron-dependent,
+                     DNA-binding repressors and activators; Region: Fur_like;
+                     cd07153"
+                     /db_xref="CDD:133478"
+     misc_feature    complement(order(1127..1129,1160..1162,1166..1168,
+                     1184..1186,1328..1330))
+                     /gene="perR"
+                     /locus_tag="HMPREF9972_05294"
+                     /note="metal binding site 2 [ion binding]; metal-binding
+                     site"
+                     /db_xref="CDD:133478"
+     misc_feature    complement(1232..1276)
+                     /gene="perR"
+                     /locus_tag="HMPREF9972_05294"
+                     /note="putative DNA binding helix; other site"
+                     /db_xref="CDD:133478"
+     misc_feature    complement(order(1055..1057,1106..1108,1163..1165,
+                     1169..1171))
+                     /gene="perR"
+                     /locus_tag="HMPREF9972_05294"
+                     /note="metal binding site 1 [ion binding]; metal-binding
+                     site"
+                     /db_xref="CDD:133478"
+     misc_feature    complement(order(1034..1060,1064..1072,1097..1102,
+                     1148..1156))
+                     /gene="perR"
+                     /locus_tag="HMPREF9972_05294"
+                     /note="dimer interface [polypeptide binding]; other site"
+                     /db_xref="CDD:133478"
+     misc_feature    complement(order(1031..1033,1142..1144,1151..1153))
+                     /gene="perR"
+                     /locus_tag="HMPREF9972_05294"
+                     /note="structural Zn2+ binding site [ion binding]; other
+                     site"
+                     /db_xref="CDD:133478"
+     gene            complement(1552..2076)
+                     /locus_tag="HMPREF9972_05299"
+     CDS             complement(1552..2076)
+                     /locus_tag="HMPREF9972_05299"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="D-isomer specific 2-hydroxyacid dehydrogenase
+                     family protein"
+                     /protein_id="ZP_14724668.1"
+                     /db_xref="GI:420219664"
+                     /translation="MGTGAIAQRAAYLAKAFGMKVIGVSKSGKNVEQFDEVYTIEELD
+                     DVIEKANIIVNALPETEETIYLLKRKDFIQMDNNALFINVGRGTIVDEEVLINVLKDR
+                     LIRHAYLDVFEKEPLSKDNPLYDLDNVTITAHITGNDSNNNREATDIFKKNLEHFLNN
+                     YDVIENKVDLDYGY"
+     misc_feature    complement(1555..>2076)
+                     /locus_tag="HMPREF9972_05299"
+                     /note="Phosphoglycerate dehydrogenase and related
+                     dehydrogenases [Amino acid transport and metabolism];
+                     Region: SerA; COG0111"
+                     /db_xref="CDD:30460"
+     misc_feature    complement(1672..>2076)
+                     /locus_tag="HMPREF9972_05299"
+                     /note="D-isomer specific 2-hydroxyacid dehydrogenase, NAD
+                     binding domain; Region: 2-Hacid_dh_C; pfam02826"
+                     /db_xref="CDD:202418"
+ORIGIN      
+        1 gtaggagtct ggaccgtgtc tcagttccag tgtggccgat caccctctca ggtcggctac
+       61 gcatcgttgc cttggtaagc cgttacctta ccaactagct aatgcggcgc ggatccatct
+      121 ataagtgaca gcaaaaccgt ctttcactat tgaaccatgc ggttcaatat attatccggt
+      181 attagctccg gtttcccgaa gttatcccag tcttataggt aggttatcca cgtgttactc
+      241 acccgtccgc cgctaacgtc agaggagcaa gctcctcgtc tgttcgctcg acttgcatgt
+      301 attaggcacg ccgccagcgt tcatcctgag ccaggatcaa actctccata aaaaattatg
+      361 atgtttgatt agctcataaa tactaaatag tttgtaacgt ttcgttactg tttattggaa
+      421 ttaacgttga catattgtca ttcagttttc aatgttcttt aacacttaca atacattatt
+      481 gtaacaaaca gaatttatta agtcaagaat taatttgtat ttcatttctt gtcatttctt
+      541 aattaattca acaaataaca ttttataatg taatgatttt aatttcaata gtcaaaatta
+      601 cactttatta actaaatttt aaagttctta actttttctt ttcaattaat taatctgctt
+      661 ttgacgactt ttatatagta tcaagatata aacgtaacgt caatatttat tatcgatttt
+      721 ttaagttaaa atttacttaa tgagtgaata tatatctaca tatagtacat tatatttata
+      781 tagtgtaaat actttcgttt tgtacatctg caaaacgaag tcatatgtaa aaagaaagag
+      841 gctgtacaaa ttattacagc ccctactact tatatacgat tatttatatg aaattgctaa
+      901 acagtcatac tatttcatca ttactttatc tcaataaaac ttcataagag tatcaataat
+      961 gactaaattt ttattttgct tctattctac gaccttactt tcttcaattt ccttcttctt
+     1021 tacattcttt acatactcca tatatttcca tccgatgatg agtaacatca aaatctgtta
+     1081 catgttgagc taattgctct acttcatcta attgtggata atggaagtca acgattttac
+     1141 cacatttttc acatataata tggtagtgat tatgtgtatt aaaatcaaac ctactagatg
+     1201 aatcaccata tgttaactct ttgactatac caatatcttt aaaaactctt agattattat
+     1261 agatagtagc aacacttata ttaggaaatt taggtgaaag tgcttgatat atttcatctg
+     1321 ctgttggatg tgaatgtgaa gatataagat aacgcataat tgcttgtctt tggggtgtaa
+     1381 tgcgaacgcc cgcttttctt aatgaagcaa ttgactcttc aagttcatga tcaatagatt
+     1441 caagttccgc actcacttat ttcaccatct ttctaaataa taattattat tacttaatat
+     1501 taatataact gttgctataa ataaatgtca ataaatactt gctgttttca attagtaacc
+     1561 ataatctaag tctactttat tctcaattac atcataatta ttgagaaaat gctcaagatt
+     1621 ctttttgaaa atgtccgtag cttctctatt attattagaa tcattacctg taatatgagc
+     1681 agttatggtc acattatcta aatcatataa aggattgtcc ttactaagtg gttctttttc
+     1741 aaaaacatct aaataagcat gtctgattaa tcgatctttg agtacattga tgagcacttc
+     1801 ctcatcaaca attgttcctc ttcctacatt tataaataag gcattattgt ccatttgtat
+     1861 gaaatctttt ctttttaata agtaaattgt ttcttctgtt tcaggtaatg cattaacaat
+     1921 aatatttgcc ttttcaataa catcatctaa ctcttcaatt gtataaactt catcaaattg
+     1981 ttcaacattt tttcctgact tactaacccc tattactttc attccaaaag ctttggctaa
+     2041 ataagcagcc ctttgtgcaa tcgcaccagt tcccaagaat aataaagtct cttcgtttaa
+     2101 tcttttacca gtaattctgg agtcattaat ttttttctaa ttgatttcta taggaagttt
+     2161 tcatcttttt ataatcatg
+//

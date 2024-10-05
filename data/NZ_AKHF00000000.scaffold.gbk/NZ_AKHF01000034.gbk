@@ -1,0 +1,119 @@
+LOCUS       NZ_AKHF01000034         1963 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00034, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000034 NZ_AKHF00000000
+VERSION     NZ_AKHF01000034.1  GI:420219241
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 1963)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1963)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000034.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1963
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            complement(302..1963)
+                     /locus_tag="HMPREF9972_03215"
+     CDS             complement(302..1963)
+                     /locus_tag="HMPREF9972_03215"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transcriptional regulator, AraC family"
+                     /protein_id="ZP_14724271.1"
+                     /db_xref="GI:420219242"
+                     /translation="MFSLTNDLKITINGETKDLGNHIAIINQSDIYFINSASNLVLLS
+                     IPVIYFYSKDNKFFKCYFDRHLLQSSSFVKTIILQAIQHLIKGENQDEQSISKIIQTL
+                     LKEAVIRYKKKYIPQIAVNHSVFTEGLTFIHSKVSQSLSLREVAQHCNISESYCSNLF
+                     ARYLNMNFKDYFTSLKVIDSIKRLLSSEDSINAISEQSGFSSHTNFTNQFKNYLGCSP
+                     KQYRTIISKLDPLPSISFSDTDFSQYIELINQFEFSDHWATETTERDINEFYPQDQTK
+                     NSKAFIRFQNFNELFQFVFNEYYNIDLTSLPQAVIFINDITDISTREVNFNLLNRCFE
+                     KLFEKNIGLAMRLTSTNEFESIKEIILLFLNSHQDYKMNKKMVKFMLVFETENMSVND
+                     IHLCHLKIKNKNKAIRYSITVEGLLHQNSSIDRTYDMMKRLNFDYYFIDIENLETKNS
+                     LITKRKSYLHSSTHFENYKQFILDSGIPSTKFVYNNLSLKCFKYTNNGTYPLQLSDLV
+                     CHLVALMRYGGGVSYQLIEDESPLVKSRLLCKMLYNVFTISTYQN"
+     misc_feature    complement(1298..1546)
+                     /locus_tag="HMPREF9972_03215"
+                     /note="helix_turn_helix, arabinose operon control protein;
+                     Region: HTH_ARAC; smart00342"
+                     /db_xref="CDD:197666"
+     misc_feature    complement(1295..1423)
+                     /locus_tag="HMPREF9972_03215"
+                     /note="Bacterial regulatory helix-turn-helix proteins,
+                     AraC family; Region: HTH_AraC; pfam00165"
+                     /db_xref="CDD:143933"
+ORIGIN      
+        1 acagatatta acttagcgcg tgaggctaaa atcgattgat tcatgatata tcgatcaacc
+       61 aaaatattca aaagcttgcg catcattgga tgatggattc gaagacgcct ttcaatatac
+      121 cgtacaagga aattccacaa tcgactaaag agtaccaatc taattgaacg actgaatcaa
+      181 gaagtacgca gaagagaaaa gattattcgc atcttcccca atcaaacatc agccaatcgc
+      241 ttaattggag ccgttcttat ggacctacat gatgaatgga tttattcttc aagaaaatac
+      301 atcaattttg ataagtagaa atggtaaaaa cattgtatag cattttacac aggagtctgg
+      361 acttgactaa aggactctca tcttctatca gttgataact tacaccaccc ccgtaacgca
+      421 ttaatgcgac taaatgacaa acaaggtcag ataattgaag tggataagta ccattgtttg
+      481 tatatttaaa acactttaaa gataaattat tgtaaacaaa tttagttgaa ggtataccgg
+      541 aatctaatat aaattgttta taattttcaa agtgtgtgga cgaatgtaag tacgatttac
+      601 gtttggtaat taatgagttt ttggtttcta gattttcaat gtctataaaa tagtaatcga
+      661 aatttaatcg cttcatcata tcataagttc gatcaataga agaattttgg tgtagtaatc
+      721 cttcaacagt tatactataa cggatagcct tatttttatt tttaattttt aaatggcata
+      781 aatgtatatc gttcactgac atattctcag tttcaaagac taacataaat ttaaccattt
+      841 ttttgttcat tttataatct tggtggctat taagaaataa taaaattatt tctttgatag
+      901 attcaaattc atttgtagat gttaatctca tggctaaacc tatatttttt tcgaataatt
+      961 tttcaaagca tcgatttaat aaattaaagt tcacctctcg cgtcgaaata tcagtgatat
+     1021 cattgataaa aattacagct tgtggcaggg aggtaagatc aatgttgtaa tattcattaa
+     1081 aaacaaattg aaataattcg ttgaaatttt gaaaacgtat aaacgcttta gagtttttag
+     1141 tctgatcttg aggataaaat tcattgatat ctctttcagt cgtttcagta gcccaatgat
+     1201 cactaaactc aaattgatta attaattcaa tatattgtga aaagtcagta tcactaaaac
+     1261 ttatcgaagg taaggggtct aacttagaga taatcgttcg gtattgtttt gggctacaac
+     1321 ctaaataatt tttaaattga tttgtaaaat tggtatgact actaaatcca gattgttctg
+     1381 aaatagcgtt aattgagtcc tcagatgaaa gtagcctttt tatagagtca atcactttta
+     1441 agcttgtaaa ataatcttta aaattcatat taagatatct tgcaaatagg ttagaacaat
+     1501 aagattcaga tatattacaa tgttgagcta cttctcgtag tgagagtgac tgtgatactt
+     1561 ttgaatgaat aaatgttaat ccttcagtaa acactgaatg attaactgca atttgaggaa
+     1621 tatatttttt cttatatcga atgactgctt cttttagtag cgtttgtatt attttagaga
+     1681 tggattgctc atcttgattt tctcctttta ttaaatgttg aatagcttgt aaaataattg
+     1741 ttttaacaaa actgcttgat tgtaataaat gtctgtcaaa ataacattta aaaaatttat
+     1801 tatctttact ataaaaataa ataactggaa tagagagtaa tacgagattt gaagcactat
+     1861 taataaaata gatgtcagat tgattaatga tagctatatg attacctaaa tcttttgttt
+     1921 caccattaat agtgattttt aagtcatttg taagtgaaaa cat
+//

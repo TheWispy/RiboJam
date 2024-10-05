@@ -1,0 +1,105 @@
+LOCUS       NZ_AKHF01000103         1953 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00115, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000103 NZ_AKHF00000000
+VERSION     NZ_AKHF01000103.1  GI:420220479
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 1953)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1953)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000103.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1953
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            complement(32..107)
+                     /locus_tag="HMPREF9972_t09350"
+     tRNA            complement(32..107)
+                     /locus_tag="HMPREF9972_t09350"
+                     /product="tRNA-Ala"
+     gene            complement(128..204)
+                     /locus_tag="HMPREF9972_t09352"
+     tRNA            complement(128..204)
+                     /locus_tag="HMPREF9972_t09352"
+                     /product="tRNA-Ile"
+     gene            complement(292..1850)
+                     /locus_tag="HMPREF9972_r09354"
+     rRNA            complement(292..1850)
+                     /locus_tag="HMPREF9972_r09354"
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 acttatccag ttttcaatgt acaaaatata atggtggaga ctagcgggat cgaaccgctg
+       61 acctcctgcg tgcaaagcag gcgctctccc agctgagcta agccccctaa ggttttaaat
+      121 tattgaatgg tgggcctaag tggactcgaa ccaccgacct cacgcttatc aggcgtgcgc
+      181 tctaaccagc tgagctatag gcccattaaa acttgaatgc taataaacat tcaaaactga
+      241 atacaatatg tcacgttatc cctcatcttc gtagaagatg ttccgaatat atccttagaa
+      301 aggaggtgat ccagccgcac cttccgatac ggctaccttg ttacgacttc accccaatca
+      361 tttgtcccac cttcgacggc tagctccaaa tggttactcc accggcttcg ggtgttacaa
+      421 actctcgtgg tgtgacgggc ggtgtgtaca agacccggga acgtattcac cgtagcatgc
+      481 tgatctacga ttactagcga ttccagcttc atatagtcga gttgcagact acaatccgaa
+      541 ctgagaacaa ctttatggga tttgcttgac ctcgcggttt cgctgccctt tgtattgtcc
+      601 attgtagcac gtgtgtagcc caaatcataa ggggcatgat gatttgacgt catccccacc
+      661 ttcctccggt ttgtcaccgg cagtcaactt agagtgccca acttaatgat ggcaactaag
+      721 cttaagggtt gcgctcgttg cgggacttaa cccaacatct cacgacacga gctgacgaca
+      781 accatgcacc acctgtcact ctgtcccccg aaggggaaaa ctctatctct agaggggtca
+      841 gaggatgtca agatttggta aggttcttcg cgttgcttcg aattaaacca catgctccac
+      901 cgcttgtgcg ggtccccgtc aattcctttg agtttcaacc ttgcggtcgt actccccagg
+      961 cggagtgctt aatgcgttag ctgcagcact aaggggcgga aaccccctaa cacttagcac
+     1021 tcatcgttta cggcgtggac taccagggta tctaatcctg tttgatcccc acgctttcgc
+     1081 acatcagcgt cagttacaga ccagaaagtc gccttcgcca ctggtgttcc tccatatctc
+     1141 tgcgcatttc accgctacac atggaattcc actttcctct tctgcactca agttttccag
+     1201 tttccaatga ccctccacgg ttgagccgtg ggctttcaca tcagacttaa aaaaccgcct
+     1261 acgcgcgctt tacgcccaat aattccggat aacgcttgcc acctacgtat taccgcggct
+     1321 gctggcacgt agttagccgt ggctttctga ttaggtaccg tcaagacgtg catagttact
+     1381 tacacatttg ttcttcccta ataacagagt tttacgatcc gaagaccttc atcactcacg
+     1441 cggcgttgct ccgtcaggct ttcgcccatt gcggaagatt ccctactgct gcctcccgta
+     1501 ggagtctgga ccgtgtctca gttccagtgt ggccgatcac cctctcaggt cggctacgca
+     1561 tcgttgcctt ggtaagccgt taccttacca actagctaat gcggcgcgga tccatctata
+     1621 agtgacagca aaaccgtctt tcactattga accatgcggt tcaatatatt atccggtatt
+     1681 agctccggtt tcccgaagtt atcccagtct tataggtagg ttatccacgt gttactcacc
+     1741 cgtccgccgc taacgtcaga ggagcaagct cctcgtctgt tcgctcgact tgcatgtatt
+     1801 aggcacgccg ccagcgttca tcctgagcca ggatcaaact ctccataaaa attatgatgt
+     1861 ttgattagct cataaatact aaatagtttg taacgtttcg ttactgttta ttggaattaa
+     1921 cgttgacata ttgtcattca gttttcaatg ttc
+//

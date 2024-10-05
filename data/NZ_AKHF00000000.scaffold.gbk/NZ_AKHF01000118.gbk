@@ -1,0 +1,150 @@
+LOCUS       NZ_AKHF01000118         4056 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00130, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000118 NZ_AKHF00000000
+VERSION     NZ_AKHF01000118.1  GI:420221356
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 4056)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4056)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000118.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4056
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            <1..371
+                     /locus_tag="HMPREF9972_r13845"
+     rRNA            <1..371
+                     /locus_tag="HMPREF9972_r13845"
+                     /product="16S ribosomal RNA"
+     gene            629..3550
+                     /locus_tag="HMPREF9972_r13847"
+     rRNA            629..3550
+                     /locus_tag="HMPREF9972_r13847"
+                     /product="23S ribosomal RNA"
+     gene            3621..3735
+                     /locus_tag="HMPREF9972_r13843"
+     rRNA            3621..3735
+                     /locus_tag="HMPREF9972_r13843"
+                     /product="5S ribosomal RNA"
+     gene            complement(3976..>4056)
+                     /locus_tag="HMPREF9972_13836"
+     CDS             complement(3976..>4056)
+                     /locus_tag="HMPREF9972_13836"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14726302.1"
+                     /db_xref="GI:420221357"
+                     /translation="FILGFGGIKKEELEDHVNALIHSLVI"
+ORIGIN      
+        1 gaagtgggga tgacgtcaaa tcatcatgcc ccttatgatt tgggctacac acgtgctaca
+       61 atggacaata caaagggcag cgaaaccgcg aggtcaagca aatcccataa agttgttctc
+      121 agttcggatt gtagtctgca actcgactat atgaagctgg aatcgctagt aatcgtagat
+      181 cagcatgcta cggtgaatac gttcccgggt cttgtacaca ccgcccgtca caccacgaga
+      241 gtttgtaaca cccgaagccg gtggagtaac catttggagc tagccgtcga aggtgggaca
+      301 aatgattggg gtgaagtcgt aacaaggtag ccgtatcgga aggtgcggct ggatcacctc
+      361 ctttctaagg atatattcgg aacatcttct acgaagatga gggataacgt gacatattgt
+      421 attcagtttt gaatgtttat taacattcat ttgtacattg aaaactagat aagtaagtaa
+      481 gattttacca agcaaaaccg agtgaataga gttttaaata agcttgaatt cataaataat
+      541 cgctagtgtt cgaaagaaca ctcacaagat taataactag ttttagctat ttattttgaa
+      601 taacaattca aaatatggtg gaaacataga ttaagttatt aagggcgcac ggtggatgcc
+      661 ttggcactag aagccgatga aggacgttac taacgacgat atgctttggg tagctgtaag
+      721 taagcgttga tccagagatt tccgaatggg ggaacccagc atgagttatg tcatgttatc
+      781 gacatgtgaa ttcatagcat gtcagaaggc agacccggag aactgaaaca tcttagtacc
+      841 cggaggaaga gaaagaaaaa tcgattccct gagtagcggc gagcgaaacg ggaagagccc
+      901 aaaccaacaa gcttgcttgt tggggttgta ggacactcta tacggagtta caaaagaaca
+      961 tgttagacga atcatctgga aagatgaatc aaagaaggta ataatcctgt agtcgaaaac
+     1021 atattctctc ttgagtggat cctgagtacg acggagcacg tgaaattccg tcggaatctg
+     1081 ggaggaccat ctcctaaggc taaatactct ctagtgaccg atagtgaacc agtaccgtga
+     1141 gggaaaggtg aaaagtaccc cggaagggga gtgaaagaga acttgaaacc gtgtgcttac
+     1201 aagtagtcag agcccgttaa tgggtgatgg cgtgcctttt gtagaatgaa ccggcgagtt
+     1261 acgatctgat gcaaggttaa gcagcaaatg tggagccgca gcgaaagcga gtctgaatag
+     1321 ggcgttgagt atttggtcgt agacccgaaa ccaggtgatc tacccttggt caggttgaag
+     1381 ttcaggtaac actgaatgga ggaccgaacc gacttacgtt gaaaagtgag cggatgaact
+     1441 gagggtagcg gagaaattcc aatcgaactt ggagatagct ggttctctcc gaaatagctt
+     1501 tagggctagc ctcaagtgat gattattgga ggtagagcac tgtttggacg aggggcccct
+     1561 ctcgggttac cgaattcaga caaactccga atgccaatta atttaacttg ggagtcagaa
+     1621 catgggtgat aaggtccgtg ttcgaaaggg aaacagccca gaccaccagc taaggtccca
+     1681 aaatatatgt taagtggaaa aggatgtggc gttgcccaga caactaggat gttggcttag
+     1741 aagcagccat catttaaaga gtgcgtaata gctcactagt cgagtgacac tgcgccgaaa
+     1801 atgtaccggg gctaaacata ttaccgaagc tgtggattgt cctttggaca atggtaggag
+     1861 agcgttctaa gggcgtcgaa gcatgatcgc aaggacatgt ggagcgctta gaagtgagaa
+     1921 tgccggtgtg agtagcgaaa gacgggtgag aatcccgtcc accgattgac taaggtttcc
+     1981 agaggaaggc tcgtccgctc tgggttagtc gggtcctaag ctgaggccga caggcgtagg
+     2041 cgatggataa caggttgata ttcctgtacc acctagtatc gttttaatcg atggggggac
+     2101 gcagtaggat aggcgaagcg tgctgttgga gtgcacgtcc aagcagtaag gctgagtgtt
+     2161 aggcaaatcc ggcactcata aggctgagct gtgatgggga gaggaaattg tttcctcgag
+     2221 tcgttgattt cacactgccg agaaaagcct ctagatagat aacaggtgcc cgtaccgcaa
+     2281 accgacacag gtagtcaaga tgagaattct aaggtgagcg agcgaactct cgttaaggaa
+     2341 ctcggcaaaa tgaccccgta acttcgggag aaggggtgct ctttagggtt cacgcccaga
+     2401 agagccgcag tgaataggcc caagcgactg tttatcaaaa acacaggtct ctgctaaacc
+     2461 gtaaggtgat gtataggggc tgacgcctgc ccggtgctgg aaggttaaga ggagtggtta
+     2521 gcttctgcga agctacgaat cgaagcccca gtaaacggcg gccgtaacta taacggtcct
+     2581 aaggtagcga aattccttgt cgggtaagtt ccgacccgca cgaaaggcgt aacgatttgg
+     2641 gcactgtctc aacgagagac tcggtgaaat catagtacct gtgaagatgc aggttacccg
+     2701 cgacaggacg gaaagacccc gtggagcttt actgtagcct gatattgaaa ttcggcacag
+     2761 cttgtacagg ataggtagga gcctttgaaa cgtgagcgct agcttacgtg gaggcgttgg
+     2821 tgggatacta ccctagctgt gttggctttc taacccgcac cacttatcgt ggtgggagac
+     2881 agtgtcaggc gggcagtttg actggggcgg tcgcctccta aaaggtaacg gaggcgctca
+     2941 aaggttccct cagaatggtt ggaaatcatt catagagtgt aaaggcataa gggagcttga
+     3001 ctgcgagacc tacaagtcga gcagggtcga aagacggact tagtgatccg gtggttccgc
+     3061 atggaagggc catcgctcaa cggataaaag ctaccccggg gataacaggc ttatctcccc
+     3121 caagagttca catcgacggg gaggtttggc acctcgatgt cggctcatcg catcctgggg
+     3181 ctgtagtcgg tcccaagggt tgggctgttc gcccattaaa gcggtacgcg agctgggttc
+     3241 agaacgtcgt gagacagttc ggtccctatc cgtcgtgggc gtaggaaatt tgagaggagc
+     3301 tgtccttagt acgagaggac cgggatggac atacctctgg tgtaccagtt gtcgtgccaa
+     3361 cggcatagct gggtagctat gtatggacgg gataagtgct gaaagcatct aagcatgaag
+     3421 cccccctcaa gatgagattt cccaacttcg gttataagat ccctcgaaga tgacgaggtt
+     3481 aataggttcg aggtggaagc gtggtgacac gtggagctga cgaatactaa tcgatcgaag
+     3541 acttaatcaa tttttaaaaa acgttttgcg acgcaaaatc ttacttacta tctagttttg
+     3601 aatgtataat cattcatttg tctggtgaca atggcaagga ggtcacacct gttcccatgc
+     3661 cgaacacaga agttaagctc cttagcgccg atggtagtcg gactgacgtt ccgctagagt
+     3721 aggacgttgc caggcaaata tcgtataaga tgcgatgagc ctaatcgaga ccgaaaggtc
+     3781 tctttttttt atgcaaaaat agttctaaaa aagaaagtat taataaataa attcgctact
+     3841 taacaacttt tataagaggt aatttcatat gtggcttata aaggttaagt aacatatcca
+     3901 accttaaatg ctttaattac tgttgtgtat cgtaacaata attaaaacat tttaaagttt
+     3961 cttaaaatct agtatttata taacgagtga atgaattaat gcattaacat gatcttctaa
+     4021 ttcttctttt tttatccccc caaatcctaa aataaa
+//

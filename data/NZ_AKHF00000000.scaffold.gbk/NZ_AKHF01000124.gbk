@@ -1,0 +1,148 @@
+LOCUS       NZ_AKHF01000124         1897 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00136, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000124 NZ_AKHF00000000
+VERSION     NZ_AKHF01000124.1  GI:420221380
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 1897)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1897)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000124.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1897
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            complement(<1..>1897)
+                     /locus_tag="HMPREF9972_13932"
+     CDS             complement(<1..>1897)
+                     /locus_tag="HMPREF9972_13932"
+                     /codon_start=3
+                     /transl_table=11
+                     /product="surface domain protein"
+                     /protein_id="ZP_14726320.1"
+                     /db_xref="GI:420221381"
+                     /translation="VKAAQSEPTKAEEGSNAEAPQSEPTKTEEGSNAKAAQSEPTKAE
+                     EGGNAEAAQSEPTKTEEGSNAEAPQSEPTKAEEGGNAEAAQSEPTKTEEGGNAEAPNV
+                     PTIKANSDNDTQTQFSEAPTRNDLARKEDIPAVSKNEELQSSQPNTDSKIEPTTSEPV
+                     NLNYSSPFMSLLSMPADSSSNNTKNTIDIPPTTVKGRDNYDFYGRVDIESNPTDLNAT
+                     NLTRYNYGQPPGTTTAGAVQFKNQVSFDKDFDFNIRVANNRQSNTTGADGWGFMFSKK
+                     DGDDFLKNGGILREKGTPSAAGFRIDTGYYNNDPLDKIQKQAGQGYRGYGTFVKNDSQ
+                     GNTSKVGSGTPSTDFLNYADNTTNDLDGKFHGQKLNNVNLKYNASNQTFTATYAGKTW
+                     TATLSELGLSPTDSYNFLVTSSQYGNGNSGTYASGVMRADLDGATLTYTPKAVDGDPI
+                     ISTKEIPFNKKREFDPNLAPGTEKVVQKGEPGIETTTTPTYVNPNTGEKVGEGEPTEK
+                     ITKQPVDEIVHYGGEEIKPGHKDEFDPNAPKGSQTTQPGKPGVKNPDTGEVVTPPVDD
+                     VTKYGPVDGDPITSTEEIPFDKKREFNPDLKPGEERVKQKGEPGTKTITTPTTKNPLT
+                     GEKVGEG"
+     misc_feature    complement(1566..>1889)
+                     /locus_tag="HMPREF9972_13932"
+                     /note="MARCKS family; Region: MARCKS; pfam02063"
+                     /db_xref="CDD:111005"
+     misc_feature    complement(705..1301)
+                     /locus_tag="HMPREF9972_13932"
+                     /note="legume lectins; Region: lectin_L-type; cl14058"
+                     /db_xref="CDD:209860"
+     misc_feature    complement(order(735..740,744..746,777..779,843..845,
+                     1170..1172,1179..1181,1266..1268,1299..1301))
+                     /locus_tag="HMPREF9972_13932"
+                     /note="homotetramer interaction site [polypeptide
+                     binding]; other site"
+                     /db_xref="CDD:173886"
+     misc_feature    complement(order(1173..1175,1179..1181,1266..1268,
+                     1299..1301))
+                     /locus_tag="HMPREF9972_13932"
+                     /note="homodimer interaction site [polypeptide binding];
+                     other site"
+                     /db_xref="CDD:173886"
+     misc_feature    complement(1095..1097)
+                     /locus_tag="HMPREF9972_13932"
+                     /note="carbohydrate binding site [chemical binding]; other
+                     site"
+                     /db_xref="CDD:173886"
+     misc_feature    complement(order(924..926,990..992,996..998))
+                     /locus_tag="HMPREF9972_13932"
+                     /note="metal binding site [ion binding]; metal-binding
+                     site"
+                     /db_xref="CDD:173886"
+     misc_feature    complement(324..563)
+                     /locus_tag="HMPREF9972_13932"
+                     /note="G5 domain; Region: G5; pfam07501"
+                     /db_xref="CDD:203655"
+     misc_feature    complement(<81..182)
+                     /locus_tag="HMPREF9972_13932"
+                     /note="G5 domain; Region: G5; pfam07501"
+                     /db_xref="CDD:203655"
+ORIGIN      
+        1 tcaccttcgc caactttttc ccctgttaat gggttcttag ttgttggtgt tgtaattgtt
+       61 tttgttcctg gttcaccttt ttgtttaaca cgctcttcac ctggttttaa atcaggattg
+      121 aattcacgtt tcttgtcgaa tggaatttct tccgttgacg tgatcggatc tccatcaact
+      181 ggaccatatt ttgtcacatc atccacaggt ggagtaacta cttcgcctgt atcaggattt
+      241 ttaacccccg gcttacctgg ttgcgttgtt tgactacctt tcggtgcatt tggatcaaat
+      301 tcatccttat ggcctggctt gatttcttcg ccaccataat gaacgatttc atccactggt
+      361 tgttttgtta ttttttctgt tggttcacct tcgccaactt tttctcctgt attaggattg
+      421 acataagttg gtgttgttgt tgtttcaatt cctggttcac ctttttggac tactttttct
+      481 gtacctgggg ctaagtttgg atcaaattca cgtttcttat taaatggtat ttccttagtt
+      541 gatataattg gatctccatc gactgcttta ggagtgtatg tcaatgttgc accatctaaa
+      601 tcagctctca taacgccact tgcgtatgta ccactattac catttccata ttgacttgat
+      661 gtaactaaaa aattgtaact atcagttgga ctcaatccta attcagataa cgtagccgtc
+      721 caagttttac cagcataagt agctgtaaaa gtttgatttg aagcattata tttcaaatta
+      781 acattattta atttttgacc atggaattta ccatctaaat cattagtagt attatctgcg
+      841 tagttaagaa aatctgttga tggagtacct gatcctactt tagaagtatt accttgggag
+      901 tcatttttaa caaatgtccc ataccctcta tagccttgac cagcttgttt ctgtatttta
+      961 tctaatggat cgttattata atatcctgta tcaattctga aaccagctgc actaggtgta
+     1021 cctttttcac gtaagatacc accgtttttt aggaaatcat ccccatcttt cttgctgaac
+     1081 ataaagcccc aaccatctgc accagttgta ttactttgac gattgtttgc tactctaatg
+     1141 ttaaagtcga aatctttatc aaaactaact tgatttttaa attgaactgc accagctgtt
+     1201 gttgtaccag gtggctgtcc ataattatat ctcgttaaat ttgtcgcatt taaatctgta
+     1261 ggattacttt cgatatctac tctaccgtaa aaatcgtaat tatctctacc tttaaccgta
+     1321 gttggcggta tatctattgt atttttagtg ttattggatg aactatcagc aggcatgctt
+     1381 aataaggaca taaacggaga actataattt aaattcacag gttctgaagt tgtaggttct
+     1441 attttactgt cagtgtttgg ttgtgatgat tgtaattcct cgtttttaga aacagcaggg
+     1501 atatcttctt ttctagctag gtcatttctt gtaggggctt ctgaaaattg tgtttgtgta
+     1561 tcattatctg aattagcttt gatagttgga acattcggtg cttctgcatt gcctccttct
+     1621 tctgtcttcg ttggctcaga ttgagctgct tctgcattgc ctccttcttc tgccttcgtt
+     1681 ggctcagatt gaggtgcttc tgcattgctt ccttcttctg tcttcgttgg ctcagattga
+     1741 gctgcttctg cattgcctcc ttcttctgcc ttcgttggct cagattgagc tgcttttgcg
+     1801 ttgcttcctt cttctgtctt cgttggctca gattgaggtg cttctgcatt gcttccttct
+     1861 tctgccttcg ttggctcaga ttgagctgct tttacgt
+//

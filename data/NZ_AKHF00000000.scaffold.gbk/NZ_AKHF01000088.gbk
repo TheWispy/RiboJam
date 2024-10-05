@@ -1,0 +1,653 @@
+LOCUS       NZ_AKHF01000088         8651 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00093, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000088 NZ_AKHF00000000
+VERSION     NZ_AKHF01000088.1  GI:420220438
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 8651)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 8651)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000088.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..8651
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            <1..126
+                     /locus_tag="HMPREF9972_09178"
+     CDS             <1..126
+                     /locus_tag="HMPREF9972_09178"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14725414.1"
+                     /db_xref="GI:420220439"
+                     /translation="SNDINQVIHTVEIPSTSVVIKKTSKTFILGDYEYNKRAASL"
+     gene            complement(195..299)
+                     /locus_tag="HMPREF9972_09183"
+     CDS             complement(195..299)
+                     /locus_tag="HMPREF9972_09183"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14725415.1"
+                     /db_xref="GI:420220440"
+                     /translation="MIVRLANVVTFDNRTIYDSLQDNELFLIIDLYKQ"
+     gene            complement(576..971)
+                     /gene="spxA"
+                     /locus_tag="HMPREF9972_09188"
+     CDS             complement(576..971)
+                     /gene="spxA"
+                     /locus_tag="HMPREF9972_09188"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="regulatory protein spx"
+                     /protein_id="ZP_14725416.1"
+                     /db_xref="GI:420220441"
+                     /translation="MVTLFTSPSCTSCRKAKAWLQEHDIPYTERNIFSEHLTIDEIKQ
+                     ILKMTEDGTDEIISTRSKTYQKLNVDIDSLPLQDLYSIIQDNPGLLRRPIILDDKRLQ
+                     VGYNEDEIRRFLPRKVRTFQLQEAQRLVD"
+     misc_feature    complement(627..971)
+                     /gene="spxA"
+                     /locus_tag="HMPREF9972_09188"
+                     /note="Arsenate Reductase (ArsC) family, Spx subfamily;
+                     Spx is a unique RNA polymerase (RNAP)-binding protein
+                     present in bacilli and some mollicutes. It inhibits
+                     transcription by binding to the C-terminal domain of the
+                     alpha subunit of RNAP, disrupting complex...; Region:
+                     ArsC_Spx; cd03032"
+                     /db_xref="CDD:48581"
+     misc_feature    complement(633..959)
+                     /gene="spxA"
+                     /locus_tag="HMPREF9972_09188"
+                     /note="ArsC family; Region: ArsC; pfam03960"
+                     /db_xref="CDD:202832"
+     misc_feature    complement(order(657..659,696..698,798..800,942..944))
+                     /gene="spxA"
+                     /locus_tag="HMPREF9972_09188"
+                     /note="putative catalytic residues [active]"
+                     /db_xref="CDD:48581"
+     misc_feature    complement(order(933..935,942..944))
+                     /gene="spxA"
+                     /locus_tag="HMPREF9972_09188"
+                     /note="thiol/disulfide switch; other site"
+                     /db_xref="CDD:48581"
+     gene            1262..2251
+                     /gene="trpS"
+                     /locus_tag="HMPREF9972_09193"
+     CDS             1262..2251
+                     /gene="trpS"
+                     /locus_tag="HMPREF9972_09193"
+                     /EC_number="6.1.1.2"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tryptophan--tRNA ligase"
+                     /protein_id="ZP_14725417.1"
+                     /db_xref="GI:420220442"
+                     /translation="METLFSGIQPSGIPTIGNYIGALKQFVDVQDDYECFFCIVDQHA
+                     ITVPQDRLKLRKQIRQLAAIYLATGIDPDKSTLFIQSEVPAHVQAGWMLTTIASIGEL
+                     ERMTQFKDKAQKRADGVPAGLLTYPPLMAADIVIYNTNIVPVGDDQKQHMELTRNLVD
+                     RFNSRYNDVLVKPEVRMPKVGGRVMSLQDPTKKMSKSDDNQKNFISLLDEPHVAAKKI
+                     KSAVTDSDGIIKFDRENKPGISNLLSIYSGLTNESIKNIESKYEGEGYGKFKGDLSEI
+                     VKDFLINFQEKYASFYNSDDLDDILDKGKEKAQKASFKTLKKMEKAMGLGRKR"
+     misc_feature    1262..2236
+                     /gene="trpS"
+                     /locus_tag="HMPREF9972_09193"
+                     /note="tryptophanyl-tRNA synthetase II; Reviewed; Region:
+                     PRK12282"
+                     /db_xref="CDD:183400"
+     misc_feature    1268..2113
+                     /gene="trpS"
+                     /locus_tag="HMPREF9972_09193"
+                     /note="catalytic core domain of tryptophanyl-tRNA
+                     synthetase; Region: TrpRS_core; cd00806"
+                     /db_xref="CDD:173903"
+     misc_feature    order(1274..1288,1304..1306,1310..1315,1322..1324,
+                     1373..1375,1388..1390,1499..1501,1637..1639,1649..1651,
+                     1658..1660,1685..1687,1691..1696,1700..1705,1712..1714,
+                     1808..1810,1838..1843,1847..1849)
+                     /gene="trpS"
+                     /locus_tag="HMPREF9972_09193"
+                     /note="active site"
+                     /db_xref="CDD:173903"
+     misc_feature    1304..1315
+                     /gene="trpS"
+                     /locus_tag="HMPREF9972_09193"
+                     /note="HIGH motif; other site"
+                     /db_xref="CDD:173903"
+     misc_feature    order(1385..1387,1394..1399,1517..1522,1526..1534,
+                     1541..1546,1550..1561,1565..1570,1625..1627,1631..1636,
+                     1643..1648)
+                     /gene="trpS"
+                     /locus_tag="HMPREF9972_09193"
+                     /note="dimer interface [polypeptide binding]; other site"
+                     /db_xref="CDD:173903"
+     misc_feature    1838..1852
+                     /gene="trpS"
+                     /locus_tag="HMPREF9972_09193"
+                     /note="KMSKS motif; other site"
+                     /db_xref="CDD:173903"
+     gene            complement(2309..3952)
+                     /gene="oppA"
+                     /locus_tag="HMPREF9972_09198"
+     CDS             complement(2309..3952)
+                     /gene="oppA"
+                     /locus_tag="HMPREF9972_09198"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="oligopeptide ABC transporter,
+                     oligopeptide-binding protein"
+                     /protein_id="ZP_14725418.1"
+                     /db_xref="GI:420220443"
+                     /translation="MKGFKVLIILLSVCIILSACSNKQSLYSDQGQVFRKVITQDMTT
+                     LDTALITDAVSGDIAAQAFEGLYTLNKEDKAEPAIAKSFPKKSNGGKTLTINLRKNAK
+                     WSNGDSVTAYDFVYAWRKVVNPKTASEFAYIMSDIKNADEVNAGKKSVKDLGITAIGK
+                     YKLQVDLERPVPYINELLALNTFNPQNEKVAKKFGEQYGTTAEKAVYNGPFEVTNWKV
+                     EDKIQLVKNEQYWDKKNVKLDKVNYKVLKDQQAGASLYDTGSVDDTIITSEQVDKYRG
+                     ESALNYRLTAATFFIKMNQKTVPEFKNKHLRLAISQAINKKGYVNSVLNDGSLPSNNF
+                     TGVGTADTPDGKDFARTIKSPLKFNPDLAKKNWREAQKELGKNKFTFTMNTQDTPASK
+                     IAAEYIKSQIESHLPGVTLKIKQMPFKQKTTLELANNYEASYSGWSPDYPDPTAFLQT
+                     MTKNNAQNNTDWSNKEYDQLLKDANSKFLRKPGERNTSLQKAEYILLHEAPVAPVYQK
+                     GEAHLTNPQVKGLQYHKVGPETTLKHVYIDKSINRETGK"
+     misc_feature    complement(2336..3898)
+                     /gene="oppA"
+                     /locus_tag="HMPREF9972_09198"
+                     /note="ABC-type oligopeptide transport system, periplasmic
+                     component [Amino acid transport and metabolism]; Region:
+                     OppA; COG4166"
+                     /db_xref="CDD:33908"
+     misc_feature    complement(2342..3859)
+                     /gene="oppA"
+                     /locus_tag="HMPREF9972_09198"
+                     /note="The substrate-binding component of an ABC-type
+                     oligopetide import system contains the type 2 periplasmic
+                     binding fold; Region: PBP2_OppA; cd08504"
+                     /db_xref="CDD:173869"
+     misc_feature    complement(order(2429..2431,2633..2647,2651..2653,
+                     2699..2701,3098..3100,3158..3160,3785..3787))
+                     /gene="oppA"
+                     /locus_tag="HMPREF9972_09198"
+                     /note="peptide binding site [polypeptide binding]; other
+                     site"
+                     /db_xref="CDD:173869"
+     gene            complement(3979..4917)
+                     /gene="oppF"
+                     /locus_tag="HMPREF9972_09203"
+     CDS             complement(3979..4917)
+                     /gene="oppF"
+                     /locus_tag="HMPREF9972_09203"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="oligopeptide ABC transporter, ATP-binding
+                     protein OppF"
+                     /protein_id="ZP_14725419.1"
+                     /db_xref="GI:420220444"
+                     /translation="MSNENVLLQVKNLKQYFNQGKHNEVKAIDNISFDVYKGETLGLV
+                     GESGCGKSTTGKAIIKLNDITDGAIEYDGKDIHQIRKRKERLKFNKKIQMIFQDPYAS
+                     LNPRLKVMDIVAEGIDIHKLASSQRDRKKRVYDLLETVGLGKEHANRYPHEFSGGQRQ
+                     RIGIARALAVEPEFIIADEPISALDVSIQAQVVNLLLKLQRERDITLLFIAHDLSMVK
+                     YISDRIAVMHFGKIVEIGPADDIYNYPLHDYTKSLLSAIPQPDPDVERNRQRVLYHED
+                     ATLNEERQLNEIRPQHYVFSTQNEAVKLKQKYGLSV"
+     misc_feature    complement(4132..4899)
+                     /gene="oppF"
+                     /locus_tag="HMPREF9972_09203"
+                     /note="ABC-type dipeptide/oligopeptide/nickel transport
+                     system, ATPase component [Amino acid transport and
+                     metabolism / Inorganic ion transport and metabolism];
+                     Region: DppF; COG1124"
+                     /db_xref="CDD:31321"
+     misc_feature    complement(4210..4899)
+                     /gene="oppF"
+                     /locus_tag="HMPREF9972_09203"
+                     /note="ATP-binding cassette domain of nickel/oligopeptides
+                     specific transporters; Region: ABC_NikE_OppD_transporters;
+                     cd03257"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(4762..4785)
+                     /gene="oppF"
+                     /locus_tag="HMPREF9972_09203"
+                     /note="Walker A/P-loop; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(order(4282..4284,4381..4386,4627..4629,
+                     4759..4767,4771..4776))
+                     /gene="oppF"
+                     /locus_tag="HMPREF9972_09203"
+                     /note="ATP binding site [chemical binding]; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(4627..4638)
+                     /gene="oppF"
+                     /locus_tag="HMPREF9972_09203"
+                     /note="Q-loop/lid; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(4429..4458)
+                     /gene="oppF"
+                     /locus_tag="HMPREF9972_09203"
+                     /note="ABC transporter signature motif; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(4381..4398)
+                     /gene="oppF"
+                     /locus_tag="HMPREF9972_09203"
+                     /note="Walker B; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(4363..4374)
+                     /gene="oppF"
+                     /locus_tag="HMPREF9972_09203"
+                     /note="D-loop; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(4276..4296)
+                     /gene="oppF"
+                     /locus_tag="HMPREF9972_09203"
+                     /note="H-loop/switch region; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(<4129..4221)
+                     /gene="oppF"
+                     /locus_tag="HMPREF9972_09203"
+                     /note="Oligopeptide/dipeptide transporter, C-terminal
+                     region; Region: oligo_HPY; pfam08352"
+                     /db_xref="CDD:203916"
+     gene            complement(4910..5989)
+                     /gene="oppD"
+                     /locus_tag="HMPREF9972_09208"
+     CDS             complement(4910..5989)
+                     /gene="oppD"
+                     /locus_tag="HMPREF9972_09208"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="oligopeptide transport ATP-binding protein OppD"
+                     /protein_id="ZP_14725420.1"
+                     /db_xref="GI:420220445"
+                     /translation="MTETVLEVNDLHVSFDIAAGEVQAVRGVDFHLNKGETLAIVGES
+                     GSGKSVTTKAITKLFQKDTGRIKKGEILFLGEDLAQKSEKELIQLRGRDISMIFQDPM
+                     TSLNPTMQIGKQVMEPLIKHKKLSKAKAKQRALEILNLVGLPRAEKRFKAYPHQFSGG
+                     QRQRIVIAIALACEPKILIADEPTTALDVTMQAQILDLMKELQNKIETSIIFITHDLG
+                     VVANIADKVAVMYGGQMVETGDVNEIFYDPKHPYTWGLLSSMPDLTTSNDTDLIAIPG
+                     TPPDLLHPPIGDAFARRSRYALDIDFKEEPPWFKISPTHFVKSWLLDARAPKVTPPSM
+                     VQKRLRTMPSNYEQPHRVERVAFNE"
+     misc_feature    complement(5027..5977)
+                     /gene="oppD"
+                     /locus_tag="HMPREF9972_09208"
+                     /note="ABC-type dipeptide/oligopeptide/nickel transport
+                     system, ATPase component [Amino acid transport and
+                     metabolism / Inorganic ion transport and metabolism];
+                     Region: DppD; COG0444"
+                     /db_xref="CDD:30793"
+     misc_feature    complement(5273..5977)
+                     /gene="oppD"
+                     /locus_tag="HMPREF9972_09208"
+                     /note="ATP-binding cassette domain of nickel/oligopeptides
+                     specific transporters; Region: ABC_NikE_OppD_transporters;
+                     cd03257"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(5843..5866)
+                     /gene="oppD"
+                     /locus_tag="HMPREF9972_09208"
+                     /note="Walker A/P-loop; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(order(5345..5347,5444..5449,5693..5695,
+                     5840..5848,5852..5857))
+                     /gene="oppD"
+                     /locus_tag="HMPREF9972_09208"
+                     /note="ATP binding site [chemical binding]; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(5693..5704)
+                     /gene="oppD"
+                     /locus_tag="HMPREF9972_09208"
+                     /note="Q-loop/lid; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(5492..5521)
+                     /gene="oppD"
+                     /locus_tag="HMPREF9972_09208"
+                     /note="ABC transporter signature motif; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(5444..5461)
+                     /gene="oppD"
+                     /locus_tag="HMPREF9972_09208"
+                     /note="Walker B; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(5426..5437)
+                     /gene="oppD"
+                     /locus_tag="HMPREF9972_09208"
+                     /note="D-loop; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(5339..5359)
+                     /gene="oppD"
+                     /locus_tag="HMPREF9972_09208"
+                     /note="H-loop/switch region; other site"
+                     /db_xref="CDD:213224"
+     misc_feature    complement(5027..5290)
+                     /gene="oppD"
+                     /locus_tag="HMPREF9972_09208"
+                     /note="Oligopeptide/dipeptide transporter, C-terminal
+                     region; Region: oligo_HPY; cl07097"
+                     /db_xref="CDD:214141"
+     gene            complement(6004..7074)
+                     /gene="oppC"
+                     /locus_tag="HMPREF9972_09213"
+     CDS             complement(6004..7074)
+                     /gene="oppC"
+                     /locus_tag="HMPREF9972_09213"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="oligopeptide ABC transporter, permease protein"
+                     /protein_id="ZP_14725421.1"
+                     /db_xref="GI:420220446"
+                     /translation="MSNKEDVTNINGDISNATMSHTSNDISNTDFIIRDLDLNQEPEM
+                     PRQSKNFWQDAWSQLKRNKLAVIGMIGLLLIVIMAFIGPLMNKHDFAEQNVDHRNLPA
+                     KIPLLDHVSFLPFDGKGTDGKNAYKEAGAKENYWFGTDQLGRDLWTRTWKGAQISLYI
+                     GVVAALLDICIGVVYGAVSGFFGGRVDDVMQRILEIIASIPNLIVVILFVLIFEPSIW
+                     TIILAMSITGWLGMSRVVRGEFLKLKNQEFVLASQTLGASKFKLIFKHILPNTLGAIV
+                     VTSMFTVPSAIFFEAFLSFIGIGVPAPKTSLGSLVNDGRAMLLIHPHELFIPAIILSL
+                     LILFFYLFSDGLRDAFDPKMRK"
+     misc_feature    complement(6772..6933)
+                     /gene="oppC"
+                     /locus_tag="HMPREF9972_09213"
+                     /note="N-terminal TM domain of oligopeptide transport
+                     permease C; Region: OppC_N; pfam12911"
+                     /db_xref="CDD:205142"
+     misc_feature    complement(6007..6741)
+                     /gene="oppC"
+                     /locus_tag="HMPREF9972_09213"
+                     /note="ABC-type dipeptide/oligopeptide/nickel transport
+                     systems, permease components [Amino acid transport and
+                     metabolism / Inorganic ion transport and metabolism];
+                     Region: DppC; COG1173"
+                     /db_xref="CDD:31366"
+     misc_feature    complement(6172..6615)
+                     /gene="oppC"
+                     /locus_tag="HMPREF9972_09213"
+                     /note="Transmembrane subunit (TM) found in Periplasmic
+                     Binding Protein (PBP)-dependent ATP-Binding Cassette (ABC)
+                     transporters which generally bind type 2 PBPs. These types
+                     of transporters consist of a PBP, two TMs, and two
+                     cytoplasmic ABC ATPase subunits, and...; Region: TM_PBP2;
+                     cd06261"
+                     /db_xref="CDD:119394"
+     misc_feature    complement(order(6190..6195,6202..6213,6232..6234,
+                     6241..6246,6286..6288,6337..6339,6346..6351,6361..6363,
+                     6367..6372,6379..6381,6385..6387,6391..6396,6445..6447,
+                     6451..6456,6463..6492,6496..6507,6535..6537,6550..6555,
+                     6562..6567))
+                     /gene="oppC"
+                     /locus_tag="HMPREF9972_09213"
+                     /note="dimer interface [polypeptide binding]; other site"
+                     /db_xref="CDD:119394"
+     misc_feature    complement(order(6196..6213,6445..6489))
+                     /gene="oppC"
+                     /locus_tag="HMPREF9972_09213"
+                     /note="conserved gate region; other site"
+                     /db_xref="CDD:119394"
+     misc_feature    complement(order(6193..6195,6409..6411,6445..6447))
+                     /gene="oppC"
+                     /locus_tag="HMPREF9972_09213"
+                     /note="putative PBP binding loops; other site"
+                     /db_xref="CDD:119394"
+     misc_feature    complement(order(6265..6267,6277..6282,6298..6336))
+                     /gene="oppC"
+                     /locus_tag="HMPREF9972_09213"
+                     /note="ABC-ATPase subunit interface; other site"
+                     /db_xref="CDD:119394"
+     gene            complement(7074..8000)
+                     /gene="oppB"
+                     /locus_tag="HMPREF9972_09218"
+     CDS             complement(7074..8000)
+                     /gene="oppB"
+                     /locus_tag="HMPREF9972_09218"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="oligopeptide transport system permease protein
+                     OppB"
+                     /protein_id="ZP_14725422.1"
+                     /db_xref="GI:420220447"
+                     /translation="MTKYVLKRLCYMFVSLFIVITITFFLMKLMPGSPFNDTKLNAQQ
+                     KEILNEKYGLNDPVALQYVNYLKNVVTGDFGNSFQYHNMPVWDLVKPRLIPSMEMGIT
+                     AMVIGVVLGLVLGVAAATKQNTWVDYTTTIISVIAVSVPSFVLAVLLQYVFAVKLEWF
+                     PVAGWEGFSTAILPSLALSATVLATVARYIRAEMIEVLSSDYILLARAKGNSTLKVLF
+                     GHALRNALIPIITIIVPMLAGILTGTLTIENIFGVPGLGDQFVRSITTNDFSVIMATT
+                     ILFSTLFIVSIFIVDILYGVIDPRIRVQGGKK"
+     misc_feature    complement(7086..8000)
+                     /gene="oppB"
+                     /locus_tag="HMPREF9972_09218"
+                     /note="ABC-type dipeptide/oligopeptide/nickel transport
+                     systems, permease components [Amino acid transport and
+                     metabolism / Inorganic ion transport and metabolism];
+                     Region: DppB; COG0601"
+                     /db_xref="CDD:30946"
+     misc_feature    complement(7146..7628)
+                     /gene="oppB"
+                     /locus_tag="HMPREF9972_09218"
+                     /note="Transmembrane subunit (TM) found in Periplasmic
+                     Binding Protein (PBP)-dependent ATP-Binding Cassette (ABC)
+                     transporters which generally bind type 2 PBPs. These types
+                     of transporters consist of a PBP, two TMs, and two
+                     cytoplasmic ABC ATPase subunits, and...; Region: TM_PBP2;
+                     cd06261"
+                     /db_xref="CDD:119394"
+     misc_feature    complement(order(7146..7151,7158..7163,7170..7175,
+                     7179..7184,7191..7196,7224..7229,7254..7259,7266..7277,
+                     7296..7298,7305..7310,7350..7352,7401..7403,7410..7415,
+                     7425..7427,7431..7436,7461..7463,7467..7469,7473..7478,
+                     7551..7553,7557..7562,7569..7598,7602..7613))
+                     /gene="oppB"
+                     /locus_tag="HMPREF9972_09218"
+                     /note="dimer interface [polypeptide binding]; other site"
+                     /db_xref="CDD:119394"
+     misc_feature    complement(order(7260..7277,7551..7595))
+                     /gene="oppB"
+                     /locus_tag="HMPREF9972_09218"
+                     /note="conserved gate region; other site"
+                     /db_xref="CDD:119394"
+     misc_feature    complement(order(7194..7196,7224..7226,7233..7235,
+                     7257..7259,7491..7493,7551..7553))
+                     /gene="oppB"
+                     /locus_tag="HMPREF9972_09218"
+                     /note="putative PBP binding loops; other site"
+                     /db_xref="CDD:119394"
+     misc_feature    complement(order(7329..7331,7341..7346,7362..7400))
+                     /gene="oppB"
+                     /locus_tag="HMPREF9972_09218"
+                     /note="ABC-ATPase subunit interface; other site"
+                     /db_xref="CDD:119394"
+     gene            8242..8613
+                     /locus_tag="HMPREF9972_09223"
+     CDS             8242..8613
+                     /locus_tag="HMPREF9972_09223"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14725423.1"
+                     /db_xref="GI:420220448"
+                     /translation="MSINSYLISSLFTPVLSIIIWLFYSNHFINLINILFYTSFIIFI
+                     VAFLILLIQEGIFDATSFGFRRLKYQLSSTKRKRMMKNDHFFNPQKVKKESYIISPWV
+                     VPTLIINLTYIIVSIGVSLLI"
+     misc_feature    8332..8607
+                     /locus_tag="HMPREF9972_09223"
+                     /note="Domain of unknown function (DUF3899); Region:
+                     DUF3899; pfam13038"
+                     /db_xref="CDD:205219"
+ORIGIN      
+        1 tcaaacgata tcaatcaggt catacacact gtagagatac catcaacaag cgtggtaata
+       61 aaaaagacga gtaaaacttt tattttgggt gattatgaat ataataagag ggcagcatca
+      121 ttatgacaat catgtcgtcg attattacta caaactaaga aagcagccta atgagaaacc
+      181 tcataagact gccatcattg cttgtataaa tcgattatta aaaacaattc attatcttgt
+      241 aatgaatcat aaattgtacg attatcaaat gtcaccacat tagccaaacg tacaatcaaa
+      301 tatagtttaa caccttattc aaaaaaatta aaatgaacgg tttagttaag taatgcttat
+      361 tttaattata agtacttgac taatcgtagg aaagagccta ggacgaaaaa tgtcctaggc
+      421 atactttaac gaatggcaat cgatgactaa attgttaata cgcatatgtt aagcgttgtt
+      481 caacacgatt cttcgttacc aaagtggaag aacgaaatca gcaagaattc tattccactc
+      541 tcaaatatct ttcaaggaag ttgttaatat tattattaat caactaaacg ttgcgcttct
+      601 tgtaattgga acgtacgtac ttttcgtggt aggaaacgac gaatttcatc ttcgttgtat
+      661 ccaacttgta aacgtttatc atctaaaata attggacgac gtaacaagcc aggattatct
+      721 tgaatgattg agtataaatc ttgtaatggt aatgaatcta tatctacatt caatttttga
+      781 tatgtcttag aacgtgttga aataatttcg tcagttccat cttcagtcat ttttaaaatt
+      841 tgtttaattt catcaattgt taaatgttca gaaaaaatgt tacgctccgt atacggaata
+      901 tcatgttctt gtaaccatgc tttcgcttta cggcaagatg tgcaacttgg tgaagtaaat
+      961 aatgttacca tacatctcac tctcctatag aatgaattta attcattatt ttaaaattat
+     1021 ttgttaatta aagaaattaa gtttttagct ttcttaatct tacacttatt attataaatg
+     1081 gctaagatta aaattaaatg agaaaaacct aatttttctg agaaatctta aaaataaata
+     1141 aaaatgtata tctctcttta acgatatacc cagatattga tattttaaca caacttacaa
+     1201 attaacgaaa tactgttata atgttacata aacaatatta attagaaagt aggcatctaa
+     1261 tatggaaact ttattctcag gaattcagcc aagtggtatt ccaacaattg gtaactacat
+     1321 tggtgcatta aaacaatttg tagatgttca agatgactat gaatgttttt tctgtatcgt
+     1381 agaccaacat gcaataacgg taccacaaga ccgcttaaaa ttacgcaaac aaatacgtca
+     1441 actcgcagca atttatttgg caacaggtat tgatccagat aaatcgactt tatttattca
+     1501 atctgaagtc cctgcacacg tgcaagctgg ttggatgctt acaacaatag cttctattgg
+     1561 tgaattggaa cgtatgactc agtttaaaga caaagctcag aaacgcgcag atggagtgcc
+     1621 tgctggtcta ctcacttatc caccattgat ggcggctgat atcgtgattt acaacactaa
+     1681 cattgtccct gttggtgatg atcaaaaaca gcatatggaa ctgacacgta atttagtaga
+     1741 tcgtttcaat agtagatata acgatgtatt agtaaaacca gaggtacgaa tgcctaaagt
+     1801 tggtgggcgt gtgatgagtt tacaagatcc tactaaaaaa atgagtaaaa gtgatgataa
+     1861 tcagaagaat ttcatttctt tattggatga acctcatgta gctgccaaaa aaattaaaag
+     1921 cgctgtaaca gactctgacg gtataataaa atttgatcgt gagaataaac caggcatttc
+     1981 aaatttactt tcaatatatt ctggtctaac taatgaatct attaagaata ttgaatctaa
+     2041 atatgaaggt gaaggttacg gtaaatttaa aggtgattta tcggaaatcg ttaaagattt
+     2101 tcttattaat ttccaagaaa aatatgcaag cttttataat tctgatgacc tagatgatat
+     2161 tctagataaa ggtaaagaaa aagctcaaaa agcttcattt aaaacattga aaaaaatgga
+     2221 aaaagcaatg ggcttaggtc gaaaaagata atactatata atatacaaat aatgcctcga
+     2281 aaataatttt cgaggcattt ttatacttct atttacctgt ctccctattg attgatttat
+     2341 caatatagac atgtttaagc gtcgtttcag gccctacttt gtgatattgt aatcctttta
+     2401 cttgcggatt cgttaagtgt gcttctcctt tttgataaac aggagcgact ggcgcttcat
+     2461 gtaataagat atattccgct ttttgtaatg aggtattacg ttcacctggc tttcgtaaaa
+     2521 acttgctgtt agcatctttg agtaattgat cgtattcttt attactccaa tctgtattat
+     2581 tctgtgcatt attttttgtc attgtttgaa gaaatgctgt tgggtcagga taatcaggac
+     2641 tccaccctga ataacttgct tcatagttat ttgctaattc taaagtagtt ttttgtttaa
+     2701 atggcatttg tttaattttg agtgtcacac ctggcaaatg actttcaatt tgagatttta
+     2761 tatattcggc agcaattttt gaagcaggtg tatcctgtgt gttcatcgta aaagtaaatt
+     2821 tattttttcc taattctttt tgtgcttctc tccaattctt tttcgctaaa tcagggttga
+     2881 attttaatgg tgatttgatg gttcttgcaa aatctttgcc atccggtgta tcggcagttc
+     2941 ctactccagt aaaattattt gatggtagcg aaccatcatt taaaacagaa ttgacatacc
+     3001 cttttttatt tattgcttga gatatagcca atcttaaatg cttattttta aattcaggaa
+     3061 ctgttttttg attcatttta ataaagaatg ttgctgctgt taaacgataa ttcaaagcag
+     3121 attctcctct atatttatca acttgttcag aagttataat agtatcatcg accgagccag
+     3181 tatcatataa cgatgcacct gcttgttgat cttttaatac tttatagttc actttatcta
+     3241 attttacatt cttcttatcc caatattgtt catttttaac taattgaatt ttatcttcca
+     3301 ctttccaatt tgttacttca aatggtccat tgtacactgc tttttcagca gttgtaccat
+     3361 attgttctcc aaacttttta gcaactttct cattttgagg attaaatgta ttaagtgcta
+     3421 atagttcatt aatataaggt acaggtcttt ctaaatctac ttgtaattta tatttaccta
+     3481 tagccgtgat acccaaatcc ttgactgatt ttttacctgc attaacttca tctgcatttt
+     3541 ttatatcgct cattatgtat gcaaactcag aagccgtctt aggattaact acctttctcc
+     3601 acgcatatac gaagtcatat gcagttaccg aatctccatt ggaccatttt gcattttttc
+     3661 ttaaattaat cgtaagtgtt ttgccaccat tacttttctt tggaaaagat ttagcaatag
+     3721 ctggttcagc tttgtcttct ttatttaaag tatataatcc ttcaaaagct tgagctgcta
+     3781 tatcaccaga aacagcatct gtaattaaag ctgtatctag tgtagtcata tcttgtgtga
+     3841 ttaccttcct aaaaacttgc ccctggtctg aatataaact ctgcttatta ctacaagcag
+     3901 ataaaattat gcatacactt aataaaataa ttaagacttt aaaacctttc atcctttaat
+     3961 tcctcctttc ttaacttatt aaacagacaa accatacttt tgtttcaatt taactgcttc
+     4021 gttttgagta gaaaatacat aatgttgtgg tctaatttca tttaattgac gttcttcatt
+     4081 aagcgttgca tcttcatgat ataaaacacg ttgacgattt ctctcaacat caggatcagg
+     4141 ctgtggaatg gcacttaata atgacttagt ataatcatgt aatggataat tataaatatc
+     4201 atcagccggt ccaatttcta caattttacc gaagtgcatc actgcaattc tatcggaaat
+     4261 atatttcacc attgataaat catgagcaat aaacaataaa gtaatatcac gttcacgttg
+     4321 tagctttaat aaaagattaa cgacttgagc ttgaatcgat acatctaatg ctgatattgg
+     4381 ttcatctgca ataataaatt ctggctctac agctaatgca cgtgcgatac caatacgttg
+     4441 tctttgtccg cctgaaaact catgtgggta acgattcgcg tgttctttac ctaaaccaac
+     4501 tgtttctaaa aggtcgtata cacgtttctt tcgatcacgc tgactactag caagtttgtg
+     4561 aatatctatt ccttcagcta cgatatccat tacctttaac cgaggattta gagatgcata
+     4621 aggatcttga aatatcattt gaattttctt attaaacttc aatcgctctt tacgttttct
+     4681 aatttgatga atatctttac catcatactc gattgcgcca tcagtaatat catttaattt
+     4741 gataatggct tttccagtcg ttgatttacc acatccagac tctcctacta ggcctaaagt
+     4801 ttccccttta taaacatcaa aacttatatt atcaatcgct ttaacttcat tatgtttacc
+     4861 ttgattaaaa tactgtttta aatttttaac ttgtaataat acattttcat tactcattaa
+     4921 aagccaccct ctctactcta tgtggttgtt cataattact tggcattgtt cttaatcgtt
+     4981 tttgaaccat tgaaggtggc gtaacttttg gagctcttgc atctaataac caagatttaa
+     5041 caaaatgtgt gggtgaaatt ttgaaccaag gtggttcttc tttaaaatca atatctaaag
+     5101 catatcgact tctacgtgcg aaagcatcac caattggtgg atgaagtaaa tctggtggtg
+     5161 tacctggaat tgcaattaag tccgtgtcat tactggttgt taaatcaggc attgaagaaa
+     5221 gcaatcccca ggtataggga tgtttaggat cataaaatat ttcattcaca tcccctgttt
+     5281 caaccatctg tcccccatac attacggcta ctttgtccgc aatatttgct acaacgccta
+     5341 aatcatgcgt aataaagata attgaagttt caatcttatt ttgtagttct ttcataagat
+     5401 ctaaaatttg agcctgcatt gtcacatcta aagcagttgt aggctcatca gcaattaata
+     5461 ttttaggctc acatgccaat gctattgcaa taactattct ctgacgttgt cctcctgaaa
+     5521 attgatgtgg ataagcttta aatcgttttt cagcacgagg taacccaact aaattcaaaa
+     5581 tttccaatgc tctttgcttg gcctttgctt tacttaattt cttatgttta atcaaaggtt
+     5641 ccatgacttg ctttccgatt tgcattgttg gatttaaaga agtcatagga tcctgaaata
+     5701 tcattgaaat atctcgacct cttagctgta tcagttcttt ttcacttttc tgagctaagt
+     5761 cctcacctaa aaataagatt tctccctttt ttattcttcc tgtatccttt tgaaaaagtt
+     5821 ttgtaattgc cttagttgtt acagattttc cagatccaga ttctccaaca atggctaacg
+     5881 tttccccttt atttaaatga aaatccacgc ctctgacagc ttgcacttct cctgcagcaa
+     5941 tatcaaagga aacgtgcaaa tcatttactt ctaataccgt ttctgtcatt acttttacct
+     6001 cctttatttt cgcatttttg ggtcgaatgc atcacgtagt ccatcactaa atagatagaa
+     6061 gaataaaatc aataaactta aaatgattgc tggaataaat aattcatgag gatgtatcaa
+     6121 caacattgca cgcccatcat tgacaagaga tcctaatgac gtcttaggcg caggcacccc
+     6181 tattccaata aagcttaaaa atgcttcgaa aaatattgca cttggaacag taaacattga
+     6241 tgtaacgaca attgctccta atgtgttagg taatatatgt ttaaagatta acttgaattt
+     6301 agaagcaccc aatgtttgag atgccaaaac aaattcttga tttttcaatt ttaaaaattc
+     6361 tccacgtacc actctactca tccccagcca gccagtaatt gacatagcta atataatagt
+     6421 ccaaattgat ggttcaaaaa taagtacgaa taaaataacg acaattaaat tgggtataga
+     6481 agcaataatt tctaaaatcc tttgcatcac atcatctacc ctgcctccaa agaaaccaga
+     6541 aacggctcca tatacaacgc caatacaaat atctaataat gcagcaacta caccaatata
+     6601 aagtgaaatt tgagcacctt tccaagtacg tgtccataaa tcacgtccaa gttgatcagt
+     6661 accaaaccaa tagttttctt tcgcacctgc ttctttgtaa gcatttttac cgtccgtacc
+     6721 tttaccgtca aaaggtaaaa atgaaacatg atctaataat ggtatttttg ctgggagatt
+     6781 acgatgatca acattctgct cagcaaaatc gtgtttattc attaatggtc ctataaatgc
+     6841 cataataact ataagcaaca aacctatcat tccgattact gctaatttat tacgtttcaa
+     6901 ttgtgaccaa gcatcttgcc aaaaattctt actttgacgt ggcatttctg gctcttgatt
+     6961 caagtctaaa tctctaataa taaaatctgt attcgaaata tcattacttg tatgtgacat
+     7021 cgttgcatta gaaatatcgc cattaatgtt tgtaacatct tctttattac tcattatttc
+     7081 ttgccccctt gtacacgaat tcttggatcg ataacaccat ataaaatgtc tacaataaag
+     7141 atcgaaacaa taaataaagt actgaataat atcgttgtag ccatgatgac tgaaaaatca
+     7201 tttgtagtta tagaacgaac aaattgatca cctaatcctg gaacaccaaa gatattttca
+     7261 attgttaatg ttcctgttaa tatacctgct aacataggta caatgattgt aataatagga
+     7321 attaatgcat ttcgtaatgc atgtccaaag agcactttta aagtagaatt tcctttagct
+     7381 cgagctaaaa gtatgtaatc tgaactgagt acttcaatca tttcagctct aatatatctt
+     7441 gcaacagttg ctaaaactgt agctgatagt gctagagaag gtaaaatagc tgtagaaaaa
+     7501 ccttcccatc ctgcaactgg aaaccattct aacttaactg caaatacata ctgcaataaa
+     7561 actgctaaga caaatgacgg cactgatact gcgataacag agataattgt tgttgtatag
+     7621 tctacccatg tattttgttt agtagcagca gcaacaccta atactaaacc taaaacaaca
+     7681 ccaataacca tagctgttat tcccatctcc attgaaggta tcaatcgtgg tttaactaaa
+     7741 tcccacactg gcatattatg atattgaaat gagttgccaa aatcacctgt tactacattt
+     7801 ttcaaataat taacatattg taatgctact ggatcattca aaccgtactt ttcatttaat
+     7861 atttcttttt gttgcgcatt aagttttgtg tcattaaacg gagatcctgg cattaatttc
+     7921 attaagaaaa atgtaattgt tataacaata aataacgaca caaacatata acacaatcgt
+     7981 ttcaacacat atttagtcat atacaccctc ctaaattaaa gaatattcaa aattgacatt
+     8041 cccttcataa ttttcagaaa tattaatctt tattatatct ataatattta tacaattgca
+     8101 atatcatttt gcattacagt actatagtaa atatagataa atgacttttt ttgttttatt
+     8161 ctcttacttt tgcaatataa aaatctaccc ttttctaata ttaagttaaa atacatttag
+     8221 catagatagg aggtttcatt aatgtccata aattcttatt tgatttcgtc attatttacg
+     8281 ccagttttat caataattat atggttattt tattcaaatc actttataaa tttaatcaat
+     8341 atcttatttt atacatcatt cattattttt atagttgctt tccttatttt actcattcaa
+     8401 gaaggaatat ttgatgctac aagttttgga tttcgtcgtt taaagtatca actttcctca
+     8461 actaagagaa aacgtatgat gaaaaatgac cactttttca atccacaaaa agttaaaaaa
+     8521 gaaagttata ttatttcccc atgggtagtt ccaacattga ttattaacct cacttatata
+     8581 attgtgagta tcggagtatc tttattaata taaaaaaatc ttcaagtgag tagctaaatt
+     8641 aataactcat c
+//

@@ -1,0 +1,261 @@
+LOCUS       NZ_AKHF01000016         4664 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00016, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000016 NZ_AKHF00000000
+VERSION     NZ_AKHF01000016.1  GI:420218864
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 4664)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4664)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000016.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4664
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            complement(<1..219)
+                     /locus_tag="HMPREF9972_01355"
+     CDS             complement(<1..219)
+                     /locus_tag="HMPREF9972_01355"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="toxin-antitoxin system, antitoxin component, Xre
+                     domain protein"
+                     /protein_id="ZP_14723912.1"
+                     /db_xref="GI:420218865"
+                     /translation="MISKQIKDLRKQHNYTQEELAEKLNTSRQTISKWEQGISEPDLI
+                     MLMQLSQLFSVSTDYLITGSDNSIKKNNK"
+     misc_feature    complement(<22..219)
+                     /locus_tag="HMPREF9972_01355"
+                     /note="Predicted transcriptional regulators
+                     [Transcription]; Region: HipB; COG1396"
+                     /db_xref="CDD:31586"
+     misc_feature    complement(40..213)
+                     /locus_tag="HMPREF9972_01355"
+                     /note="Helix-turn-helix XRE-family like proteins.
+                     Prokaryotic DNA binding proteins belonging to the
+                     xenobiotic response element family of transcriptional
+                     regulators; Region: HTH_XRE; cd00093"
+                     /db_xref="CDD:28977"
+     misc_feature    complement(order(112..114,187..189,199..201))
+                     /locus_tag="HMPREF9972_01355"
+                     /note="non-specific DNA binding site [nucleotide binding];
+                     other site"
+                     /db_xref="CDD:28977"
+     misc_feature    complement(order(115..117,190..192))
+                     /locus_tag="HMPREF9972_01355"
+                     /note="salt bridge; other site"
+                     /db_xref="CDD:28977"
+     misc_feature    complement(order(109..114,124..126,133..135,166..171))
+                     /locus_tag="HMPREF9972_01355"
+                     /note="sequence-specific DNA binding site [nucleotide
+                     binding]; other site"
+                     /db_xref="CDD:28977"
+     gene            complement(726..3626)
+                     /locus_tag="HMPREF9972_01360"
+     CDS             complement(726..3626)
+                     /locus_tag="HMPREF9972_01360"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14723913.1"
+                     /db_xref="GI:420218866"
+                     /translation="MKLRQLFREKVSFEKREKLKKVLKYKGDITYQKNVKPYIKGFLD
+                     GQKIEIDNNKIIIESLHGKDISGHLFALASKLNNYTNYSVFIVAKDTVRAENLLNNYS
+                     LKNIKVVKHMSYEYGFYLATSQVLINDNTFYPFFSKREGQKYYNLWHGTPLKTLGKDI
+                     EGEFLDFGNVARNFMISDGLYLPNKYSAERLLGSLDLDGVLKTNVFIAPSPRNSLLFD
+                     KNRSEIIKEELSLKNKKVYVYMPTWRGNKKDDSVNFTEENILTSLEKKLPDDVVVFYK
+                     LHSMVTKSFQFKGNKVRPFPDAYDIYDFMSAVDGLITDYSSIMYDFASQNKKIILFNY
+                     DYDEYLSSRGMYENINDYPFYITDKINELVDYINKEDTVEYSSFTDKYCSKDSINGSQ
+                     EIVEHILFGKDSKNIQQYNNYNMKPNVYMFVGPMWDTGITTALKNLLENIDTTKRNYI
+                     LCFERKAINKLGEENIKSLPNSVKIYPIEGIRILTADEKKLHRKYETEGNSTGFSDNL
+                     INIQNREIRRVFGNNIPNYYIHYTGFESKYSEYVVFLKNFGTKTMIYVHTDMFEDYKN
+                     KKNYNKNLVSDAWQHADELVLVNEHLKQGFEENFSYELDNISIANNFLGINRINELLK
+                     EEFINTFLKVRFHFRSFKNSKSDLFEILDETYIDESNSSDELIQEAITLFKENPVVKY
+                     AKSEDQKKILLQNDELRQELQLSYIKIAYGNQLVRDFSEMISDKNRYINLMVKLLRDE
+                     INTFYYLRHYESIQKYITRYFENTNSNYINFEESSLKEALELFKDDFGLRKMEILKEI
+                     EDPNIKVFFNIGRFDQQKGHDRLIQAFEKVYEKDNNTRLYILSSYGPIKEKTLNQIRR
+                     SNAKEAITVFDRMSNPYLLLGKVDAFVLSSYYEGLGLVVYESMFVNTPVISVNLDTTT
+                     QFLKDSDIILVENSEEGLVEGMNRLINQELPSTKFDFNKYEINRVKEFESLF"
+     misc_feature    complement(2430..3452)
+                     /locus_tag="HMPREF9972_01360"
+                     /note="CDP-Glycerol:Poly(glycerophosphate)
+                     glycerophosphotransferase; Region: Glyphos_transf;
+                     pfam04464"
+                     /db_xref="CDD:203023"
+     misc_feature    complement(<1746..2375)
+                     /locus_tag="HMPREF9972_01360"
+                     /note="Glycosyltransferases catalyze the transfer of sugar
+                     moieties from activated donor molecules to specific
+                     acceptor molecules, forming glycosidic bonds. The acceptor
+                     molecule can be a lipid, a protein, a heterocyclic
+                     compound, or another carbohydrate...; Region:
+                     Glycosyltransferase_GTB_type; cl10013"
+                     /db_xref="CDD:214166"
+     misc_feature    complement(762..>1511)
+                     /locus_tag="HMPREF9972_01360"
+                     /note="Glycosyltransferase [Cell envelope biogenesis,
+                     outer membrane]; Region: RfaG; COG0438"
+                     /db_xref="CDD:30787"
+     misc_feature    complement(732..>1250)
+                     /locus_tag="HMPREF9972_01360"
+                     /note="Glycosyltransferases catalyze the transfer of sugar
+                     moieties from activated donor molecules to specific
+                     acceptor molecules, forming glycosidic bonds. The acceptor
+                     molecule can be a lipid, a protein, a heterocyclic
+                     compound, or another carbohydrate...; Region:
+                     Glycosyltransferase_GTB_type; cl10013"
+                     /db_xref="CDD:214166"
+     gene            complement(3661..>4664)
+                     /locus_tag="HMPREF9972_01365"
+     CDS             complement(3661..>4664)
+                     /locus_tag="HMPREF9972_01365"
+                     /codon_start=3
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14723914.1"
+                     /db_xref="GI:420218867"
+                     /translation="SKKRIIKLFREYSDQVLGNLNPEVMIDYSGYNKLFTALFAFTIA
+                     KKNAIFLHNDMHEEFNKLIDGRYKHRWNLKVIFSLYNQFTKIVSVSDSTNKANIINLK
+                     QYIKSPENKMISISNIIDGDNIIKQAALGYGRANIKIISDDGVEKNYLKDMSYGDISF
+                     RCIPAPNKNDINFITLARLSPEKNQQNLIKAFKDIVNINRNCKLFILGDGPLYGNLKK
+                     LIRNLNLENHVYLLGFINNPYMLLDRCDCFILPSNYEGQGMSILEAQILKKPVIGTNV
+                     NGIKSVVNEDSGILVENNISSIVEGMRAYLKGNIPSIKFDYKDYNEQILLKIEKEIL"
+     misc_feature    complement(3745..4659)
+                     /locus_tag="HMPREF9972_01365"
+                     /note="This family is most closely related to the GT1
+                     family of glycosyltransferases. WabH in Klebsiella
+                     pneumoniae has been shown to transfer a GlcNAc residue
+                     from UDP-GlcNAc onto the acceptor GalUA residue in the
+                     cellular outer core; Region: GT1_WabH_like; cd03811"
+                     /db_xref="CDD:99982"
+     misc_feature    complement(3742..>4167)
+                     /locus_tag="HMPREF9972_01365"
+                     /note="Glycosyltransferase [Cell envelope biogenesis,
+                     outer membrane]; Region: RfaG; COG0438"
+                     /db_xref="CDD:30787"
+     misc_feature    complement(order(3883..3885,3949..3951,4129..4137))
+                     /locus_tag="HMPREF9972_01365"
+                     /note="putative ADP-binding pocket [chemical binding];
+                     other site"
+                     /db_xref="CDD:99982"
+ORIGIN      
+        1 tttattattc tttttaatac tattgtcact tcctgtaatg agatagtctg tactaacaga
+       61 aaataattgt gacaattgca taagcataat taagtctggt tctgaaatac cttgttccca
+      121 tttagaaatt gtttgtcttg aagtatttaa tttttcagct agctcttctt gagtataatt
+      181 atgttgcttt cgtaaatcct ttatttgttt actaatcata atgtaagtca tctcctagct
+      241 tcattttaaa gggattaatg ctatcaatct gtcctcaaat tgtagcattc ttgaactata
+      301 ttgttgcaat ttgattgtaa ttatttacat tttagtttac aaagctatag ttcagcatta
+      361 tcgtaagtta actacatttt attggagata ctatatactt aaccaatttc aaaataagtt
+      421 atatacaact tattttttag ttttatttgt gatacgcttc cccttatcag tgatattact
+      481 aaataatatt agtttatctc agtgtgtttt aaagaagatt ttataaatct attcgaaaaa
+      541 agagcaccta tattaatagg tgctttcgta ttgtgtcttc gactatcact gttattaatc
+      601 ataatcactt tcttctaact atgctgctaa tccttcattt cactatagat atcatataaa
+      661 agcaattttt ctatttatac tatttagtca tttatgctta atttcactta tatttttcgt
+      721 attggctaaa ataaactttc aaattccttc actctattaa tttcatattt gttaaaatca
+      781 aattttgtgc ttggtaattc ttgatttatc aatctattca taccttcaac tagtccttct
+      841 tcagaatttt ctactaaaat tatatcacta tcttttaaaa attgtgtagt tgtatcaagg
+      901 ttgactgata ttactggtgt attcacaaac atactttcat atacaactag gcctaatcct
+      961 tcataataag aagacaatac aaatgcatca actttaccaa gtaataaata aggattgctc
+     1021 attctgtcaa aaacagtaat tgcttctttc gcattacttc ttcttatctg gtttaaagtc
+     1081 ttttctttga taggaccata agaagaaagt atatacaatc ttgtattatt atctttctca
+     1141 tatacttttt caaacgcttg aattaatcta tcatggcctt tttgttgatc aaacctacct
+     1201 atattgaaaa acacttttat attgggatct tctatttcct ttaaaatttc cattttcctt
+     1261 aaaccaaaat catctttaaa taattctaaa gcttctttca aactggattc ctcaaaatta
+     1321 atatagttag aattcgtatt ttcgaaatat cgtgtaatat atttttgaat actttcatag
+     1381 tgtcttaaat aataaaaagt atttatttca tctcttagta acttcaccat taaattaata
+     1441 tatctatttt tatcagaaat catttctgaa aaatctcgaa ctaattgatt tccatatgca
+     1501 atttttatat atgacaattg taattcttgt ctcaattcat cattttgtaa taaaattttc
+     1561 ttttgatctt cactcttagc atatttaaca actggatttt ctttaaataa cgtaattgct
+     1621 tcttgaatca attcatcact tgagttactt tcatcaatat aggtctcatc taatatctcg
+     1681 aataaatcac ttttagaatt tttaaaactt ctaaaatgga atcgaacttt aagaaatgtg
+     1741 tttataaatt cttctttaag gagttcattt attctattaa tacctaaaaa attgttagca
+     1801 atagaaatgt tatctagttc ataagagaaa ttttcctcaa agccttgctt aagatgttca
+     1861 ttaactaaaa ctaactcatc agcatgctgc caagcatctg aaactaaatt cttattataa
+     1921 ttttttttgt ttttataatc ttcaaacatg tcagtatgta catatatcat agttttagtt
+     1981 ccgaaattct taagaaaaac tacatactca gaatatttac tttcaaaacc tgtataatga
+     2041 atataatagt tagggatatt attaccaaac actcttctta tttctctatt ttgtatattt
+     2101 attaggttgt ctgaaaagcc tgtcgaattt ccctccgttt catattttct atgtaatttt
+     2161 ttttcatccg ctgttaaaat tcttatcccc tctattggat atatttttac actattagga
+     2221 agtgatttta tattttcttc ccctaattta ttaatcgctt ttctctcaaa acaaagaata
+     2281 taatttcttt tagttgtatc aatattttcc aataaatttt ttaaagctgt tgttattcct
+     2341 gtatcccaca ttggcccaac aaacatatat acatttggtt tcatattgta gttattatat
+     2401 tgttggatat ttttactgtc tttgccaaat aatatatgtt caactatttc ttgagatcca
+     2461 tttatggaat ctttagaaca atatttgtca gtgaaacttg agtattcgac tgtatcctct
+     2521 ttattaatat aatctactaa ttcgtttatt ttatctgtga tataaaacgg gtaatcatta
+     2581 atattttcat acatgcctct cgaagataaa tattcatcat aatcataatt aaataaaata
+     2641 atctttttat tttgactggc aaaatcatac attattgaag aatagtcagt gatgagtcca
+     2701 tcaactgcac tcataaaatc atatatatca tatgcatctg ggaaaggtct tactttattt
+     2761 cctttaaact gaaaactttt tgtaaccata gaatgtaatt tgtaaaatac aacaacatca
+     2821 tcaggcaact ttttctctaa acttgtaagt atattttctt ctgtaaaatt tacactatcg
+     2881 tcctttttgt ttcctctcca tgtcggcata taaacataaa cctttttatt ttttaaactt
+     2941 agttcttctt ttattatttc acttctattt ttatcaaata gtaaagaatt cctaggagat
+     3001 ggcgcgatga atacatttgt tttcaataca ccatctaagt ctaaacttcc tagcaatctt
+     3061 tccgctgaat atttattagg caagtataaa ccatcagaga tcatgaaatt tctggccaca
+     3121 tttccaaagt ctaagaattc gccctcaata tctttaccta aagtttttaa gggggttcca
+     3181 tgccataaat tataatattt ttgtccttct ctttttgaga aaaatggata gaatgtatta
+     3241 tcattaatta acacttgaga agttgctaaa taaaaaccat attcatatga catatgcttg
+     3301 actactttaa tatttttaag gctgtagtta ttcaaaagat tttcagctct aactgtatct
+     3361 ttagctacaa taaaaacact atagttagta taattattta atttactcgc caatgcaaat
+     3421 aagtgtccac taatgtcctt accatgtaaa ctttcgatta ttattttatt attgtcaatt
+     3481 tcgatttttt ggccgtctaa aaacccttta atataaggtt taacattctt ttggtaagta
+     3541 atgtctcctt tatattttaa aacttttttt aatttttccc ttttttcaaa agataccttt
+     3601 tcacgaaata attgtcttaa tttcaattaa ataaccccct tgtaggaaat ttgttttact
+     3661 ctacaatatt tctttttcta ttttcaataa aatttgttca ttatagtctt tataatcaaa
+     3721 ttttattgaa ggtatattac ctttcaaata cgctctcatt ccctcaacaa tactagaaat
+     3781 attattttct actaatatcc ctgaatcttc gttaacaact gatttaatac catttacatt
+     3841 cgtcccaata accggttttt ttaaaatttg tgcttctaga atagacatac cttgcccctc
+     3901 ataattagaa ggtagtataa aacagtcaca tctatccaac aacatataag gattattaat
+     3961 aaatccaagt aagtatacat ggttttctaa attcaaattt ctaattagtt tttttagatt
+     4021 tccatataac ggaccgtctc ctaaaataaa gagcttacaa tttctattaa tattgacaat
+     4081 gtctttaaat gctttaatta aattttgctg attcttttca ggggacaaac gagcaagcgt
+     4141 aataaaattg atatcatttt tatttggagc aggtatacat ctgaaactga tatcaccata
+     4201 tgacatgtct ttcaaataat ttttttctac tccatcatct gaaattattt taatattcgc
+     4261 tctaccataa cccaatgcgg cctgtttaat tatattatct ccatcaataa tattagatat
+     4321 tgatatcatt ttattttcag gtgattttat atactgtttc aaattaataa tatttgcttt
+     4381 attagttgaa tcggatactg atactatttt tgtaaattga ttatataaac taaatatcac
+     4441 ttttaaattc catctatgct tataacggcc atcaataagc ttattaaatt cctcatgcat
+     4501 atcattatgt aaaaatattg cattcttctt agctattgta aacgcaaata gtgctgtaaa
+     4561 taatttattg tacccactat aatcaatcat tacttctgga tttaaatttc ctaatacttg
+     4621 atctgaatat tctctaaata attttattat tcttttttta ctta
+//

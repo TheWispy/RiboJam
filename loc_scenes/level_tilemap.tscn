@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://fb71xcdh2odn"]
+
+[sub_resource type="TileSet" id="TileSet_vsi46"]
+tile_size = Vector2i(32, 32)
+occlusion_layer_0/light_mask = 1
+physics_layer_0/collision_layer = 1
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_set = SubResource("TileSet_vsi46")

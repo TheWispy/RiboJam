@@ -1,0 +1,437 @@
+LOCUS       NZ_GL882590            11795 bp    DNA     linear   CON 27-NOV-2012
+DEFINITION  Bacteroides clarus YIT 12056 genomic scaffold Scfld10, whole genome
+            shotgun sequence.
+ACCESSION   NZ_GL882590 NZ_AFBM01000000
+VERSION     NZ_GL882590.1  GI:329959085
+DBLINK      Project: 66155
+            BioProject: PRJNA66155
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Bacteroides clarus YIT 12056
+  ORGANISM  Bacteroides clarus YIT 12056
+            Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;
+            Bacteroidaceae; Bacteroides.
+REFERENCE   1  (bases 1 to 11795)
+  AUTHORS   Weinstock,G., Sodergren,E., Clifton,S., Fulton,L., Fulton,B.,
+            Courtney,L., Fronick,C., Harrison,M., Strong,C., Farmer,C.,
+            Delahaunty,K., Markovic,C., Hall,O., Minx,P., Tomlinson,C.,
+            Mitreva,M., Hou,S., Chen,J., Wollam,A., Pepin,K.H., Johnson,M.,
+            Bhonagiri,V., Zhang,X., Suruliraj,S., Warren,W., Chinwalla,A.,
+            Mardis,E.R. and Wilson,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2011) Genome Sequencing Center, Washington
+            University School of Medicine, 4444 Forest Park, St. Louis, MO
+            63108, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GL882590.
+            Bacteroides clarus YIT12056 (No 16S rRNA gene available) is a
+            member of the Bacteroidetes division of the domain bacteria and has
+            been isolated from the gut.
+            
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC.
+            
+            Bacteria and source DNA were provided by Masami Morotomi, PhD
+            (Yakult Central Institute for Microbiological Research, 1796 Yaho,
+            Kunitachi, 186-8650 Tokyo, Japan). Isolation of bacteria and DNA
+            preparation were funded by the Yakult Central Institute for
+            Microbiological Research.
+            
+            Coding sequences were predicted using GeneMark v3.3 and Glimmer2
+            v2.13. Intergenic regions not spanned by GeneMark and Glimmer2 were
+            blasted against NCBI's non-redundant (NR) database and predictions
+            generated based on protein alignments. tRNA genes were determined
+            using tRNAscan-SE 1.23 and non-coding RNA genes by RNAmmer-1.2 and
+            Rfam v8.0. Gene names are generated at the contig level and may not
+            necessarily reflect any known order or orientation between contigs.
+            
+            The National Human Genome Research Institute (NHGRI), National
+            Institutes of Health (NIH) is funding the sequence characterization
+            of the Bacteroides clarus YIT 12056 genome.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Velvet v. 0.7.57
+            Genome Coverage          :: 204.4x
+            Sequencing Technology    :: Illumina
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..11795
+                     /organism="Bacteroides clarus YIT 12056"
+                     /mol_type="genomic DNA"
+                     /strain="YIT 12056"
+                     /isolation_source="gut"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9445"
+                     /db_xref="taxon:762984"
+     gene            <1..2829
+                     /locus_tag="HMPREF9445_01492"
+     CDS             <1..2829
+                     /locus_tag="HMPREF9445_01492"
+                     /inference="protein motif:HMMPfam:IPR000531"
+                     /inference="protein motif:HMMPfam:IPR012910"
+                     /note="Psort location: OuterMembrane, score: 9.49"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="TonB-dependent receptor plug domain protein"
+                     /protein_id="ZP_08296635.1"
+                     /db_xref="GI:329955822"
+                     /db_xref="InterPro:IPR000531"
+                     /db_xref="InterPro:IPR012910"
+                     /translation="VVVVGYGTQKKGSVTGSITSVDAKTIADIPTANLATSLAGRLSG
+                     VMISSTTGKPGATSSLSIRAKGTTNDSSPLYVIDGVVRNQEAFESLDASEVENISVLK
+                     DGASAAVYGARAANGVVLVTTKKGSTGKPVINYSGTVGFDSPTKNPETMSAYEQAIFL
+                     NHNRYQDWVDKGSDPKNRPENQKTWYTDDELEYLKGVNYSWLDEMWRTPLTTRHALNI
+                     TGGTERVRYFIGGAYYFATGAFDNLEYNKANFRASIDASITDNFKVGLNISTDNRKDI
+                     KPHWKSDGGRDNLDNLYSSILKRSKMNPFYINGLPVKANGLEQHPLTQISEQAGRDTR
+                     KWMNTNVNMFAEYDAPFLKGLKFKFQYSRNTYNRLYKEVAMPYTLYTFETSGTNGHYI
+                     DPSKNPQVTGTDVRGGDRFIKKTSALYSDYQMNFFVTYDRTFGKHDIGALFVYEQAEG
+                     ENESFDAQRNGLLTWTMPEFHAASSDASQSIVGNGSVGESGRLSYVGRLNYAYDDKYL
+                     LEAAFRVDGSTKFAPNKRWGFFPSISAGWRISNEPFFANNIKFIDYLKLRGSIASLGN
+                     DAIGGWDWMPKYNLTTGAIFGSQSYGIEPGTLANPDLTWEKSISYNVGFDGRLFNHFD
+                     VSFEWFYRHTYDILAERTASVPTSFGAKLPKENYAKIDARGFEFEIGYNGQVKDFTYW
+                     LKGNFGYAKSWWVEKDEASNLAAYKSEIGQSLDRVWGYDCLGILRSQEEVDRVNEENV
+                     KKYGKELLIKGTKLVPGMLLYRDVRGVNSDEPDGQITEEDMVVIVDKQSAPITYGFTL
+                     GGKWKGFTLDIFFQGLAGHERVIDDRKPGVKDWTGTFAYWNDHWTAENPNASMPFTLT
+                     KTNGEKSTFWVRNASFLRCKNISLSYDIPQSITKALKLDKVKVFVNGTNLFLLQDGLK
+                     IADPEVHKDHISSYPIMRNFSFGLNVTL"
+     misc_feature    1..2826
+                     /locus_tag="HMPREF9445_01492"
+                     /note="TonB-linked outer membrane protein, SusC/RagA
+                     family; Region: OMP_RagA_SusC; TIGR04056"
+                     /db_xref="CDD:211898"
+     misc_feature    28..309
+                     /locus_tag="HMPREF9445_01492"
+                     /note="TonB-dependent Receptor Plug Domain; Region: Plug;
+                     pfam07715"
+                     /db_xref="CDD:203737"
+     misc_feature    1648..>2160
+                     /locus_tag="HMPREF9445_01492"
+                     /note="TonB dependent receptor; Region: TonB_dep_Rec;
+                     pfam00593"
+                     /db_xref="CDD:201331"
+     gene            2851..4656
+                     /locus_tag="HMPREF9445_01493"
+     CDS             2851..4656
+                     /locus_tag="HMPREF9445_01493"
+                     /inference="protein motif:HMMPfam:IPR012944"
+                     /note="Psort location: OuterMembrane, score: 9.52"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="SusD family protein"
+                     /protein_id="ZP_08296636.1"
+                     /db_xref="GI:329955823"
+                     /db_xref="InterPro:IPR012944"
+                     /translation="MKSKYIFTAILLVGLGVAGCNDVLDKKNLNAVTAEDTWNDETLA
+                     TAFLDKCYADNLPDWSADVADINQYSDEGRGGEDFFYAGQLTSEGGGGPTKDYWPYEG
+                     IYKLNVLLDNINTGTLSEDVRKKIEAQALFLRSYRYFELVKRYGGVPLILSVQDRKES
+                     EVPREKTSVCISQIVNDLSTAATVLPKSWSGSDAGRITRGAALALKGRVLLFYASKQF
+                     NRNNDAARWQAAYDANLAAKEQLEKDGYGLNSTYDGTWKDNSDASELSKEVIFSKRYS
+                     YPANKSDINAGVRPLDYSQGATGWNQPTLDLVLAYPMADGTVPGVDIDGDGVKEPFDP
+                     TATDERGLFWVGRDPRFYKTIVTNGMVYPLADNQYPEQRQFTYKGGEIEIANSTKTGF
+                     YSCKFINPVVKKVDVRNYDLDLVEIRYAEVLLNLAECAAEVGNKDPEVYTILKEIRKR
+                     AGITANADELYGLKANMTKQELIDAVLFERRIELAYEGKRFWDMRRRMMFSDPEYKGY
+                     ARERIEIELTDAKKELSLNDLAKDFANGGGESKLNSVDYFKYFKTIVTKIDNKFQWDV
+                     DDNHYFFALPKKHLEQNAKLEQTKGWNDGTFDPLL"
+     misc_feature    2968..>3759
+                     /locus_tag="HMPREF9445_01493"
+                     /note="starch binding outer membrane protein SusD; Region:
+                     SusD; cd08977"
+                     /db_xref="CDD:185760"
+     misc_feature    3649..4626
+                     /locus_tag="HMPREF9445_01493"
+                     /note="SusD family; Region: SusD; pfam07980"
+                     /db_xref="CDD:203828"
+     gene            5022..7433
+                     /locus_tag="HMPREF9445_01494"
+     CDS             5022..7433
+                     /locus_tag="HMPREF9445_01494"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_08296637.1"
+                     /db_xref="GI:329955824"
+                     /translation="MAQQQIIKSKWVYTDDTGKLIYKQTKKGDRIADFSFAGYKGGGV
+                     TLPYIPAKLTVHPLGDNEDCTNHIQKAIDIVSELPQNAHGFRGAVLLAPGRYVCNGSL
+                     QIKADGVVLRGSGSDPSGSVIVMAGGKHTAIILNNKLHQRVGNRIGEISSGEACIKVI
+                     DKYIPAGAYKLTVDNVSRLSVGDNIEIRKPVTEKWIKFMKMDNLVRDGKTQTWIKAGK
+                     FLIAERTIAAIDGNIITLTVPLIDCYDSNYTDDNTTIVVANNVGRLKQCGVENIRIES
+                     PAQAVNHSKALYYALRINGEDCWAKDINAMETMESIGIGGRRITLQQVNVIRKALHQG
+                     ASKPAEFAPNGGQILLDRCSVEGDNIWFAALGAGQTGPIVFLNCTFKGNGRIEGHQRW
+                     STGILLDNCSLPNGGIDFKNRGSMGSGHGWGTAWSVAWNCTAKSYVNQLPPGTYNWVI
+                     GSKGESTPLRRPFNQSGPTLPVGIFDSHNISVTPQSLYLAQLKERLGNTALQNIGYGL
+                     SEQNPIPKETDYIFQGGMQADASLRNRDFNAIHEYMRSLGWDYSEHPNISKHDHYQGI
+                     HCEVIFDRTLQQYVFNFINHANTEVLDSDRGRLLSDRQRNEMKSQTNYNWHKLNGNWN
+                     EWQRLEWKFRISKDFRPSTSFCHLHQLKAQEGNNGAPLITISTRCDKDGNNKRVQIIH
+                     TGDNKKSSKGVIIDNLPLSDFEEEWIQVETEMHYTHHGVFRIKLTRISDGKILVNQSF
+                     SDIDLWRKGATNIRNKFGIYRSLGRKMKSSSDRPDNGIKDENLQLADFKVYEAFTNFN
+                     PQPHD"
+     gene            complement(7523..9004)
+                     /locus_tag="HMPREF9445_01495"
+     CDS             complement(7523..9004)
+                     /locus_tag="HMPREF9445_01495"
+                     /inference="protein motif:HMMPfam:IPR012944"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="SusD family protein"
+                     /protein_id="ZP_08296638.1"
+                     /db_xref="GI:329955825"
+                     /db_xref="InterPro:IPR012944"
+                     /translation="MDMKKNILKSICIIALTGTFISCNDFLDKQPLDELSSTTFWKTT
+                     KDADNALTAVYASFRNSTFSAVPASGPCTELEYLSDNAVVRGTGGAPLNIQQGGINST
+                     TGGVLNDMWTYSYKGISAANYFLDNFDKVKDLYSEADFNKLKAEALFIRTFFYNELVV
+                     HYGDVPLMLQGAEVGSDYDRMPRTPRAEVVKQMLEDIDFAIKWLPNIAYTDGHAVQGS
+                     AVVLKCRILLNDQRYSDVAKLAGDYIHDPNNPFDLADDYAGIFFGKQENNPEIMFSIQ
+                     FKAPDDFHALDQMVGSRMTIFPSFNLRASYEPNDPRIKMTMYEIGDPWPNNNKSGKFE
+                     EDGNKAEGLIPFTQLAFKKYVNPNVEVPKASTLSDQHIVKMRYADLLLMYAEAMFESG
+                     QGNDPLALKALNDVRQRPGVNMPVKPQLTREIIRNERRVELAYEGIRYYDIIRWDIAK
+                     DVIPTVQYDESGRMRKFDGNLWPIPQSQMDIMGDVWEQNAPWN"
+     misc_feature    complement(7667..8869)
+                     /locus_tag="HMPREF9445_01495"
+                     /note="starch binding outer membrane protein SusD; Region:
+                     SusD; cd08977"
+                     /db_xref="CDD:185760"
+     gene            complement(9012..>11795)
+                     /locus_tag="HMPREF9445_01496"
+     CDS             complement(9012..>11795)
+                     /locus_tag="HMPREF9445_01496"
+                     /inference="protein motif:HMMPfam:IPR000531"
+                     /inference="protein motif:HMMPfam:IPR012910"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="TonB-dependent receptor plug domain protein"
+                     /protein_id="ZP_08296639.1"
+                     /db_xref="GI:329955826"
+                     /db_xref="InterPro:IPR000531"
+                     /db_xref="InterPro:IPR012910"
+                     /translation="VVVVGYGTQKKVNLTGAVGSVDAADLTKRVSPNASSMLQGRVPG
+                     LQIVQNSANPGAEQAAIQIRGQGTFSDAGSNPLVLIDGVEGDMNKVNPNMIENITVLK
+                     DAASASIYGSRAANGVILITTKNGTEGRLNIDYNFNMAWQSPTTKQDRITNSAEYMTL
+                     FNKALTHTGGDIATKGYKQEWIDAYKNAAPGDPMYPNHDWYDDIIKTAPMQQHFLSVN
+                     GGKNGTTYNFGLGYLDQDGMVIKTGYKRYDAQMNLKTNLGGRVTFGTNINFSKSQRHS
+                     TSYTSGGNQIDNNETEDMILCMYAQGPYYTPYLPDGRFCTGGYSGRGHNKAPLAVAYS
+                     GGGKKFDENYVLGSAFAKVKIIDGLDAEVKASVRYNQLQSKCLTVSVKAYKLHPDEFG
+                     NHEESTYNSDVNTLTVRQETEMQYTLYGTLNYKKTFADKHNLNVMLGYNQENFKYDKI
+                     GGYRTGVPTNTHWELDVASTAGQTNEGGAYEWAIQSYFGRLNYDFMGKYLFEASFRYD
+                     GTSRLASGKRWGLFPSFSAGWRVSEENFLKNVEWISNLKVRGSWGQLGNQNIGNYPYQ
+                     DLLTAVKYNFGGQVSQGFTQDALSNPEIKWETTTAVDFGVDFGFFNNRLFGSIDWYKK
+                     TTKDILRELQVPTHIGVSAPMVNDGTMENKGWEFVLGHENRIGNFTYSISANLETYRN
+                     KLVKFGAREINSSNGTIKQEGLPWSSYYMYVFDGIYQNQSEIDNGPKPLSNLTQPGDM
+                     KYKDISGPDGVPDGKITPDDRVVVDGAFPKFNYGFTINAAYKGFDLSLFFQGVEGKKI
+                     YVKEWGIAPFRQASVPSTFWRGAWDGEGTSNSIPHIFNDNYAPNTAVSTWWLQDGSYL
+                     RMKNIQIGYTLPKAWLSKIHFQNVRIYFSGDNLLTFTDFFQGLDPERTAQNSRGAIYP
+                     QAKVVSFGLKVTL"
+     misc_feature    complement(9015..11795)
+                     /locus_tag="HMPREF9445_01496"
+                     /note="TonB-linked outer membrane protein, SusC/RagA
+                     family; Region: OMP_RagA_SusC; TIGR04056"
+                     /db_xref="CDD:211898"
+     misc_feature    complement(11442..11768)
+                     /locus_tag="HMPREF9445_01496"
+                     /note="TonB-dependent Receptor Plug Domain; Region: Plug;
+                     pfam07715"
+                     /db_xref="CDD:203737"
+     misc_feature    complement(<9636..10232)
+                     /locus_tag="HMPREF9445_01496"
+                     /note="TonB dependent receptor; Region: TonB_dep_Rec;
+                     pfam00593"
+                     /db_xref="CDD:201331"
+ORIGIN      
+        1 gttgtggtag tgggttatgg tacacagaaa aaaggaagtg taacaggaag tatcacaagt
+       61 gttgacgcaa agaccattgc agatattcca actgccaatt tggcaacgtc tttagcagga
+      121 cgtttatcag gagtaatgat ttcttctact acaggtaagc ctggcgcaac tagcagtttg
+      181 agtattcgtg ctaaaggtac tactaatgat tcaagcccat tatatgttat tgatggggtt
+      241 gtcagaaatc aagaggcatt cgaatcattg gatgccagtg aagttgaaaa tatatcagta
+      301 ttgaaagatg gggcttctgc tgcagtgtat ggtgcccgcg cagctaacgg tgtggttttg
+      361 gttacaacta aaaaaggtag tacgggtaag ccagttataa attattcagg taccgttggt
+      421 tttgatagtc caacaaaaaa tcctgaaaca atgagtgctt atgaacaagc tatttttcta
+      481 aatcataata ggtaccaaga ttgggttgat aaaggttctg atcccaaaaa tcgtccggaa
+      541 aatcaaaaaa catggtatac agatgatgaa ctcgagtatc tgaaaggagt aaactatagt
+      601 tggctggatg agatgtggag aaccccgctc accacgcgtc atgccttaaa cattacaggt
+      661 ggtacagaac gcgtgcgtta ttttattggc ggtgcttatt attttgcaac tggtgctttt
+      721 gataatttgg aatataataa agcaaatttc cgtgctagca ttgatgctag cattacggat
+      781 aattttaaag taggcttaaa tattagtacg gataatagga aagacatcaa gcctcattgg
+      841 aaatctgacg gtggacgaga taacttggat aatttatatt ccagcatttt gaaacgttcg
+      901 aaaatgaacc ctttttatat caatgggctt cctgtaaaag ccaatggttt ggaacaacat
+      961 cctttgactc aaatcagtga acaggcaggt agagatacac gtaaatggat gaataccaat
+     1021 gttaatatgt ttgcggaata tgatgcccca ttcctcaaag ggttgaaatt taaattccag
+     1081 tatagtagaa acacttataa tagactctat aaagaggtag cgatgccata tactctttac
+     1141 acttttgaaa caagtggaac caatggacat tacattgatc cgagtaaaaa cccacaagtt
+     1201 acaggaaccg acgtgcgtgg tggagaccgc tttatcaaaa aaacatcagc cctttactct
+     1261 gattatcaaa tgaatttctt tgtaacttat gaccggacat tcggtaaaca tgacattggt
+     1321 gcactgtttg tttacgaaca ggccgaagga gagaatgaat cttttgacgc acaacgtaac
+     1381 ggtctgttaa cttggacaat gcccgaattt catgcagcga gtagtgatgc ttctcaatct
+     1441 atagtaggta atggctctgt tggtgaaagc ggacgccttt cttatgtcgg acgcttaaat
+     1501 tatgcttatg atgataaata tcttctagaa gcagctttcc gtgtggatgg ttccaccaaa
+     1561 tttgcaccca ataaacgttg gggatttttt ccttctatct ctgctggatg gcgtatatcc
+     1621 aatgaaccgt tttttgctaa taatataaaa tttattgact atctgaaatt gcgtggttca
+     1681 atagcttctt taggtaatga tgctattggt ggatgggatt ggatgcccaa gtataactta
+     1741 acgacaggag ctatattcgg ttcacagagc tatggtatcg agccgggtac gttggctaat
+     1801 cctgacttga catgggaaaa atccatttct tataatgtag gttttgatgg tcgtttattc
+     1861 aatcactttg atgttagttt cgaatggttt tatagacata cttatgatat tcttgccgaa
+     1921 cgtaccgcaa gtgtacccac tagcttcgga gcaaaacttc ctaaagaaaa ctatgcaaaa
+     1981 attgatgcac gaggttttga atttgaaata ggatataacg gccaagtgaa agatttcaca
+     2041 tattggttga aaggtaactt tggctatgcc aaaagttggt gggtagaaaa agatgaagcc
+     2101 tccaatttag ctgcttacaa atcagaaata ggacaatcat tagatcgagt ttggggatat
+     2161 gattgtcttg gaattcttcg ttcacaagaa gaagtagatc gagttaatga agaaaatgta
+     2221 aagaaatatg ggaaagaatt actcattaaa gggactaaat tagttcccgg tatgttactt
+     2281 tacagagatg tacgtggagt aaatagcgat gaaccagatg gtcaaattac agaagaagat
+     2341 atggttgtaa tcgttgataa acaatctgct cctattactt atggatttac attaggtggt
+     2401 aaatggaaag ggtttacatt ggatatattc ttccaagggc tagcaggtca cgaacgcgtt
+     2461 attgatgata gaaaacctgg tgtgaaagat tggacaggca catttgcata ttggaatgat
+     2521 cattggacgg cagaaaatcc caatgcgtca atgcctttta ctttaactaa aacaaatggg
+     2581 gagaaatcta cattctgggt acgtaacgca tcatttttac gttgtaagaa tatctctctt
+     2641 tcatatgata taccacaatc tattaccaaa gccttaaaat tggacaaggt taaagttttt
+     2701 gttaacggaa ctaatctttt cttattacaa gatggattaa aaattgcaga tcctgaggta
+     2761 cataaagatc atatcagttc gtacccaatc atgagaaatt tctcttttgg tcttaacgta
+     2821 acattataat ctcaataaaa gaaagacact atgaagtcaa aatatatttt tactgcaata
+     2881 cttcttgttg gattaggagt agcaggatgt aacgatgttc ttgacaaaaa aaacttgaac
+     2941 gcagtaactg ccgaggatac atggaatgat gaaacattgg caacggcatt tttagataaa
+     3001 tgctatgctg ataatttgcc agactggtct gctgatgtag ccgatatcaa tcaatatagc
+     3061 gatgaaggtc gaggtggaga agatttcttc tatgccggtc aactgacatc tgaaggcgga
+     3121 ggaggaccaa ctaaagatta ttggccttat gaaggaattt ataaactaaa tgtactatta
+     3181 gataatatta atacaggaac attatctgaa gatgtgcgta aaaagataga ggcgcaagct
+     3241 cttttcctac gttcatatcg ttattttgaa ttagtgaaaa gatatggtgg cgtaccattg
+     3301 attctgtctg tacaagatag aaaggaatca gaagtgccac gtgaaaaaac atccgtgtgt
+     3361 attagccaga ttgtaaatga tttaagtact gcggcaacag tacttcccaa atcttggagt
+     3421 ggatctgatg caggacgtat tacgagaggg gctgcattgg cattgaaagg tcgtgtttta
+     3481 ctgttctatg ccagcaagca attcaacaga aataatgatg cggcacgttg gcaggcagcc
+     3541 tatgatgcta acttagcagc gaaagaacaa ttggaaaaag atggatatgg attaaattct
+     3601 acttatgatg gtacatggaa agacaattcc gatgcaagtg aattatctaa agaagtcatt
+     3661 ttctctaaac gctattctta tcctgctaat aagtcagata taaatgcagg tgtgcgtcct
+     3721 ttggattact cccaaggtgc tactggctgg aaccagccta cccttgatct ggttttggca
+     3781 tatcccatgg ctgatggtac tgtacccggg gtagatattg acggagatgg agtaaaagag
+     3841 ccctttgacc ctacagcgac agatgaaaga ggtttgtttt gggtaggacg tgatccccgt
+     3901 ttttataaaa caattgtaac taatggcatg gtatatccgt tagctgataa tcaatatcct
+     3961 gaacaacgcc aattcactta taagggggga gaaattgaaa ttgcaaactc tacaaaaacc
+     4021 ggtttttact cttgcaaatt cataaatcca gtagtgaaga aagtagatgt acgtaactat
+     4081 gatcttgatt tagtagaaat tcgttatgca gaagttttat taaatttagc agaatgtgca
+     4141 gctgaagttg ggaataaaga tcctgaagtt tatactattt taaaagagat tcgtaaacga
+     4201 gctggtatca cggctaacgc tgatgaactc tatggtctaa aagctaatat gactaaacaa
+     4261 gaactgattg atgctgttct ttttgaacgt cgtattgaat tagcctatga aggtaaacgt
+     4321 ttctgggata tgcgccgtcg aatgatgttt agtgatccgg agtacaaagg atacgcgcgt
+     4381 gaaagaattg aaatagaact cactgatgct aaaaaagaat tatcgttaaa tgatttggca
+     4441 aaagattttg caaatggtgg aggtgagagc aaattaaact ctgtggacta cttcaagtat
+     4501 ttcaaaacaa ttgttaccaa gatagataat aaattccaat gggatgttga tgacaatcat
+     4561 tatttctttg ccttacctaa aaaacatctt gaacagaatg caaaattaga gcaaactaag
+     4621 ggctggaatg atggtacttt tgatccattg ttataatcct caattctgat tttcaaagaa
+     4681 ctatgtgttg tttcttaata tgaaatagtt tctataatca cagcaagatt aatcttgctg
+     4741 tgattttatt tatatatgct attgatacac atatattttg tgaaagcata tattatttca
+     4801 aagcctttca ataaattaca taatttatat aatataaaaa tcttacttaa aagctcattc
+     4861 tatattctcc tttttaatat ctaatggtat tgtaagtttt tgagattata tctatatatc
+     4921 aaataattca caatgttgtt attaactcga atttaactaa aatgtgacat aatatgagaa
+     4981 gattgggatt tcttatgtgt ttgttatgtt ccgtattcac aatggcacaa caacagatta
+     5041 taaaaagtaa atgggtttat acggatgata ccggcaaact aatatataaa cagacgaaaa
+     5101 aaggagatcg tattgcagat ttctctttcg cgggatataa aggtggtgga gttacattac
+     5161 cgtatatacc ggcaaaattg actgtacatc cattaggaga caatgaagat tgtacaaatc
+     5221 atattcaaaa agctattgat atagtttctg aattacctca aaatgcacat ggttttagag
+     5281 gagctgtttt gttagctcct gggcgctatg tctgtaatgg ttctcttcaa atcaaagctg
+     5341 atggagttgt attacgtggt agtggaagtg atcccagtgg gagtgtgatt gtaatggcag
+     5401 gcggtaagca tacagccatc atattaaata ataaacttca ccaacgtgta gggaatcgga
+     5461 taggggaaat atcttccgga gaagcctgca tcaaagttat agataaatat attcctgcag
+     5521 gtgcatacaa actcactgtt gataatgttt caaggctttc tgtgggtgac aatatagaga
+     5581 ttcgtaagcc tgtgactgag aaatggatta aatttatgaa aatggataat ttggttcgcg
+     5641 atggaaaaac tcagacttgg attaaggctg gcaagttttt aatagctgaa cgaacgattg
+     5701 cagccattga cggtaatatt attacactaa ccgtaccact cattgattgc tatgattcca
+     5761 attacacgga tgataataca accatagtcg tcgcaaataa tgttggccgc ctcaaacaat
+     5821 gcggagtaga aaatatccgt attgaatcac cggcccaggc ggtcaatcat tctaaagcat
+     5881 tatattatgc attaagaata aatggtgaag attgttgggc taaagatatt aatgctatgg
+     5941 aaacgatgga aagtattggt ataggcgggc gacgaattac attacaacaa gtaaatgtaa
+     6001 taagaaaagc attgcatcaa ggggcatcca aaccggcaga atttgctcca aatggtggcc
+     6061 agattctatt agatcgctgc tctgttgaag gggataacat atggtttgca gccttgggag
+     6121 ccggacaaac aggccctatc gtatttctaa attgtacctt taaaggtaac ggacgaattg
+     6181 aaggacacca gcgttggagt accggtatat tattggataa ttgtagcctg cctaacggtg
+     6241 gtattgattt taaaaatcga ggttcaatgg gttcagggca tggttgggga actgcctggt
+     6301 ccgtagcttg gaattgtaca gctaaaagtt atgttaatca acttccaccg ggtacatata
+     6361 attgggtcat tggtagtaag ggagaaagta caccattacg tcgtccgttc aatcagtctg
+     6421 ggccaacact ccccgttgga atttttgatt cgcataacat ttctgttacg ccacaaagcc
+     6481 tttatttggc ccagttaaaa gaaaggctag gaaataccgc actacaaaat attggatatg
+     6541 gtctgtccga acaaaatccg ataccaaaag agacagatta tattttccaa ggtggaatgc
+     6601 aggctgacgc ttcattaagg aatcgagatt tcaatgctat acatgaatat atgcgttctt
+     6661 tgggttggga ttattccgaa catcctaata tatctaaaca tgatcattat caagggatac
+     6721 actgtgaagt cattttcgat agaactttgc aacagtatgt attcaatttt attaatcatg
+     6781 ctaataccga agtattggat agtgaccgtg gaagattatt aagtgatcga caaaggaatg
+     6841 aaatgaaaag tcaaaccaat tataattggc ataaattaaa tggaaattgg aatgaatggc
+     6901 aacggttaga atggaaattc cgtatatcaa aagattttcg tccttctacg agtttttgtc
+     6961 atttacatca actgaaagca caagaaggaa ataatggtgc accacttatt accataagta
+     7021 ctcgctgtga caaagacggt aacaataaac gtgtacaaat cattcatacc ggagataata
+     7081 aaaaaagtag taaaggggtt attatagaca acctgccact atcggatttt gaagaagaat
+     7141 ggatacaggt agaaacagaa atgcattata cccatcatgg cgtattccgt ataaagctta
+     7201 ctcgtattag tgatggaaaa atactcgtca atcaatcttt ttccgatatt gatttatgga
+     7261 gaaaaggggc taccaatatt cgtaataaat tcggcatata tcgtagttta ggaagaaaga
+     7321 tgaaaagttc ttctgatcgt cctgataatg gtattaaaga tgaaaaccta caattagcgg
+     7381 attttaaagt gtacgaagcg tttactaact ttaatcctca acctcatgat taaataaata
+     7441 taattgtaat caaataaaat aataaagcct acttcataat ttgaaatagg ctttattaaa
+     7501 aggttataat tttctcactt gatcaattcc atggtgcatt ctgttcccat acatctccca
+     7561 taatatccat ttgagattga ggaataggcc atagattacc atcaaacttt ctcattctac
+     7621 cgctctcatc atattgaaca gtaggaatta catcttttgc aatatcccat ctaatgatat
+     7681 cgtaataacg gattccttcg taagccaatt ctacacgacg ttcattacga ataatctcac
+     7741 gcgttaattg aggtttgact ggcatattca cacccggacg ctggcgcaca tcatttaatg
+     7801 ctttcagtgc tagaggatca ttcccttgtc cactttcgaa cattgcttcg gcgtacatca
+     7861 ataacaagtc tgcataacgc atttttacta tatgctgatc actcaaagta gatgctttag
+     7921 gtacttcaac attagggttg acatattttt tgaaagccaa ctgtgtaaaa ggaataagtc
+     7981 cttcggcttt attaccatct tcttcaaatt taccagattt attattattg ggccaaggat
+     8041 caccaatttc atacatagtc atttttatac gaggatcgtt aggctcataa gaagcacgta
+     8101 aattaaaact agggaatata gtcatacgac ttcctaccat ttggtctaat gcatggaaat
+     8161 catctggtgc tttaaattga atagagaaca taatttctgg attattttct tgttttccaa
+     8221 agaaaatacc tgcatagtcg tcagctaagt cgaatggatt attagggtca tgaatataat
+     8281 caccagctaa tttagcaaca tcactatagc gttgatcatt taataatata cgacatttta
+     8341 aaacaactgc agaaccttga actgcatgtc catctgtata tgcaatatta ggtaaccatt
+     8401 taatagcaaa atcaatatcc tctagcattt gtttaaccac ttctgcacga ggagtacgtg
+     8461 gcattcgatc ataatcacta ccaacttcag caccttgcag catgagaggc acatcaccgt
+     8521 aatggacaac taattcatta taaaagaatg tacgaataaa taaagcttct gcctttaatt
+     8581 tattaaaatc agcctcagaa tacaaatctt ttactttatc aaaattatca agaaaataat
+     8641 ttgcagcaga aataccttta tatgagtatg tccacatatc atttaataca ccacctgtag
+     8701 ttgaattgat accgccttgt tgaatattca atggtgctcc accagtacca cgaacgactg
+     8761 cattatctga taaatattcc aattccgtac agggaccact tgccggaact gcagaaaatg
+     8821 tagagttacg aaagctagca tatacagcag tcaaagcatt atctgcatct ttagtagttt
+     8881 tccaaaatgt tgttgaactt aattcatcta gaggttgttt atctagaaag tcgttacatg
+     8941 aaatgaatgt tccggttaac gctattatac atatactttt taatatattc ttcttcatat
+     9001 ccatactctt tttataaggt tacttttaaa ccgaatgata ctaccttggc ttgaggataa
+     9061 atagcacctc ttgaattttg agcagtacgt tctggatcaa gtccttgaaa gaaatcagtg
+     9121 aaagttaaca gattatctcc tgagaagtaa atacgtacat tttggaaatg tatcttgctt
+     9181 agccatgcct taggaagggt gtagccaatc tgtatatttt tcattctcaa atatgaacca
+     9241 tcttgtaacc accaagtaga aacagctgta ttaggtgcat aattatcatt aaaaatatga
+     9301 ggaattgaat tagaggtacc ttcaccgtcc catgctcctc tccaaaaagt agaaggtact
+     9361 gaagcctgac ggaaaggagc aataccccat tcttttacgt aaatcttttt gccttccaca
+     9421 ccttggaaga acaaagaaag atcaaatcct ttataagcgg cattaatagt aaacccataa
+     9481 ttgaattttg gaaaagcacc atctactact acacgatcat caggagtaat ttttccatca
+     9541 ggtactccat ccggaccaga tatatcttta tacttcatat caccgggttg ggttaaatta
+     9601 ctcaatggct tcggaccatt atcaatttcc gattgatttt gataaatacc atcaaatacg
+     9661 tacatgtaat aggaactcca aggaagtcct tcttgcttta ttgttccatt gctactattt
+     9721 atttcacggg ctccaaattt gactaattta tttctatagg tttccaaatt agcacttatg
+     9781 ctatacgtaa aattacctat tctgttttca tgtcctagaa caaattccca acccttattc
+     9841 tccatagttc catcatttac cattggagca gatacaccta tatgagtagg tacttgcaat
+     9901 tcacgtaaga tatcttttgt cgtttttttg taccagtcga tagaaccgaa tagtctatta
+     9961 ttaaagaaac caaaatctac accgaagtca acagctgtag tcgtttccca tttgatctcc
+    10021 ggattactta aagcgtcttg tgtaaaccct tgactaactt gtccaccgaa attatatttc
+    10081 acagctgtaa gtaaatcttg atatggataa ttacctatat tctgatttcc taactgtccc
+    10141 catgaaccac gtacttttaa atttgaaatc cattccacat tttttaaaaa attctcttct
+    10201 gaaacacgcc atcctgcaga gaaagaagga aataatcccc aacgtttacc gctagctaaa
+    10261 cgagaagtac catcataacg aaaacttgct tcaaataaat atttacccat aaagtcataa
+    10321 ttcaaacgac caaagtatga ttgtatggcc cactcgtatg cacctccttc attcgtttgg
+    10381 ccggcagttg aagcaacatc taattcccaa tgcgtatttg tgggaacccc tgttctataa
+    10441 ccacctattt tgtcatattt aaagttttcc tgattatatc ctaacattac atttaaatta
+    10501 tgtttatcag caaaagtctt tttatagttt aaagttccat atagtgtata ttgcatttct
+    10561 gtttcttgtc ttacagttaa agtattgaca tcgctgttat aggtactttc ttcatgattt
+    10621 ccgaattcat ccggatgtaa tttatatgct ttaacggaaa ctgttaaaca ttttgattgc
+    10681 aattgattat aacggacaga cgcttttacc tcagcatcta acccgtcaat aattttcact
+    10741 ttagcaaatg cactacctaa cacatagttt tcatcaaatt tctttccacc accactatat
+    10801 gcaacagcta atggagcttt gttgtgtccc cgtccagaat atccgccagt acaaaatcgt
+    10861 ccatctggta aatatggagt ataatatgga ccttgagcat acatgcacag aatcatgtct
+    10921 tccgtctcat tattatcaat ttgattacca ccactggtat atgatgtgga atggcgctgc
+    10981 gatttagaga aattaatgtt tgttccaaat gttactctac ctcctaaatt agtttttaaa
+    11041 ttcatttgag catcgtaacg tttataccct gtttttatta ccattccatc ctgatccaaa
+    11101 tagcctaaac caaagttata cgttgtacca tttttaccac catttacact taaaaaatgc
+    11161 tgttgcatag gagcggtttt aatgatgtca tcataccaat catgattggg atacatagga
+    11221 tctccaggag ctgcattttt ataagcatca atccactctt gcttatatcc cttagtagct
+    11281 atatctccac ctgtatgtgt caacgcttta ttgaacaagg tcatatattc ggcagaattt
+    11341 gtaatcctgt cttgctttgt ggtaggtgat tgccatgcca tattgaaatt ataatcaata
+    11401 tttaaacgac cttcggtacc attctttgta gtaatcaaaa taacaccatt tgccgcacga
+    11461 gaaccataaa tagaagcaga agcagcatcc ttcaatacag tgatattctc tatcatattc
+    11521 gggttcactt tattcatgtc accttcaaca ccatcaatca agactaacgg attactacct
+    11581 gcatcagaaa aggttccttg gccacgaatt tgaatagcag cttgttcagc accaggatta
+    11641 gctgagttct gtacaatttg taaacctgga actcgtcctt gtaacataga agaagcatta
+    11701 ggagaaacgc gctttgttaa gtctgcagca tctacactgc ccaccgctcc agtaagattt
+    11761 acttttttct gtgtaccata acccactacc acaac
+//

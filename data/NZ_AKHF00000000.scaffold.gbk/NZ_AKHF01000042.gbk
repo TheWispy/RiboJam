@@ -1,0 +1,137 @@
+LOCUS       NZ_AKHF01000042          806 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00042, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000042 NZ_AKHF00000000
+VERSION     NZ_AKHF01000042.1  GI:420219389
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 806)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 806)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000042.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..806
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            <1..150
+                     /locus_tag="HMPREF9972_03950"
+     CDS             <1..150
+                     /locus_tag="HMPREF9972_03950"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724411.1"
+                     /db_xref="GI:420219390"
+                     /translation="DNRLSLLSIFIKGFLPTKLSKFVRSTSSSLFIIVIELLSIFFNE
+                     IEISL"
+     gene            complement(115..>806)
+                     /locus_tag="HMPREF9972_03955"
+     CDS             complement(115..>806)
+                     /locus_tag="HMPREF9972_03955"
+                     /codon_start=3
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724412.1"
+                     /db_xref="GI:420219391"
+                     /translation="KEVLCDVNYKLSAGEKVGLIGSNGSGKSTLMKLIAKTQLPSKGN
+                     VYFNNIDIHKSHNMIKDFSFMIGQIYYPELNARQNIENYLKINNKISYISEIQTMLNI
+                     VGLEDNEKKVKNYSYGMKQRLCLAICLITKPKVAVLDEPFLGLDPLGVRELNNIIEKY
+                     SKEKNTLFLISSHQLKELEDLCDRFLLLENHQIREIDLHNRIFTQKLIFKNTLNNAPE
+                     LKANFNFIKKN"
+     misc_feature    complement(208..804)
+                     /locus_tag="HMPREF9972_03955"
+                     /note="ABC-type antimicrobial peptide transport system,
+                     ATPase component [Defense mechanisms]; Region: SalX;
+                     COG1136"
+                     /db_xref="CDD:31331"
+     misc_feature    complement(226..804)
+                     /locus_tag="HMPREF9972_03955"
+                     /note="ATP-binding cassette domain of the drug resistance
+                     transporter and related proteins, subfamily A; Region:
+                     ABC_DR_subfamily_A; cd03230"
+                     /db_xref="CDD:213197"
+     misc_feature    complement(721..744)
+                     /locus_tag="HMPREF9972_03955"
+                     /note="Walker A/P-loop; other site"
+                     /db_xref="CDD:213197"
+     misc_feature    complement(order(286..288,385..390,604..606,718..726,
+                     730..735))
+                     /locus_tag="HMPREF9972_03955"
+                     /note="ATP binding site [chemical binding]; other site"
+                     /db_xref="CDD:213197"
+     misc_feature    complement(604..615)
+                     /locus_tag="HMPREF9972_03955"
+                     /note="Q-loop/lid; other site"
+                     /db_xref="CDD:213197"
+     misc_feature    complement(433..462)
+                     /locus_tag="HMPREF9972_03955"
+                     /note="ABC transporter signature motif; other site"
+                     /db_xref="CDD:213197"
+     misc_feature    complement(385..402)
+                     /locus_tag="HMPREF9972_03955"
+                     /note="Walker B; other site"
+                     /db_xref="CDD:213197"
+     misc_feature    complement(367..378)
+                     /locus_tag="HMPREF9972_03955"
+                     /note="D-loop; other site"
+                     /db_xref="CDD:213197"
+     misc_feature    complement(280..300)
+                     /locus_tag="HMPREF9972_03955"
+                     /note="H-loop/switch region; other site"
+                     /db_xref="CDD:213197"
+ORIGIN      
+        1 gataatagat tatcattact ttcaattttt attaagggat ttttacctac taaattaagt
+       61 aaatttgtaa gatctacttc ttcatcttta tttataattg ttattgaatt gctatcaatt
+      121 ttttttaatg aaattgaaat tagcctttag ttctggagca ttgtttaaag tatttttgaa
+      181 tattaacttt tgagtgaata ttctattatg taagtcaatt tctctaattt gatggttttc
+      241 gagtaataga aatctatcac aaagatcttc taattctttt aactggtggc tagatattaa
+      301 aaataaagtg tttttttctt ttgaatattt ctcaatgata ttatttaatt cccttacccc
+      361 taacggatcc agacctaaga atggctcgtc taatacagct acttttggtt tggtaattaa
+      421 acaaatagct aaacaaagtc tttgtttcat tccatacgaa taatttttaa ccttcttttc
+      481 attatcttct aaacctacaa tgtttagcat cgtttgaatt tcacttatat agctaatctt
+      541 attattaatt tttaggtaat tttcaatatt ttgtcttgca tttaactcag gataatatat
+      601 ttgtcctatc atgaaagaaa aatcttttat catattgtga gatttatgta tatctatatt
+      661 gttaaaataa acatttcctt tagatggtaa ttgagtttta gctataagtt tcattaatgt
+      721 tgattttcca gacccattag aacctataag accaaccttt tctccagcag ataatttgta
+      781 attaacatca cataatactt ctttct
+//

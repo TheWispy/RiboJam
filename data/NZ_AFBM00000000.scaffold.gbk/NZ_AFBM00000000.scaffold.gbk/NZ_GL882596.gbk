@@ -1,0 +1,95 @@
+LOCUS       NZ_GL882596              574 bp    DNA     linear   CON 27-NOV-2012
+DEFINITION  Bacteroides clarus YIT 12056 genomic scaffold Scfld38, whole genome
+            shotgun sequence.
+ACCESSION   NZ_GL882596 NZ_AFBM01000000
+VERSION     NZ_GL882596.1  GI:329959402
+DBLINK      Project: 66155
+            BioProject: PRJNA66155
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Bacteroides clarus YIT 12056
+  ORGANISM  Bacteroides clarus YIT 12056
+            Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;
+            Bacteroidaceae; Bacteroides.
+REFERENCE   1  (bases 1 to 574)
+  AUTHORS   Weinstock,G., Sodergren,E., Clifton,S., Fulton,L., Fulton,B.,
+            Courtney,L., Fronick,C., Harrison,M., Strong,C., Farmer,C.,
+            Delahaunty,K., Markovic,C., Hall,O., Minx,P., Tomlinson,C.,
+            Mitreva,M., Hou,S., Chen,J., Wollam,A., Pepin,K.H., Johnson,M.,
+            Bhonagiri,V., Zhang,X., Suruliraj,S., Warren,W., Chinwalla,A.,
+            Mardis,E.R. and Wilson,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2011) Genome Sequencing Center, Washington
+            University School of Medicine, 4444 Forest Park, St. Louis, MO
+            63108, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GL882596.
+            Bacteroides clarus YIT12056 (No 16S rRNA gene available) is a
+            member of the Bacteroidetes division of the domain bacteria and has
+            been isolated from the gut.
+            
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC.
+            
+            Bacteria and source DNA were provided by Masami Morotomi, PhD
+            (Yakult Central Institute for Microbiological Research, 1796 Yaho,
+            Kunitachi, 186-8650 Tokyo, Japan). Isolation of bacteria and DNA
+            preparation were funded by the Yakult Central Institute for
+            Microbiological Research.
+            
+            Coding sequences were predicted using GeneMark v3.3 and Glimmer2
+            v2.13. Intergenic regions not spanned by GeneMark and Glimmer2 were
+            blasted against NCBI's non-redundant (NR) database and predictions
+            generated based on protein alignments. tRNA genes were determined
+            using tRNAscan-SE 1.23 and non-coding RNA genes by RNAmmer-1.2 and
+            Rfam v8.0. Gene names are generated at the contig level and may not
+            necessarily reflect any known order or orientation between contigs.
+            
+            The National Human Genome Research Institute (NHGRI), National
+            Institutes of Health (NIH) is funding the sequence characterization
+            of the Bacteroides clarus YIT 12056 genome.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Velvet v. 0.7.57
+            Genome Coverage          :: 204.4x
+            Sequencing Technology    :: Illumina
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..574
+                     /organism="Bacteroides clarus YIT 12056"
+                     /mol_type="genomic DNA"
+                     /strain="YIT 12056"
+                     /isolation_source="gut"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9445"
+                     /db_xref="taxon:762984"
+     gene            208..>574
+                     /locus_tag="HMPREF9445_02208"
+     CDS             208..>574
+                     /locus_tag="HMPREF9445_02208"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved domain protein"
+                     /protein_id="ZP_08297337.1"
+                     /db_xref="GI:329956766"
+                     /translation="MKQKEHKSRSLSWRILLVLFSISLSTLAQAQSITVKGNVVDPNG
+                     EPLIGVTITEHNTTNGAITDINGNFSITCAKGATLKFSYIGYKDVTKTATGTNLKVVL
+                     TEDSQALDEVVVVGYGTQKK"
+     misc_feature    307..549
+                     /locus_tag="HMPREF9445_02208"
+                     /note="Cna protein B-type domain; Region: Cna_B_2;
+                     pfam13715"
+                     /db_xref="CDD:205890"
+ORIGIN      
+        1 ttgaaatgtt tttgatagca tttgatacaa ttcttaaatt ccgtttatga aaattccact
+       61 ttgtttgcat tatgaaataa cacgatgttt aactttaaaa atgacgtatt gatattatgt
+      121 aaaaacaatg agacatgcct tttcaaaaca gtctgggatg aattaatcct tagttaattt
+      181 aagtctaatt tttaatttaa tctattaatg aaacagaaag aacacaagtc aagatcgctg
+      241 tcatggcgta ttttgttggt actgtttagt atttctttga gcacactggc acaagcccaa
+      301 agtatcacag taaaaggaaa cgtggtagat cccaatggag agccactgat tggagtaaca
+      361 atcacagagc ataacacaac taatggcgct attaccgata ttaacggtaa tttctctata
+      421 acatgtgcca agggagctac tttgaagttt agttatattg gttataagga tgtgactaaa
+      481 actgcgaccg gaacgaatct gaaagttgta ttgaccgaag actcacaggc attggacgaa
+      541 gttgtggtag tgggttatgg tacacagaaa aaag
+//

@@ -1,0 +1,108 @@
+LOCUS       NZ_AKHF01000027          965 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00027, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000027 NZ_AKHF00000000
+VERSION     NZ_AKHF01000027.1  GI:420219141
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 965)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 965)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000027.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..965
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            complement(<1..404)
+                     /locus_tag="HMPREF9972_02709"
+     CDS             complement(<1..404)
+                     /locus_tag="HMPREF9972_02709"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724178.1"
+                     /db_xref="GI:420219142"
+                     /translation="MKVTKRGNSWQYDFRFEGKRYRKTSFKTKRDATQAANKLLNDLT
+                     KGLITNNKITLTKYLNDWKEIYIKEYVSSKTYKNYCRYCEKVECYFKDKPLDKITRNE
+                     YQLFLTNFKDNLSQDQLSRLNKFITKAISTAI"
+     misc_feature    complement(<1..395)
+                     /locus_tag="HMPREF9972_02709"
+                     /note="DNA breaking-rejoining enzymes, C-terminal
+                     catalytic domain. The DNA breaking-rejoining enzyme
+                     superfamily includes type IB topoisomerases and tyrosine
+                     recombinases that share the same fold in their catalytic
+                     domain containing six conserved active site...; Region:
+                     DNA_BRE_C; cl00213"
+                     /db_xref="CDD:211431"
+     gene            complement(450..>965)
+                     /locus_tag="HMPREF9972_02714"
+     CDS             complement(450..>965)
+                     /locus_tag="HMPREF9972_02714"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14724179.1"
+                     /db_xref="GI:420219143"
+                     /translation="DGYYEVGKDIKPGHYEIKSKDNKGYIAIKGKSNYRSLNEEFGNK
+                     YGTKNKPTVPSVTTYLFKGDKISLDNTVITTFKQVENKKMNKLSAGMWIVGKDIEPGK
+                     YKVHLTYPREYGGTINILTYNFTDKSYFLSGEEAEDIGVKEFEVELKENQDFIIHHIY
+                     SVTLDKEKTSQ"
+ORIGIN      
+        1 aaaatagccg tactaattgc cttagtgata aatttattta atctacttag ttgatcctga
+       61 cttaaattat ctttaaaatt agttaaaaat aattgatatt catttctcgt tattttatct
+      121 aatggtttat ctttaaaata acattcaact ttctcacagt atcgacaata atttttataa
+      181 gttttactac taacatattc ttttatgtaa atttctttcc aatcatttaa atatttagta
+      241 agagtaatct tattattggt aattaatcct ttcgtcaaat catttaatag cttatttgct
+      301 gcttgcgtag catctctttt agtcttaaat gacgtttttc tataacgttt accttcaaac
+      361 ctaaaatcat attgccaact attacctcgt tttgttactt tcatgatgta gtttcctcct
+      421 cataaagaaa taaggtaggc taggctacct tattgtgatg ttttttcttt atctaaagta
+      481 actgaatata tatgatgaat tataaagtcc tgattttctt ttaattcaac ctcaaattct
+      541 ttaactccaa tgtcttcagc ttcttcacct gataaaaagt atgatttatc ggtaaaattg
+      601 taagttaaaa tatttatggt tccaccatat tcacgtggat aggtaagatg aactttatat
+      661 ttacctggtt caatatcttt accaactatc cacataccag cagataattt attcattttt
+      721 ttattttcta cttgtttaaa tgtggttatc actgtattat ctaaacttat tttatctccc
+      781 ttaaataaat aagtagttac agaaggtact gtaggtttat ttttagttcc atacttattt
+      841 ccaaattctt cattaagtga tctataatta gattttcctt taatagctat atatccttta
+      901 ttatcttttg atttaatttc ataatgtcct ggtttaatgt ctttaccaac ctcgtaataa
+      961 ccgtc
+//

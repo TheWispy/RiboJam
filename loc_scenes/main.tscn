@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=3 uid="uid://cep16n4rbjrqh"]
+
+[ext_resource type="PackedScene" uid="uid://c5uqwodmwdyvn" path="res://obj_scenes/player.tscn" id="1_efubf"]
+[ext_resource type="PackedScene" uid="uid://dw6fvas0k8k3v" path="res://obj_scenes/song_ribo.tscn" id="2_4xosq"]
+[ext_resource type="PackedScene" uid="uid://etr0rg86ri2g" path="res://ui_scenes/menu_pause.tscn" id="2_doerl"]
+[ext_resource type="PackedScene" uid="uid://d2wyr8md0tl5i" path="res://obj_scenes/base.tscn" id="4_aban8"]
+
+[sub_resource type="AudioStreamWAV" id="AudioStreamWAV_kiw1j"]
+
+[sub_resource type="AudioStreamWAV" id="AudioStreamWAV_dnn7d"]
+
+[node name="Node" type="Node"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(320, 179)
+
+[node name="Player" parent="." instance=ExtResource("1_efubf")]
+position = Vector2(86, 229)
+
+[node name="Menu" parent="Player" instance=ExtResource("2_doerl")]
+visible = false
+offset_left = -320.0
+offset_top = -160.0
+offset_right = -320.0
+offset_bottom = -160.0
+
+[node name="BG_Music" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamWAV_kiw1j")
+
+[node name="Track1" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamWAV_dnn7d")
+
+[node name="songRibo" parent="." instance=ExtResource("2_4xosq")]
+
+[node name="Base" parent="." instance=ExtResource("4_aban8")]
+visible = false
+position = Vector2(370.116, 518.768)
+
+[connection signal="paused" from="Player" to="Player/Menu" method="_on_player_paused"]

@@ -1,0 +1,193 @@
+LOCUS       NZ_GL882586             5264 bp    DNA     linear   CON 27-NOV-2012
+DEFINITION  Bacteroides clarus YIT 12056 genomic scaffold Scfld6, whole genome
+            shotgun sequence.
+ACCESSION   NZ_GL882586 NZ_AFBM01000000
+VERSION     NZ_GL882586.1  GI:329958892
+DBLINK      Project: 66155
+            BioProject: PRJNA66155
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Bacteroides clarus YIT 12056
+  ORGANISM  Bacteroides clarus YIT 12056
+            Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;
+            Bacteroidaceae; Bacteroides.
+REFERENCE   1  (bases 1 to 5264)
+  AUTHORS   Weinstock,G., Sodergren,E., Clifton,S., Fulton,L., Fulton,B.,
+            Courtney,L., Fronick,C., Harrison,M., Strong,C., Farmer,C.,
+            Delahaunty,K., Markovic,C., Hall,O., Minx,P., Tomlinson,C.,
+            Mitreva,M., Hou,S., Chen,J., Wollam,A., Pepin,K.H., Johnson,M.,
+            Bhonagiri,V., Zhang,X., Suruliraj,S., Warren,W., Chinwalla,A.,
+            Mardis,E.R. and Wilson,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2011) Genome Sequencing Center, Washington
+            University School of Medicine, 4444 Forest Park, St. Louis, MO
+            63108, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GL882586.
+            Bacteroides clarus YIT12056 (No 16S rRNA gene available) is a
+            member of the Bacteroidetes division of the domain bacteria and has
+            been isolated from the gut.
+            
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC.
+            
+            Bacteria and source DNA were provided by Masami Morotomi, PhD
+            (Yakult Central Institute for Microbiological Research, 1796 Yaho,
+            Kunitachi, 186-8650 Tokyo, Japan). Isolation of bacteria and DNA
+            preparation were funded by the Yakult Central Institute for
+            Microbiological Research.
+            
+            Coding sequences were predicted using GeneMark v3.3 and Glimmer2
+            v2.13. Intergenic regions not spanned by GeneMark and Glimmer2 were
+            blasted against NCBI's non-redundant (NR) database and predictions
+            generated based on protein alignments. tRNA genes were determined
+            using tRNAscan-SE 1.23 and non-coding RNA genes by RNAmmer-1.2 and
+            Rfam v8.0. Gene names are generated at the contig level and may not
+            necessarily reflect any known order or orientation between contigs.
+            
+            The National Human Genome Research Institute (NHGRI), National
+            Institutes of Health (NIH) is funding the sequence characterization
+            of the Bacteroides clarus YIT 12056 genome.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Velvet v. 0.7.57
+            Genome Coverage          :: 204.4x
+            Sequencing Technology    :: Illumina
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..5264
+                     /organism="Bacteroides clarus YIT 12056"
+                     /mol_type="genomic DNA"
+                     /strain="YIT 12056"
+                     /isolation_source="gut"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9445"
+                     /db_xref="taxon:762984"
+     gene            complement(79..225)
+                     /locus_tag="HMPREF9445_01471"
+     CDS             complement(79..225)
+                     /locus_tag="HMPREF9445_01471"
+                     /note="Psort location: CytoplasmicMembrane, score: 9.82"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_08296619.1"
+                     /db_xref="GI:329955740"
+                     /translation="MVLALFRTLEFKKSQLPILISIDGSFYFTQVSLVAKKRLALVLL
+                     VLFM"
+     gene            260..1774
+                     /locus_tag="HMPREF9445_01472"
+     rRNA            260..1774
+                     /locus_tag="HMPREF9445_01472"
+                     /product="16S ribosomal RNA"
+     gene            1913..1986
+                     /locus_tag="HMPREF9445_01473"
+     tRNA            1913..1986
+                     /locus_tag="HMPREF9445_01473"
+                     /product="tRNA-Ile"
+     gene            2024..2097
+                     /locus_tag="HMPREF9445_01474"
+     tRNA            2024..2097
+                     /locus_tag="HMPREF9445_01474"
+                     /product="tRNA-Ala"
+     gene            2211..5087
+                     /locus_tag="HMPREF9445_01475"
+     rRNA            2211..5087
+                     /locus_tag="HMPREF9445_01475"
+                     /product="23S ribosomal RNA"
+     gene            5152..5261
+                     /locus_tag="HMPREF9445_01476"
+     rRNA            5152..5261
+                     /locus_tag="HMPREF9445_01476"
+                     /product="5S ribosomal RNA"
+ORIGIN      
+        1 atatgcttaa aagtttttac ctttgcatcc gcttttgaaa aggagcattc ttcgaaaaga
+       61 agcgatcttt gaacagattt acataaacaa tacaagtagt acaagagcaa gtcttttctt
+      121 ggcgacaaga gagacttggg taaaataaaa agaaccgtca atacttatta agataggtaa
+      181 ttgagacttt ttaaattcga gcgtcctgaa cagagcaaga accatccctt acgggatgtt
+      241 aacaatactt ttacaatgaa gagtttgatc ctggctcagg atgaacgcta gctacaggct
+      301 taacacatgc aagtcgaggg gcagcggggt tgaagcttgc ttcaaccgcc ggcgaccggc
+      361 gcacgggtga gtaacacgta tccaacctgc cgataactcc gggatagcct ttcgaaagaa
+      421 agattaatac cggatggcat agttttcccg catggaataa ctattaaaga atttcggtta
+      481 tcgatgggga tgcgttccat taggcagttg gcggggtaac ggcccaccaa accgacgatg
+      541 gataggggtt ctgagaggaa ggtcccccac attggaactg agacacggtc caaactccta
+      601 cgggaggcag cagtgaggaa tattggtcaa tggacgagag tctgaaccag ccaagtagcg
+      661 tgaaggatga ctgccctatg ggttgtaaac ttcttttata cgggaataaa gttagccacg
+      721 tgtggttttt tgcatgtacc gtatgaataa ggatcggcta actccgtgcc agcagccgcg
+      781 gtaatacgga ggatccgagc gttatccgga tttattgggt ttaaagggag cgtaggcggg
+      841 gtattaagtc agttgtgaaa gtttgcggct caaccgtaaa attgcagttg atactggtat
+      901 ccttgagtgc agcagaggtg ggcggaattc gtggtgtagc ggtgaaatgc ttagatatca
+      961 cgaagaactc cgattgcgaa ggcagctcac tggagtgtaa ctgacgctga tgctcgaaag
+     1021 tgtgggtatc aaacaggatt agataccctg gtagtccaca cagtaaacga tgaatactcg
+     1081 ctgttggcga tacaatgtca gcggccaagc gaaagcatta agtattccac ctggggagta
+     1141 cgccggcaac ggtgaaactc aaaggaattg acgggggccc gcacaagcgg aggaacatgt
+     1201 ggtttaattc gatgatacgc gaggaacctt acccgggctt gaattgcaac tgacggaatt
+     1261 ggaaacagtt ctttcttcgg acagttgtga aggtgctgca tggttgtcgt cagctcgtgc
+     1321 cgtgaggtgt cggcttaagt gccataacga gcgcaaccct tatcgatagt taccatcagg
+     1381 tcatgctggg gactctatcg agactgccgt cgtaagatgt gaggaaggtg gggatgacgt
+     1441 caaatcagca cggcccttac gtccggggct acacacgtgt tacaatgggg ggtacagaag
+     1501 gcagctacac ggcgacgtga tgctaatccc caaaacctct ctcagttcgg attggagtct
+     1561 gcaacccgac tccatgaagc tggattcgct agtaatcgcg catcagccac ggcgcggtga
+     1621 atacgttccc gggccttgta cacaccgccc gtcaagccat gaaagccggg ggtacctgaa
+     1681 gtacgtaacc gcaaggagcg tcctagggta aaactggtga ttggggctaa gtcgtaacaa
+     1741 ggtagccgta ccggaaggtg cggctggaac acctcctttc tggagcgacg cttaacataa
+     1801 aaagtcaggt tctttcgaga ttacttccat aagaacctct tgtgctgcga agattgttta
+     1861 tcaatataaa gagaaagtag aagccgagcc ttagggcgag ggtttgactg acagtcctat
+     1921 agctcagttg gttagagcgc tacactgata atgtagaggt cggcagttca actctgcctg
+     1981 ggactacttc cggaattgca ggatgataat cctgagttct gaagggggat tagctcagct
+     2041 ggctagagca cctgctttgc acgcaggggg tcaacggttc gaatccgtta ttctccacac
+     2101 ttccggatgg gtttacgccc atcaccggaa aacgatcttt gacatgatgt aacgaaaaaa
+     2161 gtaaagttaa agctgaaagt atatatcgac catacgttgt cggtaagact aaaagtaagc
+     2221 aagggcgcat ggcggatgcc ttggctctcg gaggcgatga aggacgtgat aagctgcgat
+     2281 aagcttcggg taggtgcaaa taacctttga tccggagatt tccgaatggg acaacccgat
+     2341 tagttgaaga ctgatcattc cgcatagcgg aaggctaacg cagggaactg aaacatctta
+     2401 gtacctgtag gaaaagaaaa taaataatga ttcccctagt agtggcgagc gaacggggaa
+     2461 tagcccaaac catttatgtt acggcataac tggggttgta ggaccacgtt gtggcatgaa
+     2521 agttggtgag cagaatgttc tggaaagtac agccatagag catgatagct gcgtatgcga
+     2581 agccaaccta agcctagtgg tatcctgagt agcgcggagc acgaggaatt ctgcgtgaat
+     2641 ctgccgggac catccggtaa ggctaaatac tcccgagaga ccgatagtga accagtactg
+     2701 tgaaggaaag gtgaaaagca cttcgaacag aagagtgaaa tagttcctga aaccatgcgc
+     2761 ctacaagcgg tcggagccct ttagggtgac ggcgtgcctt ttgcataatg aacctacgag
+     2821 ttactttttc cggcaaggtt aagaatctca gatttgcagc cgaagcgaaa gcgagtctta
+     2881 atagggcgta tagtcggaag gagtagacgc gaaaccaagt gatctaccct tgagcaggtt
+     2941 gaaggatggg taacaccatc tggaggaccg aaccaataag cgttgaaaag cttctggatg
+     3001 acttgagggt gggggtgaaa ggctaatcaa acttggagat agctcgtact ccccgaaatg
+     3061 catttaggtg cagccttgac ttatactgac atgaggtaga gcgactgata agatgcgagg
+     3121 gcttcaccgc ctatcaagtc ttgacaaact ccgaatgcgt gtcagttcta tgtcaggagt
+     3181 gagggcatgg gtgctaaggt ccatgtccta aaggagaaca atccggacca acagctaagg
+     3241 tcccgaaatg aatactaagt tgaactaacg aagtcagatt gctaagacag ctaggatgtt
+     3301 ggcttggaag cagccattca tttaaagagt gcgtaacagc tcactagtcg aggagtttgg
+     3361 cgtggataat aatcgggcat taagtattct accgaagctt tgggatgagt aatcatcggt
+     3421 aggggagcat tccactcagc gttgaaggtg aagcgtgagc tttgctggag cgtgtggaaa
+     3481 agcaaatgta ggtataagta acgataaagg gggtgagaaa ccccctcgcc gaaagactaa
+     3541 ggtttcctga tcaacgctaa tcggatcagg gttagtcggg tcctaaggct cagccgaacg
+     3601 gcgaggccga tggcagaacc ggttaatatt ccggtactac cttcaggagt gacgtggaga
+     3661 cggagcagtg ataatgccgc cgactgacgg aatagtcggt taaagggtgt agatgttgat
+     3721 ttctgcaggc aaatccgcag agagagtcga acctgacagt acggagcgtt cttcgaacaa
+     3781 tccgatagtg catgtaagca tactcccgag aaaatccgct aaacttaatc ctgacggtac
+     3841 ccgtaccgta aacggacaca cgtagtcggg ttgaatatac taaggcgctt gagtgattca
+     3901 cggttaagga actaggcaaa ctgaccctgt aacttcggga taaagggtcc tcagggtaac
+     3961 ttgaggcgca gagaataggt ccaggcaact gtttaacaaa aacacagggc tgtgcaaaat
+     4021 agaaatatga agtatacagc ctgacacctg cccggtgctg gaaggttaag aggagatgtc
+     4081 atcgcaagag aagcattgaa ttgaagcccc agtaaacggc ggccgtaact ataacggtcc
+     4141 taaggtagcg aaattccttg tcgggtaagt tccgacctgc acgaatggtg taatgatctg
+     4201 gacgctgtct caaccgtgag ctcagtgaaa ttgtagtatc ggtgaagatg ccgattaccc
+     4261 gcgatgggac gaaaagaccc cgtgaacctt tactatagct taacattgaa tttgggtaat
+     4321 tgatgtgtag gataggccgg aggctttgaa gcaggtacgc cagtatttgt ggagccgctg
+     4381 ttgaaatacg gccctttgat tatttgagtt ctaactcttg gatgagagga cactgtttgg
+     4441 tgggtagttt gactggggtg gtcgcctcca aaagcgtaac ggaggcttct aaaggtgccc
+     4501 tcacgacgat tggtaaccgt cggtagagtg taatggcata agggcgcttg actgggagac
+     4561 tcacaagtcg atcaggtagg aaactagagc atagtgatcc ggtgtttctg tatggaaagg
+     4621 acatcgctca aaggataaaa ggtactccgg ggataacagg ctgatccctc ccaagagctc
+     4681 atatcgacgg aggggtttgg cacctcgatg tcggctcgtc acatcctggg gctggagaag
+     4741 gtcccaaggg ttgggctgtt cgcccattaa agtggcacgc gagctgggtt cagaacgtcg
+     4801 tgagacagtt cggtctctat ctatcgtggg cgtatgaaat ttgcgtggct ctgacactag
+     4861 tacgagagga ccgtgttgga ctgacctctg gtttaccggt tgtgccgcca ggtgcattgc
+     4921 cgggtatcta agtcgggatt ggataagtgc tgaaagcatc taagtacgaa gccagccaca
+     4981 agattagatt tcttagggtc gtcaaagacg atgacgttga taggatgcag gtgtaaaggc
+     5041 agcgatgtca tagccgagca ttactaattg cccgttcact tttagtcctg ccgtgtatgg
+     5101 gggatatata cgttcagttt atttactttt tacatcatgt ctgccttatt caggtgacta
+     5161 tagcactgag gttccacctc ttcccattcc gaacagagaa gttaagctca gtcacgccga
+     5221 tggtactgcg taacagtggg agagtaggta gtcgccgttt tttt
+//

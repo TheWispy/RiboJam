@@ -1,0 +1,296 @@
+LOCUS       NZ_AKHF01000018         5108 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00018, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000018 NZ_AKHF00000000
+VERSION     NZ_AKHF01000018.1  GI:420218922
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 5108)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 5108)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000018.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..5108
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            complement(532..1293)
+                     /locus_tag="HMPREF9972_01635"
+     CDS             complement(532..1293)
+                     /locus_tag="HMPREF9972_01635"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transcriptional regulator GlvR"
+                     /protein_id="ZP_14723968.1"
+                     /db_xref="GI:420218923"
+                     /translation="MILDERVNSNFDQLNDNDIQIAHYVNTHIDVCKNMKIQDLASQT
+                     HASNATIHRFTRKLGFDGYSDFKSFLKFEDSKNHQLPSDSMEQFKQEIENTFNYLERI
+                     DYRLLTHKMHHATTIYLYGTGRAQMNVAEEAQRILLTMHKNIILLHDVHELKMVLNKT
+                     IPEDLFFIISLSGETHQLKEVTQLLQLRQKYFISVTTMKDNTLAQQADYNVYVSSNTF
+                     YLNDGTDYSSFISYHIFFETLLRKYNEYKENHELT"
+     misc_feature    complement(550..1293)
+                     /locus_tag="HMPREF9972_01635"
+                     /note="Transcriptional regulators [Transcription]; Region:
+                     RpiR; COG1737"
+                     /db_xref="CDD:31923"
+     misc_feature    complement(1066..1293)
+                     /locus_tag="HMPREF9972_01635"
+                     /note="Helix-turn-helix domain, rpiR family; Region:
+                     HTH_6; pfam01418"
+                     /db_xref="CDD:201784"
+     misc_feature    complement(574..963)
+                     /locus_tag="HMPREF9972_01635"
+                     /note="RpiR-like protein. RpiR contains a SIS (Sugar
+                     ISomerase) domain, which is found in many phosphosugar
+                     isomerases and phosphosugar binding proteins. In E. coli,
+                     rpiR negatively regulates the expression of rpiB gene.
+                     Both rpiB and rpiA are ribose phosphate...; Region:
+                     SIS_RpiR; cd05013"
+                     /db_xref="CDD:88408"
+     misc_feature    complement(order(784..786,919..921))
+                     /locus_tag="HMPREF9972_01635"
+                     /note="putative active site [active]"
+                     /db_xref="CDD:88408"
+     gene            1491..3080
+                     /gene="glvC"
+                     /locus_tag="HMPREF9972_01640"
+     CDS             1491..3080
+                     /gene="glvC"
+                     /locus_tag="HMPREF9972_01640"
+                     /EC_number="2.7.1.69"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="PTS system maltose-specific EIICB component"
+                     /protein_id="ZP_14723969.1"
+                     /db_xref="GI:420218924"
+                     /translation="MNAIKRFGSAMIVPVLMFAFFGIVLGFATLFKNPTIMGGLADQQ
+                     TFWFKFWSVIESGGWVIFTHMEIVFVVGLPLSLAKKAPGHAALAALMGYLMFNTFINA
+                     ILTQWPHTFGANLKKGVENTTGLKSIAGIETLDTNILGAIIISGIITWIHNRYYSKRL
+                     PEMLGVFQGLTFVVTISFFVMLPVAAITCVVWPTIQHGIASIQYFIVASGYIGVWLYH
+                     FLERVLIPTGLHHFIYAPIEVGPVVVNHGLKAEWLQHLNQFAESNKPLKEQFPYGFML
+                     QGNGKVFGCLGIALAMYATTPKENRKKVAALLIPATLTAVVAGITEPLEFTFLFIAPF
+                     LFVLHALLAATMDTLMYGFGVVGNMGGGVLDFIATNWIPLGKAHWMTYVFQVVIGLIF
+                     VAIYYFLFKYLILKFDIPLPGRKKGEEEVKLFSKQDYKDKKGDSTRNHSPNSEYEEKA
+                     MYYLEGLGGKENIKDVTNCTTRLRLTVKDESKVQESAYFTHNQMSHGLVKSGKSVQVV
+                     VGMSVPQVREAFENIVNDDLS"
+     misc_feature    1491..3062
+                     /gene="glvC"
+                     /locus_tag="HMPREF9972_01640"
+                     /note="PTS system, alpha-glucoside-specific IIBC
+                     component; Region: PTS-IIBC-alpha; TIGR02005"
+                     /db_xref="CDD:162656"
+     misc_feature    1497..2756
+                     /gene="glvC"
+                     /locus_tag="HMPREF9972_01640"
+                     /note="Phosphotransferase system IIC components,
+                     glucose/maltose/N-acetylglucosamine-specific [Carbohydrate
+                     transport and metabolism]; Region: PtsG; COG1263"
+                     /db_xref="CDD:31455"
+     misc_feature    2829..>2951
+                     /gene="glvC"
+                     /locus_tag="HMPREF9972_01640"
+                     /note="PTS_IIB, PTS system, glucose/sucrose specific IIB
+                     subunit. The bacterial phosphoenolpyruvate: sugar
+                     phosphotransferase system (PTS) is a multi-protein system
+                     involved in the regulation of a variety of metabolic and
+                     transcriptional processes. This family...; Region:
+                     PTS_IIB_glc; cd00212"
+                     /db_xref="CDD:29267"
+     misc_feature    2892..2912
+                     /gene="glvC"
+                     /locus_tag="HMPREF9972_01640"
+                     /note="active site turn [active]"
+                     /db_xref="CDD:29267"
+     misc_feature    2895..2897
+                     /gene="glvC"
+                     /locus_tag="HMPREF9972_01640"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:29267"
+     gene            complement(3185..3715)
+                     /locus_tag="HMPREF9972_01645"
+     CDS             complement(3185..3715)
+                     /locus_tag="HMPREF9972_01645"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14723970.1"
+                     /db_xref="GI:420218925"
+                     /translation="MLIDKFETYIINVAGLKSRSTRKKLIHLCKEITFCESFQYSIIK
+                     QNNVFALEVSLPKLQLPYLISFLSFHNYAIYQILLPNRVNELLDSEQLYQSIKRFDLA
+                     IDGLQDAFIKDKVIDIMNMFANHHNVNYTLNNNCASVTCPPEIFTKLLQTIATRNIDI
+                     LSASYRAKMLHKARIS"
+     gene            4016..4651
+                     /locus_tag="HMPREF9972_01650"
+     CDS             4016..4651
+                     /locus_tag="HMPREF9972_01650"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="HAD hydrolase, family IA, variant 3"
+                     /protein_id="ZP_14723971.1"
+                     /db_xref="GI:420218926"
+                     /translation="MYKAVVFDFDGTVIDTEKHLFDLINTHLKIHQVAPISLEFYKQF
+                     IGGEATELHTYLEDAIGFKNKEKIYDQYYQTSVELPVNSTIIQLMQYLKKRHIPMAIT
+                     TSSYKKNIYPIFNQLGLDTYIDVVVGRENVDSVQPNPEIYLKAVQELNYNPTTCLAIE
+                     DSVNGATAAMLAGLDVVVNTNIITKDQDFSTVQCVGQDMEFEDIKNSLFKE"
+     misc_feature    4019..4549
+                     /locus_tag="HMPREF9972_01650"
+                     /note="beta-phosphoglucomutase family hydrolase; Region:
+                     PGMB-YQAB-SF; TIGR02009"
+                     /db_xref="CDD:213673"
+     misc_feature    4025..>4384
+                     /locus_tag="HMPREF9972_01650"
+                     /note="Haloacid Dehalogenase-like Hydrolases; Region:
+                     HAD_like; cl11391"
+                     /db_xref="CDD:214172"
+     misc_feature    4223..4546
+                     /locus_tag="HMPREF9972_01650"
+                     /note="Haloacid dehalogenase-like hydrolases. The haloacid
+                     dehalogenase-like (HAD) superfamily includes L-2-haloacid
+                     dehalogenase, epoxide hydrolase, phosphoserine
+                     phosphatase, phosphomannomutase, phosphoglycolate
+                     phosphatase, P-type ATPase, and many others; Region:
+                     HAD_like; cd01427"
+                     /db_xref="CDD:119389"
+     misc_feature    4322..4324
+                     /locus_tag="HMPREF9972_01650"
+                     /note="motif II; other site"
+                     /db_xref="CDD:119389"
+     gene            4669..4857
+                     /locus_tag="HMPREF9972_01655"
+     CDS             4669..4857
+                     /locus_tag="HMPREF9972_01655"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14723972.1"
+                     /db_xref="GI:420218927"
+                     /translation="MGYIILFFIAGPVIIGVGNLILGPIFNKRTPLHVQFRSFIIGSL
+                     VYLILATICYFLFLQGKL"
+ORIGIN      
+        1 cttgaataga tacctgtaga ttcaaaatga gttgtggtgg tctaagtcat tcaatacttg
+       61 agtaaataat tgtaaccatt ttattattct ggatgaaaac tctttttgga attttccatt
+      121 tttataatgt gcaactacac tacttctttt actaatatca acacctaagt aatcgataaa
+      181 aaaacctcct ttgaataatt gagaagctaa aaactttact taacctttct catttcattt
+      241 tcctatacac ggtttcaaga acccaacata ctacaaacga atttcaaaag gcgagagtaa
+      301 agctgacttg ttttttatac ggatttaaaa tccaagagtc tggacagtct acttctctct
+      361 ataactataa aaaatagcta tgaaaaaatc tatcgtcata gatttcttca tagctaatct
+      421 tagtatgttt ttaataattt aattgtcagt gtctaagttg aaaatgaacc tgacaaatag
+      481 tatttataaa tagagttaga attgaattca atgatatgat gactcacttt cctatgttaa
+      541 ttcatgattc tctttatatt cgttatattt tcttagtagt gtttcaaaga aaatgtgata
+      601 gctaataaaa ctggaataat cagtaccatc gtttaaatag aaggtattgc ttgaaacata
+      661 gacattgtaa tcagcttgtt gtgccaatgt attgtctttc attgttgtta cggaaataaa
+      721 atatttttgt ctcagttgaa gcaattgtgt gacttcttta agttgatgtg tttcgccaga
+      781 aagtgaaatg atgaaaaaca aatcttctgg aattgtcttg tttaacacca tctttagttc
+      841 atgaacatca tgtaacaata taatattttt atgcatagtc aacagtatac gttgtgcttc
+      901 ttcagcgaca ttcatctgtg cacgtccagt accatataag tatattgttg tagcatgatg
+      961 cattttgtga gttaataaac gataatcaat acgttctaaa tagttgaatg tattttcaat
+     1021 ttcttgttta aattgctcca tagaatcaga aggaagttga tgattcttac tatcttcaaa
+     1081 ttttaaaaag gatttaaagt cactataacc atcaaaacct agtttacgag tgaagcgatg
+     1141 aatcgtagca tttgaagcat gtgtctgtga ggctaaatct tgtattttca tatttttgca
+     1201 aacatctata tgtgtattaa cataatgtgc aatttgtata tcattatcat ttaattgatc
+     1261 gaaattagag tttacacgtt catctaaaat catcttaaca cctcatcact gaaaatattt
+     1321 tctttatatg aaaatataat ctaattatac aaaaatgttt caaagtgcgt caacgtcatt
+     1381 gtcattatgt aagcgtttac tatatattgg taataactta ttaaataaag agcaataaag
+     1441 ataaacatat attagttatc ataattaagg gaagtgggag gtattcaaaa atgaatgcaa
+     1501 ttaaacgatt tggtagtgca atgatagtac ctgttttaat gtttgctttt ttcggtattg
+     1561 ttttgggatt cgctacatta tttaaaaatc caaccattat gggaggatta gctgatcagc
+     1621 aaacattttg gtttaaattt tggtctgtta ttgaatcagg tggttgggta atatttacac
+     1681 atatggaaat tgtctttgta gttggcttac cattatctct tgctaaaaaa gcaccaggac
+     1741 atgcagcttt agcagctcta atgggatatt taatgtttaa tacttttatc aatgcaattt
+     1801 taactcaatg gccacatact tttggcgcta atttaaaaaa aggtgtagaa aacacaacag
+     1861 gattaaaatc gattgcaggt attgaaacgt tagataccaa tattttaggt gcaatcatta
+     1921 tctcaggaat aataacgtgg atacataata gatattacag taagcgttta cctgaaatgt
+     1981 taggtgtatt tcaaggatta acattcgttg taacaatctc tttctttgtc atgctaccag
+     2041 tggcagcaat cacttgtgtt gtttggccaa cgattcaaca cggtattgct tcaattcaat
+     2101 attttattgt tgcatcaggt tatataggtg tttggttata tcatttctta gagcgtgtac
+     2161 taatacctac aggattgcat cattttatct atgcaccaat cgaagtaggt ccagtagttg
+     2221 ttaatcatgg tttgaaagca gaatggcttc aacacttaaa ccagtttgcc gaaagtaata
+     2281 aaccacttaa agaacaattc ccatatggat ttatgttgca aggaaatgga aaggtttttg
+     2341 gttgtctagg tatagcattg gcaatgtatg caactacacc aaaagaaaat cgtaaaaaag
+     2401 ttgctgcatt attaatacca gcaacactta cggcagtagt agctggtatt acagaaccac
+     2461 ttgaatttac attcttattt attgcgccat ttttattcgt attacatgca ctactagcag
+     2521 caactatgga tacactgatg tatggatttg gtgttgtagg taatatgggt ggcggtgtac
+     2581 tagattttat tgcaactaac tggataccat taggaaaagc acattggatg acatatgtct
+     2641 ttcaagtagt aattggttta atctttgttg caatttacta cttcttattt aaatatttaa
+     2701 ttttaaaatt tgatattcca ttaccaggac gtaagaaagg tgaagaagaa gttaaattat
+     2761 tttccaaaca agattataaa gataaaaaag gagattcaac tcgcaatcat tcacctaata
+     2821 gtgaatatga agaaaaggcg atgtactacc tagaaggtct tggaggaaaa gaaaatatta
+     2881 aagacgttac aaattgtacg acacgtctac gtttaactgt taaagacgaa agtaaagttc
+     2941 aagaaagtgc ctattttaca cataatcaaa tgtctcatgg tttagtaaaa agtggcaaaa
+     3001 gtgttcaagt cgtcgttgga atgtctgtac ctcaggtaag agaagcattt gaaaatattg
+     3061 taaatgatga tctatcttag atataaagta actcccaaaa taattcaaat agagattatt
+     3121 ttgggagttt ttgtatttat atgtgtaaat aagttattct tgctcatata ttctatcttt
+     3181 ctattcatga aatgcgtgct ttatgtagca tttttgctct ataacttgct gataggatat
+     3241 caatattacg cgttgcaata gtttgaagca gctttgtgaa aatctcagga ggacatgtga
+     3301 cgctcgcgca attattattt aatgtataat tcacattatg atgattcgca aacatattca
+     3361 taatatcgat gactttatct ttaatgaagg catcttgtaa accatcgatc gctaaatcaa
+     3421 agcgtttaat agattggtaa agttgttctg aatcaagaag ttcatttaca cggttgggta
+     3481 aaagtatttg ataaatagca taattgtgga aacttaagaa acttatcaga taaggtagtt
+     3541 gtagcttggg gaggctaact tccaatgcga acacattgtt ttgcttaatg atagaatact
+     3601 gaaaagattc acaaaaagta atttctttac ataaatgtat taattttttt cgcgttgagc
+     3661 gagatttcaa acctgcaaca ttaatgatgt aggtttcaaa tttatcaatc aacatatggg
+     3721 gacctccaat cgttaacaat atatgtatga aaatgatatg aatgcttatt ttttatacgc
+     3781 tgttcgttta aataaattgt accactcttt ttttttagaa tcactaagac ttttgattga
+     3841 agttgaaaga ttatagttat cttatttcga atgagtaatc attgaaagaa aagttttatt
+     3901 cattgcatag ttaagaacca gattttatat tatttgatgc ttagttattt agaagcaagc
+     3961 ttaaatcaaa ttatgttagt atgaaaaata ataaatattg aaaggagata acaatatgta
+     4021 taaagctgta gtgtttgatt ttgatggtac tgtcattgat accgaaaagc atttgttcga
+     4081 tttaataaat acacatttaa aaatccatca agtagcgccg atttctttag aattctataa
+     4141 acaatttatt ggcggtgaag ctactgaatt acatacatat ttagaagatg ctattggttt
+     4201 caaaaataaa gaaaaaattt atgatcaata ttatcaaaca agtgttgaat tgccggtaaa
+     4261 ttctacaatc attcaattga tgcaatattt aaaaaaacgt catatcccaa tggcgattac
+     4321 tacaagtagt tataaaaaga atatatatcc tatatttaat caattaggac tagatacata
+     4381 tattgatgtt gttgttggtc gtgaaaatgt cgatagtgtt caacctaatc cggaaattta
+     4441 tttaaaagcc gtacaagagc ttaattataa tcctacaacc tgcttagcaa ttgaagattc
+     4501 tgtcaatggt gctactgcag cgatgctagc aggattagat gttgtcgtta atacgaatat
+     4561 aataacgaag gatcaagatt tttcgacagt tcaatgtgtt ggacaggata tggaatttga
+     4621 agatataaag aattctttat ttaaagaata aattggaggt attcaaaaat gggctatatt
+     4681 atcctatttt tcatagcagg tccagtaatt ataggagtgg gtaatcttat attgggaccg
+     4741 atatttaata aacgtacacc tttacatgtt caatttcgat cgtttattat tggttctctt
+     4801 gtgtacctta ttctcgccac gatttgctat tttttgtttc ttcaaggcaa attataaggc
+     4861 tatttacagt ctgagttgat ttagaacaat ggtaaagtta acttaactaa aataagtttg
+     4921 ttatttatat tatagaaaag aaatctaaaa ttaatattaa tgatttatac tagtttgaat
+     4981 ataaatatta aatgagggac tcaaaattcg tataaatatc ttagttgttc actaataacg
+     5041 agatttgaaa atcatgatag attgaggtat atgtttaaat caatcatcga gcgcacttac
+     5101 taaaaaag
+//

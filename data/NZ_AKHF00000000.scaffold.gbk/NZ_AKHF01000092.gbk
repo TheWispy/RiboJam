@@ -1,0 +1,70 @@
+LOCUS       NZ_AKHF01000092          724 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00100, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000092 NZ_AKHF00000000
+VERSION     NZ_AKHF01000092.1  GI:420220455
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 724)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 724)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000092.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..724
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+ORIGIN      
+        1 gtttcatata gtaattgtat taagaattta tctctaatat tattagtttc tcctaataat
+       61 ttcttaacct ccgcattagt taatacttct atctttttct ttggttcttt aactttcaaa
+      121 atatttttca acgttctata gtccttattt acgtgatgca tgaaaacttt tatatttttt
+      181 agagtattta ctttccatat gcataaaatc atagaaatta acatctaatt ttttactcct
+      241 atagagataa tcataaaaat tagatactac agtcatagtc agattaattg tcttaggact
+      301 aatgcttatt tcttttcggt gataagagag gacattctca tattcaaaag gtgttttcat
+      361 ccatcttata aaatcaacaa agttatcaaa actaacttct ttatagcata tctttttact
+      421 ttctaagtaa acaaaaaatt ttttagtgca taggcatagg ttttcttggt atttaaactt
+      481 ttcttaacac tatccagata cttcaaatat cttactgcat ctactatagg ttcattatta
+      541 ccatctaaaa tcataaaatt gataccattc ttagatttta cttctactat tttcataata
+      601 atctcatttc taaattttaa tagtataagt atacattatt caactctttt tacatcctac
+      661 atattaaact tattacacat aataaaaaaa gaacatttaa tatttttact ttgtttcatt
+      721 tttt
+//

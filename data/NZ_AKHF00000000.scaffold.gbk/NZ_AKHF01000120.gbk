@@ -1,0 +1,199 @@
+LOCUS       NZ_AKHF01000120         3508 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00132, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000120 NZ_AKHF00000000
+VERSION     NZ_AKHF01000120.1  GI:420221362
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 3508)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 3508)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000120.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3508
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            157..804
+                     /locus_tag="HMPREF9972_13862"
+     CDS             157..804
+                     /locus_tag="HMPREF9972_13862"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase A family protein"
+                     /protein_id="ZP_14726306.1"
+                     /db_xref="GI:420221363"
+                     /translation="MKNILKVKEPKKKIEVLTNAEVKKLLGETNNIRDKFLIQLLYET
+                     GLRIGEVLSLRIDDIKFDFRKGHQIVLKNRLNDNGTYLKTGERKIFISQSLIDLYDDY
+                     VYEIIDELSICSDYLFVKIKGRNVGEAMNYSDICSLFKRLKHKTSINVHPHLFRHTHA
+                     TVFYNETKDIKQVQERLGHSNIQTTINLYVHPTEEDIREDWNKVKHQFQVFNKGE"
+     misc_feature    205..765
+                     /locus_tag="HMPREF9972_13862"
+                     /note="Tn544A and related transposases, DNA
+                     breaking-rejoining enzymes, integrase/recombinases,
+                     C-terminal catalytic domain. This CD includes various
+                     bacterial transposases similar to TnpA from transposon
+                     Tn554; Region: INT_Tn554A_C; cd01194"
+                     /db_xref="CDD:29515"
+     misc_feature    order(295..297,403..405,613..615,622..624,691..693,
+                     721..723)
+                     /locus_tag="HMPREF9972_13862"
+                     /note="Int/Topo IB signature motif; other site"
+                     /db_xref="CDD:29515"
+     gene            807..2870
+                     /locus_tag="HMPREF9972_13867"
+     CDS             807..2870
+                     /locus_tag="HMPREF9972_13867"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14726307.1"
+                     /db_xref="GI:420221364"
+                     /translation="MSIPINLPTNSTIINELCTLQSRAINIKGEVLITEIYDDYFFKN
+                     DEWHISAFNKFKQFQDSIKNYRDKRKNVFFRIKNKNLNLEFKYLFLKLIVKEDWSLSN
+                     LFNTGAVKINKIAEFFNKVYPNLNSLLDCDINILEKHWFNWLTANNIPIKRRSSTIVF
+                     GDYEYKSGLASFLKNMYINLIKFIDKREEWEKDKWDIRNLEKYGLSYNKTLTGNYLNF
+                     EKIESIKMRESAKKYLKKRLITGDIVFATARFYIRVLTRFFQNITKNEETRNSLNELD
+                     RCHIESYIEFLFEYAANKNLRSTKNFVREELKTIRRFLNDIITQNYAIAPYQDIRFLI
+                     YPQDLPKHEKKNSSQIDYIPDFVLEQLFEHINDLHKDLIPVVWIAFKTGLRISDVLTL
+                     KNNCLAKVNGKYSIITDIAKTFVKGHRIPIDNKLADIVAVLIADSKIKSTKDNNPNNY
+                     IFAIHKGKRKGMPYTQHMVRAHLNHLSKTKNIIDEQGEIFHFKTHQFRHTYAVKLLNG
+                     GADILTIQELLAHSSPEMTLRYAKLLDDTKRKAFESVIDQGAFSFDVDGKIKNIQHSS
+                     ELSEKALNSLWQEHKLNAMDNPYGTCHARLSGDCPYMEAPPCLTCNSGKPCKDLAIGF
+                     SDLDVEKYELHIKSTVKSIELAKNNNRQDMVEKHTNILNKYEEILGNIKDGNIIFGRS
+                     NRIKV"
+     misc_feature    1449..2429
+                     /locus_tag="HMPREF9972_13867"
+                     /note="Integrase [DNA replication, recombination, and
+                     repair]; Region: XerC; COG0582"
+                     /db_xref="CDD:30927"
+     misc_feature    1857..2432
+                     /locus_tag="HMPREF9972_13867"
+                     /note="Tn544B and related transposases, DNA
+                     breaking-rejoining enzymes, integrase/recombinases,
+                     catalytic domain. This CD includes various bacterial
+                     transposases similar to TnpB from transposon Tn554;
+                     Region: INT_Tn544B_C; cd01195"
+                     /db_xref="CDD:29516"
+     misc_feature    order(1959..1961,2040..2042,2289..2291,2298..2300,
+                     2367..2369,2394..2396)
+                     /locus_tag="HMPREF9972_13867"
+                     /note="Int/Topo IB signature motif; other site"
+                     /db_xref="CDD:29516"
+     gene            3051..>3508
+                     /locus_tag="HMPREF9972_13872"
+     CDS             3051..>3508
+                     /locus_tag="HMPREF9972_13872"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ZP_14726308.1"
+                     /db_xref="GI:420221365"
+                     /translation="MTQVHFTLKSEEIQSIIEYSVKDDVSKNILTTVFNQLMENQRTE
+                     YIQAKEYERTENRQSQRNGYYERSFTTRVGTLELKVPRTRDGHFSPTVFERYQRNEKA
+                     LMASMLEMYVSGVSTRKVSKIVEELCGKSVSKSFVSSLTEQLEPMVNEWQ"
+     misc_feature    3051..>3508
+                     /locus_tag="HMPREF9972_13872"
+                     /note="Transposase, Mutator family; Region:
+                     Transposase_mut; pfam00872"
+                     /db_xref="CDD:109910"
+ORIGIN      
+        1 acaattaatc tgactatgac cgtagtatct atttttatga ttatctctat aggagcaaaa
+       61 attagatgtt aatttctatg atttatacat atggaaagta aatactctaa aaaatataaa
+      121 agttttatgc atcacgtaaa taaggactat agaacgttga aaaatatttt gaaagttaaa
+      181 gaaccaaaga aaaagataga agtattaact aatgcggagg ttaagaaatt attaggagaa
+      241 actaataata ttagagataa attcttaata caattattat atgaaacagg attacgtata
+      301 ggtgaggtat tatcattacg tattgatgat attaaatttg actttagaaa aggccatcaa
+      361 atagttttga aaaatagatt aaatgacaat ggtacttatt taaaaactgg tgaaagaaaa
+      421 atatttattt ctcaatcgtt aattgattta tatgatgatt atgtctacga aataattgac
+      481 gaactttcaa tatgttctga ttatcttttt gtaaaaataa aggggagaaa tgtaggagaa
+      541 gctatgaatt atagcgatat atgttcatta tttaaaaggc taaaacataa aacatctata
+      601 aatgttcacc ctcatttatt tcgccataca catgcaactg ttttttataa tgaaactaag
+      661 gatattaaac aagttcaaga aagacttggt catagtaata tacaaacgac tattaattta
+      721 tatgttcatc ctactgaaga agatatacgc gaagattgga ataaagtaaa gcatcaattt
+      781 caagttttta ataaagggga atgactatgt caataccaat taatttacct acaaacagta
+      841 ctattattaa tgaattatgt acattacaaa gtagagccat caatataaaa ggagaggttt
+      901 taataactga aatatatgat gattactttt ttaaaaatga tgagtggcac atttcagctt
+      961 ttaacaaatt caagcaattt caagatagta tcaagaacta tagagacaaa agaaaaaatg
+     1021 ttttctttag gattaaaaat aaaaatttga atttagaatt taaatacctt tttttgaaac
+     1081 tgatagttaa agaggattgg tctttatcta atttatttaa tactggagca gtgaagatta
+     1141 ataagattgc tgagttcttt aataaagttt atccaaattt aaattcttta cttgattgtg
+     1201 atataaatat attagaaaag cactggttta attggttgac tgcaaataat ataccaataa
+     1261 aaagaagatc atcaacaata gtttttggtg attatgaata caaaagtggg ctagcttctt
+     1321 ttttaaagaa tatgtacatt aatctaatta agttcattga taagcgagaa gaatgggaaa
+     1381 aagataaatg ggatattaga aatttagaaa aatatggatt gagttataat aagacactaa
+     1441 ctggcaatta tttaaacttt gaaaaaattg agtcaattaa aatgcgagaa tcagcaaaaa
+     1501 aatatttaaa aaaacgtttg ataactggtg atatagtatt tgctacagca aggttttata
+     1561 taagagtttt aactaggttt tttcaaaata taactaaaaa tgaagaaaca aggaatagtt
+     1621 taaacgaact agatagatgt catatcgaat catatataga atttttattt gaatatgcag
+     1681 ctaataaaaa tttgcgaagt actaagaact ttgtgagaga agaattaaaa acaattagaa
+     1741 gattcttaaa cgatattata actcaaaact atgctatagc accgtaccaa gatatacgat
+     1801 ttttaattta tccacaagac ttacctaaac acgaaaagaa aaatagtagc caaattgatt
+     1861 atatcccaga ttttgtattg gaacagcttt ttgagcatat aaatgatttg cacaaagatt
+     1921 taatacctgt agtttggata gcttttaaaa cgggattaag aatttctgat gtattgacat
+     1981 taaaaaataa ttgccttgca aaagttaatg gaaagtattc aataataaca gatattgcta
+     2041 aaacttttgt taaaggacat agaataccaa ttgataataa attagctgat atagtagcag
+     2101 ttttaatagc cgattctaaa attaaaagta caaaagataa taatcctaat aattatattt
+     2161 ttgctattca taaaggaaaa agaaagggaa tgccctatac acaacatatg gtcagggcac
+     2221 acttaaatca tttatcaaaa actaaaaata ttattgatga acaaggagaa atcttccatt
+     2281 tcaaaactca tcaatttaga catacctatg cagtaaaatt gttaaatggt ggagcagata
+     2341 tattaactat acaagaatta ttagcacatt cctcaccaga aatgactcta agatatgcta
+     2401 agttacttga tgatacaaaa agaaaggctt ttgaatcagt tattgatcaa ggagctttta
+     2461 gttttgatgt tgacggtaaa attaaaaata tacagcatag tagtgaacta tctgaaaaag
+     2521 cattgaattc tttatggcaa gaacataaat taaatgcaat ggacaatcct tatggtactt
+     2581 gtcatgctag attgagcggc gattgtccat acatggaagc tccgccatgc ctaacttgta
+     2641 attctgggaa accatgtaag gatttagcta ttggattttc tgatttagat gttgaaaaat
+     2701 atgaattaca tatcaaatca acggtcaaat ctatagaatt agctaaaaat aataataggc
+     2761 aagatatggt tgaaaaacac actaatatat taaataaata tgaagaaata ctaggtaata
+     2821 taaaagatgg aaacattata ttcgggagaa gtaatagaat aaaagtatag aggttaaaat
+     2881 ggaaaaattt aatagacaag aacaattaaa acagttacat gcagaacgaa aagttaaaac
+     2941 cgagaaaaag ataaagtccg tataattgtg taaaagtaaa aaggccatat aacagtcctt
+     3001 ttacggtaca atgtttttaa cgacaaaaac atacccagga ggacttttac atgacccaag
+     3061 tacattttac actgaaaagc gaagagattc aaagcattat tgaatattct gtaaaggatg
+     3121 acgtttctaa aaatatttta acaacggtat ttaatcaact aatggaaaat caacgaacag
+     3181 aatatattca agcaaaagaa tatgaacgaa cagaaaaccg acaaagtcaa cgaaatggct
+     3241 attatgagcg cagctttacg acacgtgtag gcacgctaga attaaaagta cccagaacac
+     3301 gtgatggcca tttttcaccc acagtgtttg aacgttatca acgaaacgaa aaagccctca
+     3361 tggcttcaat gttggaaatg tatgtatcag gcgtttcaac tcgtaaagta tcaaaaattg
+     3421 tggaagaact ttgtggtaaa tccgtctcta agtccttcgt ttctagctta acagaacagc
+     3481 tagaacctat ggttaacgag tggcagaa
+//

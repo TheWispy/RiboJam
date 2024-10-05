@@ -1,0 +1,131 @@
+LOCUS       NZ_AKHF01000065         1694 bp    DNA     linear   CON 17-NOV-2012
+DEFINITION  Staphylococcus epidermidis NIH04008 HMPREF9972_contig00066, whole
+            genome shotgun sequence.
+ACCESSION   NZ_AKHF01000065 NZ_AKHF00000000
+VERSION     NZ_AKHF01000065.1  GI:420219774
+DBLINK      Project: 180523
+            BioProject: PRJNA180523
+KEYWORDS    WGS; HIGH_QUALITY_DRAFT.
+SOURCE      Staphylococcus epidermidis NIH04008
+  ORGANISM  Staphylococcus epidermidis NIH04008
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcus.
+REFERENCE   1  (bases 1 to 1694)
+  AUTHORS   Conlan,S., Mijares,L.A., Becker,J., Blakesley,R.W., Bouffard,G.G.,
+            Brooks,S., Gupta,J., Gurson,N., Park,M., Schmidt,B., Thomas,P.J.,
+            Young,A., Otto,M., Kong,H.H., Murray,P.R. and Segre,J.A.
+  CONSRTM   NISC Comparative Sequencing Program
+  TITLE     Staphylococcus epidermidis pan-genome sequence analysis reveals
+            diversity of skin commensal and hospital infection-associated
+            isolates
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1694)
+  AUTHORS   Segre,J.A. and Mullikin,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2012) NIH Intramural Sequencing Center, 5625
+            Fishers Lane, Rockville, MD 20852, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AKHF01000065.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC. Source
+            bacteria available from BEI Resources.
+            Initial annotation was added by the NCBI Prokaryotic Genomes
+            Automatic Annotation Pipeline Group:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html.
+            A second round of automated annotation was performed by the HMP
+            DACC using the JCVI's autoannotate pipeline to ensure protein
+            naming consistency across the HMP genomes.
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: High-Quality Draft
+            Current Finishing Status :: High-Quality Draft
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 16x
+            Sequencing Technology    :: 454 GS FLX
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1694
+                     /organism="Staphylococcus epidermidis NIH04008"
+                     /mol_type="genomic DNA"
+                     /strain="NIH04008"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="HMP:9972"
+                     /db_xref="taxon:979222"
+                     /country="USA"
+                     /collection_date="2004"
+     gene            348..1310
+                     /locus_tag="HMPREF9972_05883"
+     CDS             348..1310
+                     /locus_tag="HMPREF9972_05883"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative regulatory protein blaR1"
+                     /protein_id="ZP_14724773.1"
+                     /db_xref="GI:420219775"
+                     /translation="MDSVLNIPFFNKNILSHSFNGKKSLLKRRLINIKEANLKKQSKL
+                     IPIFICIFTFLLIVIQSQFLMGQSITDYNYKKPLQNDHQILDESKNFGSNSGSFVMYS
+                     MKKDKYYIYNEKESRKRYSPDSTYKIYLAMFGLDRHIISDKNSRMSWNHKHYPFESWN
+                     KEQDLNTAMQNSVNWYFERISNQIPKNYIAAQLKQLNYGNENLGSYKSYWMEDSLKIS
+                     NLEQVIVFKNMMEQKNHFSKKAKNQLSSSLLIKKNEKYELYGKTGTGIVNGKYNNGWF
+                     VGYVITNHDKYYFATHLSDGNPSGKNAELISEKILKEMGVLNGQ"
+     misc_feature    <351..584
+                     /locus_tag="HMPREF9972_05883"
+                     /note="Peptidase family M48; Region: Peptidase_M48;
+                     cl12018"
+                     /db_xref="CDD:214202"
+     misc_feature    609..1301
+                     /locus_tag="HMPREF9972_05883"
+                     /note="Beta-lactamase class D [Defense mechanisms];
+                     Region: COG2602"
+                     /db_xref="CDD:32594"
+     gene            1300..1617
+                     /gene="mecI"
+                     /locus_tag="HMPREF9972_05888"
+     CDS             1300..1617
+                     /gene="mecI"
+                     /locus_tag="HMPREF9972_05888"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="methicillin resistance regulatory protein MecI"
+                     /protein_id="ZP_14724774.1"
+                     /db_xref="GI:420219776"
+                     /translation="MANKQVEISMAEWDVMNIIWDKKSVSANEIVVEIQKYKEVSDKT
+                     IRTLITRLYKKEIIKRYKSENIYFYSSNIKEDDIKMKTAKTFLNKLYGGDMKSLVLNF
+                     AKK"
+     misc_feature    1321..1614
+                     /gene="mecI"
+                     /locus_tag="HMPREF9972_05888"
+                     /note="Penicillinase repressor; Region: Pencillinase_R;
+                     pfam03965"
+                     /db_xref="CDD:146546"
+ORIGIN      
+        1 tttcaaccat caatataaaa aaagtattgt gattcgaaaa gcagagacta ttcaatctcc
+       61 aataactttt tggtatggga aatatattat tttgattcct agttcatatt tttaaaagtg
+      121 taattgataa aagactaaaa tatataatac tgcacgaata tgctcatgct aaaaatagag
+      181 atactttaca tttaattatc tttaatatct tctctattgt tatgagttac aatccattaa
+      241 tacatattgt aaaaagaaag ataattcatg acaatgaagt agaagccgat agatttgttc
+      301 ttaataatat taacaaaaat gaatttaaaa cttatgcgga atctattatg gactccgtat
+      361 taaatattcc attttttaat aaaaatatat taagccattc atttaatggt aaaaagtcat
+      421 tactcaaaag aagattaatt aatataaaag aagccaattt gaaaaaacag tctaaattaa
+      481 ttccaatttt tatttgtatt tttacttttt tgctcatagt aattcaaagc cagtttttga
+      541 tgggacaatc cataactgat tataattata aaaagccctt acagaacgat caccaaattt
+      601 tagatgaaag taaaaatttt ggttcaaata gtggatcttt cgtcatgtac agcatgaaga
+      661 aagacaaata ctatatttat aatgaaaaag aaagtagaaa aagatattct cctgattcaa
+      721 cttataaaat ttatttagcg atgtttggac ttgaccgtca tatcataagt gataaaaatt
+      781 cacgtatgtc atggaatcat aaacattatc ctttcgagtc ttggaataag gaacaagatt
+      841 taaatacagc aatgcaaaat tcagttaatt ggtacttcga acgtattagt aatcaaatac
+      901 caaagaacta tattgcggct caactcaagc aattaaatta tggtaatgaa aatttgggaa
+      961 gttataaaag ctattggatg gaagatagtt tgaaaatatc taatcttgaa caagtaatag
+     1021 tttttaaaaa tatgatggaa caaaaaaacc attttagtaa aaaagcaaag aatcaattat
+     1081 cttcttcatt attgattaag aaaaatgaaa agtatgaact gtatgggaaa acaggtacag
+     1141 gtatagtaaa cgggaagtat aataatgggt ggtttgtagg ttacgtaatt actaatcatg
+     1201 ataagtatta ttttgctaca catttatcag atggaaaccc gtctgggaaa aatgctgaat
+     1261 taatcagtga aaaaatatta aaagaaatgg gtgttttaaa tggccaataa gcaagttgaa
+     1321 atatctatgg ctgaatggga tgttatgaat ataatatggg ataaaaaatc agtatcagct
+     1381 aatgaaattg tagttgaaat tcaaaaatat aaagaagtta gcgataaaac gattagaaca
+     1441 ttaatcacaa gactatataa aaaagagatt ataaaacgat acaaatcaga gaatatttat
+     1501 ttttactcat caaatattaa agaagacgat attaaaatga aaactgctaa aacctttctt
+     1561 aataaactgt atggagggga catgaaaagt ttagtgctaa attttgcgaa aaaatgaaga
+     1621 attaaataac aaagaaattg aagaattgcg agccatttta aatgatatta gtaaaaaata
+     1681 aatagatata gggt
+//
