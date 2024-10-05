@@ -30,19 +30,18 @@ func physics_update(delta: float) -> void:
         #
     #player.velocity.y += player.gravity * delta
     #player.move_and_slide()
-    if Input.is_action_just_pressed("pause"):
-        emit_signal("paused")
+    
     
     
     # Get the input direction and handle the movement/deceleration.
     # As good practice, you should replace UI actions with custom gameplay actions.
-    var direction = Input.get_axis("input_left", "input_right")
-    if direction:
-        player.velocity.x = direction * player.SPEED
-    else:
-        player.velocity.x = move_toward(player.velocity.x, 0, player.SPEED)
-
-    player.move_and_slide()
+    #var direction = Input.get_axis("input_left", "input_right")
+    #if direction:
+        #player.velocity.x = direction * player.SPEED
+    #else:
+        #player.velocity.x = move_toward(player.velocity.x, 0, player.SPEED)
+#
+    #player.move_and_slide()
     pass
 
 

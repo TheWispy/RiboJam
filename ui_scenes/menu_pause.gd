@@ -26,7 +26,7 @@ func _on_resume_pressed():
 
 
 func _on_player_paused():
-    get_tree().paused = true
+    get_tree() .paused = true
     pause_time = Time.get_ticks_msec()
     show()
     pass # Replace with function body.

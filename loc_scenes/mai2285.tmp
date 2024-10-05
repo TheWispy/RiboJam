@@ -18,12 +18,11 @@ position = Vector2(320, 179)
 position = Vector2(86, 229)
 
 [node name="Menu" parent="Player" instance=ExtResource("2_doerl")]
-process_mode = 2
 visible = false
-offset_left = -86.0
-offset_top = -229.0
-offset_right = -86.0
-offset_bottom = -229.0
+offset_left = -320.0
+offset_top = -160.0
+offset_right = -320.0
+offset_bottom = -160.0
 
 [node name="BG_Music" type="AudioStreamPlayer" parent="."]
 stream = SubResource("AudioStreamWAV_kiw1j")

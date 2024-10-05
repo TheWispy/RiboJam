@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://bd28p2ncl76nc"
+uid="uid://qg0c11p5waud"
 path="res://.godot/imported/MysteryFungeon.ogg-ae0e776a1aabaafecdfec5d73167bb48.oggvorbisstr"
 
 [deps]
@@ -14,6 +14,6 @@ dest_files=["res://.godot/imported/MysteryFungeon.ogg-ae0e776a1aabaafecdfec5d731
 
 loop=false
 loop_offset=0.0
-bpm=104.3
-beat_count=80
+bpm=104.0
+beat_count=84
 bar_beats=4
