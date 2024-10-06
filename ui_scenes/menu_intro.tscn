@@ -1,0 +1,130 @@
+[gd_scene load_steps=15 format=3 uid="uid://b3lu7q88i0efy"]
+
+[ext_resource type="Theme" uid="uid://cqrmidw50t0d0" path="res://ui_scenes/ui_theme.tres" id="1_ut6ig"]
+[ext_resource type="Script" path="res://ui_scenes/menu_intro.gd" id="2_djvdd"]
+[ext_resource type="Texture2D" uid="uid://c30jcapnlrjso" path="res://art/blob.png" id="3_0xg74"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_47omb"]
+atlas = ExtResource("3_0xg74")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oh36f"]
+atlas = ExtResource("3_0xg74")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4on6u"]
+atlas = ExtResource("3_0xg74")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j5hhn"]
+atlas = ExtResource("3_0xg74")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_25x13"]
+atlas = ExtResource("3_0xg74")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7bkaa"]
+atlas = ExtResource("3_0xg74")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_51ct8"]
+atlas = ExtResource("3_0xg74")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b8ggg"]
+atlas = ExtResource("3_0xg74")
+region = Rect2(448, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1t5me"]
+atlas = ExtResource("3_0xg74")
+region = Rect2(512, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1afcg"]
+atlas = ExtResource("3_0xg74")
+region = Rect2(576, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lbhli"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_47omb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oh36f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4on6u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j5hhn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_25x13")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7bkaa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_51ct8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b8ggg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1t5me")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1afcg")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_ut6ig")
+script = ExtResource("2_djvdd")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+offset_left = 260.0
+offset_top = 288.47
+offset_right = 380.0
+offset_bottom = 312.47
+theme_override_constants/separation = 15
+
+[node name="Play" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Play"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 53.0
+offset_right = 495.0
+offset_bottom = 233.0
+bbcode_enabled = true
+text = "Deep within the cells of an unkown creature lies, the humble ribosome. Messages arrive, detailing the complex order proteins to assemble and fold. 
+
+Go forth, Ribo! Fold and groove!
+
+[color=#FF3333]Z / 1 - Base 1[/color]
+[color=#3333FF]X / 2 - Base 2[/color]
+[color=#33FF33]C / 3 - Base 3[/color]
+[color=#FFFF33]V / 4 - Base 4[/color]"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(505, 243)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_lbhli")
+autoplay = "default"
+
+[connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]

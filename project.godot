@@ -13,7 +13,10 @@ config_version=5
 config/name="RiboJam"
 run/main_scene="res://ui_scenes/menu_main.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-config/icon="res://icon.svg"
+boot_splash/bg_color=Color(0.0660444, 0.157502, 0.16109, 1)
+boot_splash/image="res://art/blob-export.png"
+boot_splash/use_filter=false
+config/icon="res://art/blob-export.png"
 
 [audio]
 
@@ -93,5 +96,5 @@ pause={
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
-environment/defaults/default_clear_color=Color(0.14338, 0.281751, 0.184449, 1)
+environment/defaults/default_clear_color=Color(0.070876, 0.162125, 0.172483, 1)
 2d/snap/snap_2d_transforms_to_pixel=true

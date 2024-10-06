@@ -1,18 +1,50 @@
-[gd_scene load_steps=7 format=3 uid="uid://cep16n4rbjrqh"]
+[gd_scene load_steps=15 format=3 uid="uid://cep16n4rbjrqh"]
 
 [ext_resource type="PackedScene" uid="uid://c5uqwodmwdyvn" path="res://obj_scenes/player.tscn" id="1_efubf"]
 [ext_resource type="PackedScene" uid="uid://dw6fvas0k8k3v" path="res://obj_scenes/song_ribo.tscn" id="2_4xosq"]
 [ext_resource type="PackedScene" uid="uid://etr0rg86ri2g" path="res://ui_scenes/menu_pause.tscn" id="2_doerl"]
 [ext_resource type="PackedScene" uid="uid://d2wyr8md0tl5i" path="res://obj_scenes/base.tscn" id="4_aban8"]
+[ext_resource type="Texture2D" uid="uid://cose2aho8en46" path="res://art/ribo_bg_blur.png" id="5_k2kwu"]
+[ext_resource type="Theme" uid="uid://cqrmidw50t0d0" path="res://ui_scenes/ui_theme.tres" id="6_3wye2"]
+[ext_resource type="PackedScene" uid="uid://dsskh3npk8uvc" path="res://obj_scenes/tinyribo.tscn" id="7_kgydj"]
+[ext_resource type="Script" path="res://loc_scenes/score_value.gd" id="7_tkqo8"]
+[ext_resource type="Texture2D" uid="uid://bacukev6ujvps" path="res://art/line.png" id="8_6a8hd"]
 
 [sub_resource type="AudioStreamWAV" id="AudioStreamWAV_kiw1j"]
 
 [sub_resource type="AudioStreamWAV" id="AudioStreamWAV_dnn7d"]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_8t4gf"]
+atlas = ExtResource("8_6a8hd")
+region = Rect2(32, 0, 32, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ifdi2"]
+atlas = ExtResource("8_6a8hd")
+region = Rect2(0, 0, 32, 256)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_huikn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8t4gf")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ifdi2")
+}],
+"loop": true,
+"name": &"other",
+"speed": 5.0
+}]
+
 [node name="Node" type="Node"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(320, 179)
+position = Vector2(320, 180)
 
 [node name="Player" parent="." instance=ExtResource("1_efubf")]
 position = Vector2(86, 229)
@@ -37,4 +69,93 @@ stream = SubResource("AudioStreamWAV_dnn7d")
 visible = false
 position = Vector2(370.116, 518.768)
 
+[node name="RiboBgBlur" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(320, 180)
+texture = ExtResource("5_k2kwu")
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+custom_minimum_size = Vector2(200, 0)
+offset_left = 419.0
+offset_top = 322.0
+offset_right = 619.0
+offset_bottom = 349.0
+theme = ExtResource("6_3wye2")
+
+[node name="Label" type="Label" parent="."]
+z_index = 4
+offset_left = 300.0
+offset_top = 309.0
+offset_right = 400.885
+offset_bottom = 325.0
+theme = ExtResource("6_3wye2")
+text = "Score"
+
+[node name="ScoreValue" type="Label" parent="."]
+z_index = 4
+offset_left = 313.0
+offset_top = 334.0
+offset_right = 413.885
+offset_bottom = 350.0
+theme = ExtResource("6_3wye2")
+text = "0
+"
+script = ExtResource("7_tkqo8")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+custom_minimum_size = Vector2(100.885, 0.055)
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -50.4425
+offset_top = -40.0
+offset_right = 50.4425
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Node2D" parent="." instance=ExtResource("7_kgydj")]
+position = Vector2(24, 277)
+
+[node name="TinyRibo6" parent="." instance=ExtResource("7_kgydj")]
+position = Vector2(16, 336)
+scale = Vector2(2, 2)
+
+[node name="TinyRibo8" parent="." instance=ExtResource("7_kgydj")]
+position = Vector2(54, 6)
+rotation = 3.14159
+scale = Vector2(-2, 2)
+
+[node name="TinyRibo7" parent="." instance=ExtResource("7_kgydj")]
+position = Vector2(183, 333)
+scale = Vector2(2, 2)
+
+[node name="TinyRibo9" parent="." instance=ExtResource("7_kgydj")]
+position = Vector2(235, 331)
+scale = Vector2(2, 2)
+
+[node name="TinyRibo" parent="." instance=ExtResource("7_kgydj")]
+position = Vector2(167, 278)
+scale = Vector2(-1, 1)
+
+[node name="TinyRibo2" parent="." instance=ExtResource("7_kgydj")]
+position = Vector2(15, 295)
+
+[node name="TinyRibo3" parent="." instance=ExtResource("7_kgydj")]
+position = Vector2(126, 299)
+
+[node name="TinyRibo4" parent="." instance=ExtResource("7_kgydj")]
+position = Vector2(49, 302)
+scale = Vector2(-1, 1)
+
+[node name="TinyRibo5" parent="." instance=ExtResource("7_kgydj")]
+position = Vector2(116, 271)
+
+[node name="Scoreline" type="AnimatedSprite2D" parent="."]
+position = Vector2(119, 156)
+sprite_frames = SubResource("SpriteFrames_huikn")
+autoplay = "default"
+
 [connection signal="paused" from="Player" to="Player/Menu" method="_on_player_paused"]
+[connection signal="score" from="Player" to="ScoreValue" method="_on_player_score"]

@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://d1xj1atgo2l0w"]
+[gd_scene load_steps=4 format=3 uid="uid://d1xj1atgo2l0w"]
 
 [ext_resource type="Theme" uid="uid://cqrmidw50t0d0" path="res://ui_scenes/ui_theme.tres" id="1_lyay0"]
 [ext_resource type="Script" path="res://ui_scenes/menu_main.gd" id="2_stomh"]
+[ext_resource type="Texture2D" uid="uid://d1ybmai3r6g1" path="res://art/logo.png" id="3_ywelx"]
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -15,8 +16,9 @@ script = ExtResource("2_stomh")
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 2
+offset_top = 42.0
 offset_right = 640.0
-offset_bottom = 360.0
+offset_bottom = 402.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
 custom_minimum_size = Vector2(120, 0)
@@ -35,6 +37,10 @@ text = "Options
 [node name="Exit" type="Button" parent="CenterContainer/VBoxContainer"]
 layout_mode = 2
 text = "Exit"
+
+[node name="Logo" type="Sprite2D" parent="."]
+position = Vector2(306, 116)
+texture = ExtResource("3_ywelx")
 
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Options" to="." method="_on_options_pressed"]
