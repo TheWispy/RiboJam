@@ -1,14 +1,17 @@
-[gd_scene load_steps=15 format=3 uid="uid://cep16n4rbjrqh"]
+[gd_scene load_steps=18 format=3 uid="uid://cep16n4rbjrqh"]
 
+[ext_resource type="Script" path="res://loc_scenes/main.gd" id="1_afmer"]
 [ext_resource type="PackedScene" uid="uid://c5uqwodmwdyvn" path="res://obj_scenes/player.tscn" id="1_efubf"]
 [ext_resource type="PackedScene" uid="uid://dw6fvas0k8k3v" path="res://obj_scenes/song_ribo.tscn" id="2_4xosq"]
 [ext_resource type="PackedScene" uid="uid://etr0rg86ri2g" path="res://ui_scenes/menu_pause.tscn" id="2_doerl"]
 [ext_resource type="PackedScene" uid="uid://d2wyr8md0tl5i" path="res://obj_scenes/base.tscn" id="4_aban8"]
 [ext_resource type="Texture2D" uid="uid://cose2aho8en46" path="res://art/ribo_bg_blur.png" id="5_k2kwu"]
 [ext_resource type="Theme" uid="uid://cqrmidw50t0d0" path="res://ui_scenes/ui_theme.tres" id="6_3wye2"]
+[ext_resource type="Script" path="res://loc_scenes/progress_bar.gd" id="7_4y3w3"]
 [ext_resource type="PackedScene" uid="uid://dsskh3npk8uvc" path="res://obj_scenes/tinyribo.tscn" id="7_kgydj"]
 [ext_resource type="Script" path="res://loc_scenes/score_value.gd" id="7_tkqo8"]
 [ext_resource type="Texture2D" uid="uid://bacukev6ujvps" path="res://art/line.png" id="8_6a8hd"]
+[ext_resource type="PackedScene" uid="uid://cgael1834vvw2" path="res://ui_scenes/menu_outro.tscn" id="9_dkh0d"]
 
 [sub_resource type="AudioStreamWAV" id="AudioStreamWAV_kiw1j"]
 
@@ -42,6 +45,7 @@ animations = [{
 }]
 
 [node name="Node" type="Node"]
+script = ExtResource("1_afmer")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(320, 180)
@@ -81,6 +85,7 @@ offset_top = 322.0
 offset_right = 619.0
 offset_bottom = 349.0
 theme = ExtResource("6_3wye2")
+script = ExtResource("7_4y3w3")
 
 [node name="Label" type="Label" parent="."]
 z_index = 4
@@ -114,6 +119,9 @@ offset_top = -40.0
 offset_right = 50.4425
 grow_horizontal = 2
 grow_vertical = 0
+
+[node name="Outro" parent="." instance=ExtResource("9_dkh0d")]
+visible = false
 
 [node name="Node2D" parent="." instance=ExtResource("7_kgydj")]
 position = Vector2(24, 277)
@@ -159,3 +167,5 @@ autoplay = "default"
 
 [connection signal="paused" from="Player" to="Player/Menu" method="_on_player_paused"]
 [connection signal="score" from="Player" to="ScoreValue" method="_on_player_score"]
+[connection signal="beat" from="songRibo" to="ProgressBar" method="_on_song_ribo_beat"]
+[connection signal="game" from="songRibo" to="." method="_on_song_ribo_game"]

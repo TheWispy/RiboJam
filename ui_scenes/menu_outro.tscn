@@ -1,0 +1,163 @@
+[gd_scene load_steps=16 format=3 uid="uid://cgael1834vvw2"]
+
+[ext_resource type="Theme" uid="uid://cqrmidw50t0d0" path="res://ui_scenes/ui_theme.tres" id="1_5m3vt"]
+[ext_resource type="Script" path="res://ui_scenes/menu_outro.gd" id="2_8ycsu"]
+[ext_resource type="Texture2D" uid="uid://c30jcapnlrjso" path="res://art/blob.png" id="3_8heht"]
+[ext_resource type="Texture2D" uid="uid://cose2aho8en46" path="res://art/ribo_bg_blur.png" id="4_4ill6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_47omb"]
+atlas = ExtResource("3_8heht")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oh36f"]
+atlas = ExtResource("3_8heht")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4on6u"]
+atlas = ExtResource("3_8heht")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j5hhn"]
+atlas = ExtResource("3_8heht")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_25x13"]
+atlas = ExtResource("3_8heht")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7bkaa"]
+atlas = ExtResource("3_8heht")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_51ct8"]
+atlas = ExtResource("3_8heht")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b8ggg"]
+atlas = ExtResource("3_8heht")
+region = Rect2(448, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1t5me"]
+atlas = ExtResource("3_8heht")
+region = Rect2(512, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1afcg"]
+atlas = ExtResource("3_8heht")
+region = Rect2(576, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lbhli"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_47omb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oh36f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4on6u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j5hhn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_25x13")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7bkaa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_51ct8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b8ggg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1t5me")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1afcg")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="Outro" type="Control"]
+z_index = 11
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_right = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_5m3vt")
+script = ExtResource("2_8ycsu")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+offset_left = 260.0
+offset_top = 288.47
+offset_right = 380.0
+offset_bottom = 312.47
+theme_override_constants/separation = 15
+
+[node name="Return" type="Button" parent="VBoxContainer"]
+z_index = 5
+layout_mode = 2
+text = "Return to Menu"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+z_index = 5
+layout_mode = 0
+offset_left = 200.0
+offset_top = 53.0
+offset_right = 495.0
+offset_bottom = 233.0
+bbcode_enabled = true
+text = "The protein has been folded!
+
+Thank you very much for playing!
+
+
+"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+z_index = 5
+layout_mode = 0
+offset_left = 213.0
+offset_top = 158.0
+offset_right = 428.0
+offset_bottom = 256.0
+bbcode_enabled = true
+text = "You scored: 
+
+
+"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 5
+position = Vector2(505, 243)
+scale = Vector2(-2, 2)
+sprite_frames = SubResource("SpriteFrames_lbhli")
+autoplay = "default"
+
+[node name="RiboBgBlur" type="Sprite2D" parent="."]
+self_modulate = Color(0.472436, 0.525052, 0.477861, 1)
+z_index = 4
+position = Vector2(319, 180)
+texture = ExtResource("4_4ill6")
+
+[node name="Label" type="Label" parent="."]
+z_index = 5
+layout_mode = 0
+offset_left = 6.0
+offset_top = 339.0
+offset_right = 191.0
+offset_bottom = 355.0
+text = "This game was made by Wispeh (@artgubbin)"
+
+[connection signal="pressed" from="VBoxContainer/Return" to="." method="_on_return_pressed"]

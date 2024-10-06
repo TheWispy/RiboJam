@@ -1,8 +1,9 @@
-[gd_scene load_steps=15 format=3 uid="uid://b3lu7q88i0efy"]
+[gd_scene load_steps=16 format=3 uid="uid://b3lu7q88i0efy"]
 
 [ext_resource type="Theme" uid="uid://cqrmidw50t0d0" path="res://ui_scenes/ui_theme.tres" id="1_ut6ig"]
 [ext_resource type="Script" path="res://ui_scenes/menu_intro.gd" id="2_djvdd"]
 [ext_resource type="Texture2D" uid="uid://c30jcapnlrjso" path="res://art/blob.png" id="3_0xg74"]
+[ext_resource type="AudioStream" uid="uid://dl845aujveln8" path="res://audio/MysteryFungeonIntro.ogg" id="3_2k4uv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_47omb"]
 atlas = ExtResource("3_0xg74")
@@ -107,19 +108,28 @@ text = "Play"
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 layout_mode = 0
-offset_left = 200.0
-offset_top = 53.0
-offset_right = 495.0
-offset_bottom = 233.0
+offset_left = 199.0
+offset_top = 20.0
+offset_right = 494.0
+offset_bottom = 278.0
 bbcode_enabled = true
 text = "Deep within the cells of an unkown creature lies, the humble ribosome. Messages arrive, detailing the complex order proteins to assemble and fold. 
 
 Go forth, Ribo! Fold and groove!
 
+Hit the keys in time for more points
+
 [color=#FF3333]Z / 1 - Base 1[/color]
-[color=#3333FF]X / 2 - Base 2[/color]
+[color=#7777FF]X / 2 - Base 2[/color]
 [color=#33FF33]C / 3 - Base 3[/color]
-[color=#FFFF33]V / 4 - Base 4[/color]"
+[color=#FFFF33]V / 4 - Base 4[/color]
+
+ESC - Pause"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="RichTextLabel"]
+stream = ExtResource("3_2k4uv")
+autoplay = true
+bus = &"Music"
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(505, 243)

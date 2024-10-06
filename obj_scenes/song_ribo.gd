@@ -2,7 +2,10 @@ extends Node2D
 
 var is_starting = true
 
-var music = preload("res://audio/MysteryFungeon.ogg")
+signal beat(number: int, progress: float)
+signal game
+
+var music = preload("res://audio/MysteryFungeon3.ogg")
 var beat_length
 var bar_length
 var counter = 0
@@ -31,7 +34,8 @@ func spawn_base(number):
     add_child(base)
     base.init(number)
     pass
-    
+
+var game_over = false
 var song_sheet = \
     [
         [0,0,0,0],
@@ -74,63 +78,152 @@ var song_sheet = \
         [0,2,0,0],
         [0,2,0,0],
         [0,0,0,0],
+        [0,0,2,0],
         [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
+        [0,1,0,0],
+        [2,0,2,0],
         [1,0,0,0],
         [1,0,1,0],
         [1,0,0,0],
-        [1,0,1,0],
+        [2,0,1,0],
         [1,0,0,0],
-        [1,0,1,0],
+        [2,0,1,0],
         [1,0,0,0],
         [0,0,1,0],
         [1,0,1,0],
         [0,0,2,0],
         [2,0,0,0],
         [1,0,0,0],
-        [0,0,0,2],
+        [2,0,0,2],
         [0,2,0,0],
         [0,2,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
+        [0,0,1,0],
+        [2,0,0,0],
+        [0,0,3,0],
+        [0,0,0,1],
+        [0,1,0,0],
+        [2,0,0,0],
+        [1,0,1,0],
+        [2,0,0,0],
+        [1,0,1,0],
+        [1,0,0,0],
+        [1,0,2,0],
+        [1,2,0,0],
+        [0,0,1,0],
+        [1,0,1,0],
+        [0,0,2,0],
+        [2,0,0,0],
+        [1,0,0,0],
+        [0,4,0,2],
+        [0,2,0,0],
+        [0,2,0,0],
+        [0,0,4,0],
+        [1,0,4,0],
+        [1,2,0,0],
+        [0,0,1,3],
+        [4,0,0,4],
+        [1,0,0,0],
+        [0,4,0,2],
+        [0,2,0,0],
+        [0,2,3,0],
+        [4,4,4,4],
+        [1,0,4,0],
+        [0,1,0,0],
+        [2,0,2,0],
         [1,0,0,0],
         [1,0,1,0],
         [1,0,0,0],
-        [1,0,1,0],
+        [2,0,1,0],
         [1,0,0,0],
-        [1,0,1,0],
+        [2,0,1,0],
         [1,0,0,0],
         [0,0,1,0],
         [1,0,1,0],
         [0,0,2,0],
         [2,0,0,0],
         [1,0,0,0],
-        [0,0,0,2],
+        [2,0,0,2],
         [0,2,0,0],
         [0,2,0,0],
-        [0,0,0,0],
+        [0,0,1,0],
+        [2,0,0,0],
+        [0,0,3,0],
+        [0,0,0,1],
+        [0,1,0,0],
+        [2,0,0,0],
+        [1,0,1,0],
+        [2,0,0,0],
+        [1,0,1,0],
         [1,0,0,0],
+        [1,0,2,0],
+        [1,2,0,0],
+        [0,0,1,0],
+        [1,0,1,0],
+        [0,0,2,0],
+        [2,0,0,0],
         [1,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
+        [0,1,0,2],
+        [0,2,0,0],
+        [0,2,0,0],
+        [0,0,1,0],
+        [1,0,4,0],
+        [1,2,0,0],
+        [0,0,1,3],
+        [4,0,0,4],
+        [1,0,0,0],
+        [0,4,0,2],
+        [0,2,0,0],
+        [0,2,3,0],
+        [4,4,4,4],
+        [1,0,4,0],
+        [0,1,0,0],
+        [2,0,2,0],
+        [1,0,0,0],
+        [1,0,1,0],
+        [1,0,0,0],
+        [2,0,1,0],
+        [1,0,0,0],
+        [2,0,1,0],
+        [1,0,0,0],
+        [0,0,1,0],
+        [1,0,1,0],
+        [0,0,2,0],
+        [2,3,0,0],
+        [1,0,0,0],
+        [2,4,0,2],
+        [0,2,0,0],
+        [0,2,0,0],
+        [0,0,1,0],
+        [2,0,0,0],
+        [0,0,3,0],
+        [0,0,0,1],
+        [0,1,0,0],
+        [2,0,0,0],
+        [1,0,1,0],
+        [2,0,0,0],
+        [1,3,1,0],
+        [1,0,0,0],
+        [1,0,2,0],
+        [1,2,0,0],
+        [0,0,2,0],
+        [2,0,1,0],
+        [0,0,2,0],
+        [2,0,0,0],
+        [1,0,0,0],
+        [0,4,0,2],
+        [0,2,0,0],
+        [0,2,0,0],
+        [0,0,4,0],
+        [1,0,4,0],
+        [1,2,0,0],
+        [0,0,1,3],
+        [4,0,0,4],
+        [1,0,0,0],
+        [0,4,0,2],
+        [0,2,0,0],
+        [0,2,3,0],
+        [4,4,4,4],
+        [1,0,4,0],
     ]
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -139,12 +232,15 @@ func _process(delta):
     var START_DELAY = beat_length*DELAY_BEATS
     
     if is_starting:
+        print("SONG LENGTH",len(song_sheet))
         is_starting=false
         start_time = Time.get_ticks_msec()
         print("Start time", start_time)
         await get_tree().create_timer(beat_length*DELAY_BEATS, false).timeout
         print("Timer done.")
         $AudioStreamPlayer.play()
+    if game_over:
+        emit_signal("game")
     else:
         if not $AudioStreamPlayer.playing:
             position_seconds = (Time.get_ticks_msec() - start_time) / 1000.0
@@ -153,6 +249,10 @@ func _process(delta):
         if (position_seconds > ((audio_counter+1) * beat_length) + (delay*0.3)):
             
             audio_counter += 1
+            if (audio_counter >= len(song_sheet)-1):
+                game_over = true
+                return
+            emit_signal("beat", audio_counter, $AudioStreamPlayer.get_playback_position() / $AudioStreamPlayer.stream.get_length())
             delay = (audio_counter)*beat_length - position_seconds
             print(audio_counter)
             print("AUDIO BEAT DELAY: ", (audio_counter)*beat_length - position_seconds)
@@ -173,6 +273,7 @@ func _process(delta):
                         spawn_base(j)
                     if amount == 4 and i in [1,2,3,4]:
                         spawn_base(j)
+            
             
             #spawn_base(randi_range(1,4))
     

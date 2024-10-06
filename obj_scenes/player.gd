@@ -17,14 +17,16 @@ func do_hit(number):
     var space_state = get_world_2d().direct_space_state
     var position = self.position
     # use global coordinates, not local to node
-    var query = PhysicsRayQueryParameters2D.create(Vector2(0, lookup[B][1]), Vector2(640, lookup[B][1]))
+    var query = PhysicsRayQueryParameters2D.create(Vector2(LINE_POS-50, lookup[B][1]), Vector2(640, lookup[B][1]))
     var result = space_state.intersect_ray(query)
     if result == {}:
         print("NULL")
-        return null
+        return -10
     else:
         print(result)
-        var score = max(100/(abs(result.position.x - LINE_POS)+1), 0)
+        if abs(LINE_POS - result.position.x) > 200:
+            return -10
+        var score = max(150/(abs(LINE_POS - result.position.x)+1), 0)
         result["collider"].get_parent().queue_free()
         return score
 
